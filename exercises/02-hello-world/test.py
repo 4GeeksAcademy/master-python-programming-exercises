@@ -9,7 +9,9 @@ import pytest
 def test_for_file_output(capsys):
 
     captured = buffer.getvalue()
-    print(captured)
+    print(sys.stdout)
+
+
     #print(sys.stdout.read())
     #print(captured)
     assert captured == "hello\n" #add \n because the console jumps the line on every print
