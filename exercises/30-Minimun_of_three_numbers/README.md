@@ -1,21 +1,20 @@
-# `07` Apple Sharing
+# `30` Minimun of three numbers
 
 📝 Instructions:
 
-N students take K apples and distribute them among each other evenly. The remaining (the indivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
-The program reads the numbers N and K. It should print the two answers for the questions above.
+Given three integers, print the least of them.
 
 **Example input**
-* 6
-* 50
+5
+3
+7
 
 **Example output**
-* 8
-* 2
+3
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
-https://snakify.org/lessons/print_input_numbers/
+https://snakify.org/lessons/if_then_else_conditions/
 
 You may also try step-by-step theory chunks:
-https://snakify.org/lessons/print_input_numbers/steps/1/
+https://snakify.org/lessons/if_then_else_conditions/steps/1/
