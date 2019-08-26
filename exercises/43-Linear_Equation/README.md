@@ -1,21 +1,26 @@
-# `07` Apple Sharing
+# `43` Apple Sharing
 
 📝 Instructions:
 
-N students take K apples and distribute them among each other evenly. The remaining (the indivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
-The program reads the numbers N and K. It should print the two answers for the questions above.
+Write a program that solves a linear equation ax = b in integers. Given two integers a and b (a may be zero), print a single integer root if it exists and print "no solution" or "many solutions" otherwise.
 
-**Example input**
-* 6
-* 50
+**Example input #1**
+* 1
+* -2
 
-**Example output**
-* 8
+**Example output #1**
+* -2
+
+**Example input #2**
 * 2
+* -1
+
+**Example output #2**
+* no solution
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
-https://snakify.org/lessons/print_input_numbers/
+https://snakify.org/lessons/if_then_else_conditions/
 
 You may also try step-by-step theory chunks:
-https://snakify.org/lessons/print_input_numbers/steps/1/
+https://snakify.org/lessons/if_then_else_conditions/steps/1/

@@ -1,21 +1,30 @@
-# `07` Apple Sharing
+# `42` Next Day
 
 📝 Instructions:
 
-N students take K apples and distribute them among each other evenly. The remaining (the indivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
-The program reads the numbers N and K. It should print the two answers for the questions above.
+Given a month (an integer from 1 to 12) and a day in it (an integer from 1 to 31) in the year 2017, print the month and the day of the next day to it.
 
-**Example input**
-* 6
-* 50
+**Example input #1**
+* 3
+* 30
+* (March 30)
 
-**Example output**
-* 8
-* 2
+**Example output #1**
+* 3
+* 31
+
+**Example input #2**
+* 3
+* 31
+* (March 31)
+
+**Example output #2**
+* 4
+* 1
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
-https://snakify.org/lessons/print_input_numbers/
+https://snakify.org/lessons/if_then_else_conditions/
 
 You may also try step-by-step theory chunks:
-https://snakify.org/lessons/print_input_numbers/steps/1/
+https://snakify.org/lessons/if_then_else_conditions/steps/1/

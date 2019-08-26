@@ -1,21 +1,37 @@
-# `07` Apple Sharing
+# `45` Vertices of Rectangles
 
 📝 Instructions:
 
-N students take K apples and distribute them among each other evenly. The remaining (the indivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
-The program reads the numbers N and K. It should print the two answers for the questions above.
+Given integer coordinates of three vertices of a rectangle whose sides are parallel to coordinate axes, find the coordinates of the fourth vertex of the rectangle.
 
-**Example input**
-* 6
-* 50
+**Example input #1**
+* 1
+* 5
+* 7
+* 5
+* 1
+* 10
+* three vertices are (1, 5), (7, 5), (1, 10)
 
-**Example output**
-* 8
-* 2
+**Example output #1**
+* 7
+* 10
+
+**Example input #2**
+* 1
+* 5
+* 7
+* 10
+* 1
+* 10
+
+**Example output #2**
+* 7
+* 5
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
-https://snakify.org/lessons/print_input_numbers/
+https://snakify.org/lessons/if_then_else_conditions/
 
 You may also try step-by-step theory chunks:
-https://snakify.org/lessons/print_input_numbers/steps/1/
+https://snakify.org/lessons/if_then_else_conditions/steps/1/
