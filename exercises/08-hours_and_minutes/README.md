@@ -1,17 +1,19 @@
-# `07` Apple Sharing
+# `08` Hours and Minutes
 
 📝 Instructions:
 
-N students take K apples and distribute them among each other evenly. The remaining (the indivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
-The program reads the numbers N and K. It should print the two answers for the questions above.
+Given the integer N - the number of seconds that is passed since midnight - how many full hours and full minutes are passed since midnight?
+
+The program should print two numbers: the number of hours (between 0 and 23) and the number of minutes (between 0 and 1339).
+
+For example, if N = 3900, then 3900 seconds have passed since midnight - i.e. now it's 1:05am. So the program should print 1 65 - 1 full hour is passed since midnight, 65 full minutes passed since midnight.
+
 
 **Example input**
-* 6
-* 50
+* 3900
 
 **Example output**
-* 8
-* 2
+* 1 65
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:

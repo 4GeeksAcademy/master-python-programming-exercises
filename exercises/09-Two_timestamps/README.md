@@ -1,17 +1,31 @@
-# `07` Apple Sharing
+# `09` Two Timestamp
 
 📝 Instructions:
 
-N students take K apples and distribute them among each other evenly. The remaining (the indivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
-The program reads the numbers N and K. It should print the two answers for the questions above.
+Given two timestamps of the same day: a number of hours, minutes and seconds for both of the timestamps. The moment of the first timestamp happened before the moment of the second one. Calculate how many seconds passed between them.
 
-**Example input**
-* 6
-* 50
 
-**Example output**
-* 8
+**Example input #1**
+* 1
+* 1
+* 1
 * 2
+* 2
+* 2
+
+**Example output #1**
+* 3661
+
+**Example input #2**
+* 1
+* 2
+* 30
+* 1
+* 3
+* 20
+
+**Example output #2**
+* 50
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:

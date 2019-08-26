@@ -1,21 +1,18 @@
-# `07` Apple Sharing
+# `12` Last two digits
 
 📝 Instructions:
 
-N students take K apples and distribute them among each other evenly. The remaining (the indivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
-The program reads the numbers N and K. It should print the two answers for the questions above.
+Given an integer greater than 9, print its last two digits.
 
 **Example input**
-* 6
-* 50
+1234
 
 **Example output**
-* 8
-* 2
+34
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
-https://snakify.org/lessons/print_input_numbers/
+https://snakify.org/lessons/integer_float_numbers/
 
 You may also try step-by-step theory chunks:
-https://snakify.org/lessons/print_input_numbers/steps/1/
+https://snakify.org/lessons/integer_float_numbers/steps/1/
