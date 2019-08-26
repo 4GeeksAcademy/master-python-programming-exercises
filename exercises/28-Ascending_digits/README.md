@@ -5,16 +5,16 @@
 Given a three-digit integer X consisting of three different digits, print "YES" if its three digits are going in an ascending order from left to right and print "NO" otherwise.
 
 **Example input #1**
-179
+* 179
 
 **Example output #1**
-YES
+* YES
 
 **Example input #2**
-197
+* 197
 
 **Example output #2**
-NO
+* NO
 
 Theory
 If you don't know how to start solving this assignment, please, review a theory for this lesson:

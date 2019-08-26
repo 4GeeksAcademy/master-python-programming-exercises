@@ -1,21 +1,30 @@
-# `07` Apple Sharing
+# `35` Chessboard Black Square
 
 📝 Instructions:
 
-N students take K apples and distribute them among each other evenly. The remaining (the indivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
-The program reads the numbers N and K. It should print the two answers for the questions above.
+Given a square of a chessboard. If it's a black square, print YES, otherwise print NO.
 
-**Example input**
-* 6
-* 50
+The program receives two integers from 1 to 8 specifying the column and row number of the square.
 
-**Example output**
-* 8
+![Image description](http://i.imgur.com/z5rz8pa.png)
+
+**Example input #1**
+* 1
+* 1
+
+**Example output #1**
+* YES
+
+**Example input #2**
+* 1
 * 2
+
+**Example output #2**
+* NO
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
-https://snakify.org/lessons/print_input_numbers/
+https://snakify.org/lessons/if_then_else_conditions/
 
 You may also try step-by-step theory chunks:
-https://snakify.org/lessons/print_input_numbers/steps/1/
+https://snakify.org/lessons/if_then_else_conditions/steps/1/
