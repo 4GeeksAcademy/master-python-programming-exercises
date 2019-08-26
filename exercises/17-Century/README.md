@@ -1,21 +1,18 @@
-# `07` Apple Sharing
+# `17` Century
 
 📝 Instructions:
 
-N students take K apples and distribute them among each other evenly. The remaining (the indivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
-The program reads the numbers N and K. It should print the two answers for the questions above.
+Given a year (as a positive integer), find the respective number of the century. Note that, for example, 20th century began with the year 1901.
 
 **Example input**
-* 6
-* 50
+2000
 
 **Example output**
-* 8
-* 2
+20
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
-https://snakify.org/lessons/print_input_numbers/
+https://snakify.org/lessons/integer_float_numbers/
 
 You may also try step-by-step theory chunks:
-https://snakify.org/lessons/print_input_numbers/steps/1/
+https://snakify.org/lessons/integer_float_numbers/steps/1/

@@ -1,22 +1,16 @@
-# `27` Single Positive 
+# `25` Sign Function
 
 📝 Instructions:
 
-Given two non-zero integers, print "YES" if exactly one of them is positive and print "NO" otherwise.
+For the given integer X print 1 if it's positive, -1 if it's negative, or 0 if it's equal to zero.
 
-**Example input #1**
--5
-10
+Try to use the cascade if-elif-else for it.
 
-**Example output #1**
-YES
+**Example input**
+179
 
-**Example input #2**
-5
-10
-
-**Example output #2**
-NO
+**Example output**
+1
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
