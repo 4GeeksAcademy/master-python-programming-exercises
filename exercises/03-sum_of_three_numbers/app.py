@@ -1,5 +1,2 @@
-print("dsd")
+a=2
 
-def my_function():
-  print("Hello Inside Function")
-  return True
