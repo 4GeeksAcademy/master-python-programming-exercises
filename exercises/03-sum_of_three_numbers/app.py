@@ -1,3 +1,3 @@
-a=3
+print("hell")
 
-print()
+m = "hello"
