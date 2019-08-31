@@ -2,26 +2,21 @@ import io
 import sys
 sys.stdout = buffer = io.StringIO()
 
-from app import my_function
+import app
 import pytest
 
-@pytest.mark.it('Your code needs to print hello on the console')
-def test_for_file_output(capsys):
+@pytest.mark.it('Create variable name')
+def test_create_variable(capsys):
 
     captured = buffer.getvalue()
 
+    assert app.name is not None
+    assert type(app.name) is str
 
 
-    #print(sys.stdout.read())
-    #print(captured)
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
+@pytest.mark.it('Print output per example')
+def test_desired_output(capsys):
 
-@pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-def test_for_function_output(capsys):
-    my_function()
-    captured = capsys.readouterr()
-    assert captured.out == "Hello Inside Function\n"
+    captured = buffer.getvalue()
+    assert captured == "Hello, " + app.name + "!" + "\n"
 
-@pytest.mark.it('Your function needs to return True')
-def test_for_function_return(capsys):
-    assert my_function() == True

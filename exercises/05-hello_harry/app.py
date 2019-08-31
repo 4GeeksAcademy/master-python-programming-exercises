@@ -1,5 +1,9 @@
-print("dsd")
+#Create a variable (named "name") and give it your name as its value.
 
-def my_function():
-  print("Hello Inside Function")
-  return True
+name = "David"
+
+
+
+#Using print, print "Hello" followed by a comma, the variable named and an exclamation mark after it. 
+
+print("Hello, " + name + "!")
