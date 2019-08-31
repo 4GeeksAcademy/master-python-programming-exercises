@@ -1,5 +1,4 @@
-print("dsd")
 
-def my_function():
-  print("Hello Inside Function")
-  return True
+number = 3
+
+print(number + 1)
