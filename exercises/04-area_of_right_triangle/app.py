@@ -1,5 +1,7 @@
-print("dsd")
+#Create a two variables (b and h) with any interger as its values.
 
-def my_function():
-  print("Hello Inside Function")
-  return True
+
+
+
+
+#Print the sthe are 

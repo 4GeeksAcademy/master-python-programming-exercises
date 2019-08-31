@@ -2,26 +2,28 @@ import io
 import sys
 sys.stdout = buffer = io.StringIO()
 
-from app import my_function
+
+import app
 import pytest
 
-@pytest.mark.it('Your code needs to print hello on the console')
-def test_for_file_output(capsys):
+@pytest.mark.it('Create variables b and h with any int as its value')
+def test_create_variables(capsys):
 
     captured = buffer.getvalue()
 
 
+    assert app.b is not None
+    assert type(app.b) is int
+    assert app.h is not None
+    assert type(app.h) is int
 
-    #print(sys.stdout.read())
-    #print(captured)
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
+@pytest.mark.it('find the area of the right triangle')
+def test_find_the_area(capsys):
 
-@pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-def test_for_function_output(capsys):
-    my_function()
-    captured = capsys.readouterr()
-    assert captured.out == "Hello Inside Function\n"
+    result = 0.5 * app.b * app.h
 
-@pytest.mark.it('Your function needs to return True')
-def test_for_function_return(capsys):
-    assert my_function() == True
+    captured = buffer.getvalue()
+
+    assert captured == str(result) + "\n"
+
+
