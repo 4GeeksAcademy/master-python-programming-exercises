@@ -3,6 +3,6 @@
 
 
 
-#Using print, print desired out as shown in the example output
-
-
+#Using print, print desired out as shown in the example output.
+print()
+print()

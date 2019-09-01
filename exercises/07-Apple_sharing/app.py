@@ -1,5 +1,11 @@
-print("dsd")
+#Create two variables (n & k) with any interger as its value. 
+#HINT: Import the math module.
+import math
 
-def my_function():
-  print("Hello Inside Function")
-  return True
+n = 6
+k = 50
+
+
+#Print the two answer per the example output.
+print(math.floor(k / n))
+print(k % n)
