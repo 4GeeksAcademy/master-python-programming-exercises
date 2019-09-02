@@ -1,5 +1,6 @@
-print("dsd")
+#Create a variable ("num") with any interger as its value.
+num = 10
 
-def my_function():
-  print("Hello Inside Function")
-  return True
+
+#print the tens digit and the ones digit of the variable
+print(num // 10, num%10)

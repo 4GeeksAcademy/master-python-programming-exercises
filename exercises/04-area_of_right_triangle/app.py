@@ -4,5 +4,5 @@
 
 
 
-#Print the sthe are 
+#Print the area of the triangle
 print()

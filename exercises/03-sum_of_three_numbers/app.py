@@ -1,4 +1,4 @@
-#Create three variables, each with numbers(int) as value.
+#Create three variables(a,b & c), each with numbers(int) as value.
 
 
 
