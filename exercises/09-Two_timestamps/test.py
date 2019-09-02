@@ -2,26 +2,46 @@ import io
 import sys
 sys.stdout = buffer = io.StringIO()
 
-from app import my_function
+
+import app
 import pytest
 
-@pytest.mark.it('Your code needs to print hello on the console')
-def test_for_file_output(capsys):
+@pytest.mark.it('Create 6 variables with intergers as its values')
+def test_create_6_variables(capsys):
+
+    captured = buffer.getvalue
+
+    assert app.hour_1 is not None
+    assert type(app.hour_1) is int
+    assert app.hour_2 is not None
+    assert type(app.hour_2) is int
+    assert app.min_1 is not None
+    assert type(app.min_1) is int
+    assert app.min_2 is not None
+    assert type(app.min_2) is int
+    assert app.sec_1 is not None
+    assert type(app.sec_1) is int
+    assert app.sec_2 is not None
+    assert type(app.sec_2) is int
+
+
+@pytest.mark.it('print desired out per example')
+def test_for_output(capsys):
 
     captured = buffer.getvalue()
+    a = (app.hour_2 - app.hour_1) * 3600
+    b = (app.min_2 - app.min_1) * 60
+    c = app.sec_2 - app.sec_1
+    d = a + b + c
+
+    assert captured == str(d) + "\n"
 
 
 
-    #print(sys.stdout.read())
-    #print(captured)
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
 
-@pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-def test_for_function_output(capsys):
-    my_function()
-    captured = capsys.readouterr()
-    assert captured.out == "Hello Inside Function\n"
 
-@pytest.mark.it('Your function needs to return True')
-def test_for_function_return(capsys):
-    assert my_function() == True
+
+
+
+
+
