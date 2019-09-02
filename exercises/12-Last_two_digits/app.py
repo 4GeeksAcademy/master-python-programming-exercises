@@ -1,5 +1,5 @@
-print("dsd")
+#Create variable "num" with any interger greater than 99
 
-def my_function():
-  print("Hello Inside Function")
-  return True
+
+#Print variable "num" last two digits
+print()
