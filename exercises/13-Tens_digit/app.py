@@ -1,5 +1,9 @@
-print("dsd")
+#Create variable "num" and give it any interger as its value.
+#Import the math module OR use the int() function.
 
-def my_function():
-  print("Hello Inside Function")
-  return True
+
+
+
+
+#Print the its tens digit
+print(b)

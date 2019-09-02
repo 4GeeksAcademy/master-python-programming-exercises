@@ -2,7 +2,7 @@
 #since midnight. Variable b will compute the number of hours since midnight and variable c will 
 #compute the number of minutes since midnight. 
 
-#hint: import the math module to comute the hours and minutes since midnight. 
+#Hint: Import the math module OR use the int() function.
 
 
 

@@ -2,26 +2,25 @@ import io
 import sys
 sys.stdout = buffer = io.StringIO()
 
-from app import my_function
+import app
 import pytest
 
-@pytest.mark.it('Your code needs to print hello on the console')
-def test_for_file_output(capsys):
+@pytest.mark.it('Create variable "num" with any interger as its value')
+def test_for_variable(capsys):
 
     captured = buffer.getvalue()
 
+    assert app.num is not None
+    assert type(app.num) is int
 
+@pytest.mark.it("Print its tens digit")
+def test_for_tens_digit(capsys):
 
-    #print(sys.stdout.read())
-    #print(captured)
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
+    captured = buffer.getvalue()
 
-@pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-def test_for_function_output(capsys):
-    my_function()
-    captured = capsys.readouterr()
-    assert captured.out == "Hello Inside Function\n"
+    import math
 
-@pytest.mark.it('Your function needs to return True')
-def test_for_function_return(capsys):
-    assert my_function() == True
+    app.num
+    b = math.floor((app.num / 10) % 10)
+
+    assert captured == str(b) + "\n"

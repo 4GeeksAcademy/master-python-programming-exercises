@@ -1,5 +1,5 @@
 #Create two variables (n & k) with any interger as its value.
-#HINT: Import the math module.
+#HINT: Import the math module OR use the int() function.
 
 
 
