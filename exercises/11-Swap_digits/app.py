@@ -1,5 +1,7 @@
-print("dsd")
+#Create variable "num" with any interger greater than 10.
 
-def my_function():
-  print("Hello Inside Function")
-  return True
+
+
+
+#swap the digits and the result.
+print()

@@ -2,26 +2,25 @@ import io
 import sys
 sys.stdout = buffer = io.StringIO()
 
-from app import my_function
+import app
 import pytest
 
-@pytest.mark.it('Your code needs to print hello on the console')
-def test_for_file_output(capsys):
+@pytest.mark.it('Create variable "num" with any interger greater than 10 as its value')
+def test_for_variable(capsys):
+
+    assert app.num is not None
+    assert app.num >= 10
+    assert type(app.num) is int
+
+
+@pytest.mark.it('Swap digits')
+def test_for_swapped_digits(capsys):
 
     captured = buffer.getvalue()
 
+    first = app.num // 10
+    second = app.num % 10
+    swapped = (second * 10) + first
 
+    assert captured == str(swapped) + "\n"
 
-    #print(sys.stdout.read())
-    #print(captured)
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
-
-@pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-def test_for_function_output(capsys):
-    my_function()
-    captured = capsys.readouterr()
-    assert captured.out == "Hello Inside Function\n"
-
-@pytest.mark.it('Your function needs to return True')
-def test_for_function_return(capsys):
-    assert my_function() == True
