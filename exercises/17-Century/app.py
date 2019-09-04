@@ -1,5 +1,9 @@
-print("dsd")
+#Create variable "num" and give it an interger greater than 0 as its value
+#HINT: You may need to import the math module.
 
-def my_function():
-  print("Hello Inside Function")
-  return True
+
+
+
+
+#Print the respective century
+print()

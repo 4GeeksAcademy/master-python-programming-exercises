@@ -2,26 +2,30 @@ import io
 import sys
 sys.stdout = buffer = io.StringIO()
 
-from app import my_function
+import app
 import pytest
 
-@pytest.mark.it('Your code needs to print hello on the console')
-def test_for_file_output(capsys):
+
+@pytest.mark.it('Create variable "num" and give it an interger greater than 0')
+def test_for_file_variable(capsys):
+
+    assert app.num is not None
+    assert type(app.num) is int
+    assert app.num > 0
+
+
+
+
+@pytest.mark.it('Print the respective century')
+def test_for_output(capsys):
 
     captured = buffer.getvalue()
 
+    import math
 
+    n = app.num
 
-    #print(sys.stdout.read())
-    #print(captured)
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
+    d = math.ceil(n/100)
 
-@pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-def test_for_function_output(capsys):
-    my_function()
-    captured = capsys.readouterr()
-    assert captured.out == "Hello Inside Function\n"
+    assert captured == str(d) + "\n"
 
-@pytest.mark.it('Your function needs to return True')
-def test_for_function_return(capsys):
-    assert my_function() == True
