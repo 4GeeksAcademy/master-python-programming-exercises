@@ -1,7 +1,7 @@
 #Create two variables("num" and "total"). One variable will have any interger as its value,
 #and the other will have the sum of the digits.
 
-num = 3335
+num = 123
 total=0
 
 while(num>0):

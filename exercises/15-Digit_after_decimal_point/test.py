@@ -2,26 +2,28 @@ import io
 import sys
 sys.stdout = buffer = io.StringIO()
 
-from app import my_function
+import app
 import pytest
 
-@pytest.mark.it('Your code needs to print hello on the console')
-def test_for_file_output(capsys):
+@pytest.mark.it('Create variable "num" and give it a float interger as its value')
+def test_for_variable(capsys):
 
+    assert app.num is not None
+    assert app.num > 0
+    assert type(app.num) is float
+
+
+
+
+@pytest.mark.it('Print its first digit to the right of the decimal point.')
+def test_first_digit_to_the_right_of_decimal_point(capsys):
+
+    import math
     captured = buffer.getvalue()
 
+    a = app.num
+    frac=math.modf(a)
+    frac1=str(frac[0])
 
+    assert captured == str(frac1[2]) + "\n"
 
-    #print(sys.stdout.read())
-    #print(captured)
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
-
-@pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-def test_for_function_output(capsys):
-    my_function()
-    captured = capsys.readouterr()
-    assert captured.out == "Hello Inside Function\n"
-
-@pytest.mark.it('Your function needs to return True')
-def test_for_function_return(capsys):
-    assert my_function() == True

@@ -1,5 +1,7 @@
-print("dsd")
+#Create variable "num" and give it a float interger as its value.
+#Hint: import the math module.
 
-def my_function():
-  print("Hello Inside Function")
-  return True
+
+
+#Print its first digit to the right of the decimal point.
+print()

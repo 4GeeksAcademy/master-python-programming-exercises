@@ -19,23 +19,16 @@ def test_for_sum_of_digits(capsys):
     captured = buffer.getvalue()
 
 
-    n = app.num
-    tot=0
+    def digits():
 
-
-    while(n>0):
-        dig = app.dig
-        tot=tot+dig
-        n = n//10
-
-    assert app.dig == app.num % 10
-    assert captured == str(tot) + "\n"
-
+        print(captured)
+        num = app.num
+        total = 0
+        while(num>0):
+            dig=num % 10
+            total = total + dig
+            num=num // 10
 
 
 
-
-
-
-
-
+    assert captured == str(digits())
