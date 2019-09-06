@@ -1,13 +1,14 @@
 #Create three variables (a,b,n), and give them any interger as its value.
 
-N = int(input("Number of cupcakes:"))
-A = int(input("Cup cake price dollar amt:"))
-B = int(input("Cup cake price cents amt:"))
-Total_cost_dollar= (N*A)
-Total_cost_cents= (N*B)
-print(Total_cost_dollar,Total_cost_cents)
+a = int(10)
+b = int(15)
+n = int(2)
+
+Total_cost_dollar= (n*a)
+Total_cost_cents= (n*b)
+
 
 
 
 #Print the total cost in dollar and cents.
-print()
+print(Total_cost_dollar,Total_cost_cents)
