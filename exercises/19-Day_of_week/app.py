@@ -1,5 +1,5 @@
-print("dsd")
+#Create variable k and give it an interger between 1 and 365 as its value.
 
-def my_function():
-  print("Hello Inside Function")
-  return True
+
+#Print the number of day of week for K-th day of year.
+print()

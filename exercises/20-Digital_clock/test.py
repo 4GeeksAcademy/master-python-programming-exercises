@@ -2,26 +2,30 @@ import io
 import sys
 sys.stdout = buffer = io.StringIO()
 
-from app import my_function
+import app
 import pytest
 
-@pytest.mark.it('Your code needs to print hello on the console')
-def test_for_file_output(capsys):
+@pytest.mark.it('Create variable n and give it any interger as its value')
+def test_for_variable(capsys):
 
+    assert app.n is not None
+    assert type(app.n) is int
+    assert app.hour is not None
+    assert app.hour == app.n//60
+    assert app.minute is not None
+    assert app.minute == app.n % 60
+
+
+
+@pytest.mark.it('Print hours and minutes displayed on the 24h digital clock.')
+def test_for_hours_and_minutes(capsys):
     captured = buffer.getvalue()
 
 
+    n = app.n
 
-    #print(sys.stdout.read())
-    #print(captured)
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
+    hour = n//60
+    minute = n % 60
 
-@pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-def test_for_function_output(capsys):
-    my_function()
-    captured = capsys.readouterr()
-    assert captured.out == "Hello Inside Function\n"
+    assert captured == str(hour) + " " + str(minute) + "\n"
 
-@pytest.mark.it('Your function needs to return True')
-def test_for_function_return(capsys):
-    assert my_function() == True

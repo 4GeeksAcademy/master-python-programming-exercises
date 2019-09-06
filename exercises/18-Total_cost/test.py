@@ -19,9 +19,9 @@ def test_for_variables(capsys):
 @pytest.mark.it('Print total cost in dollars and cents.')
 def test_for_dollars_and_cents(capsys):
     captured = buffer.getvalue()
-    a = int(10)
-    b = int(15)
-    n = int(2)
+    a = app.a
+    b = app.b
+    n = app.n
 
     Total_cost_dollar= (n*a)
     Total_cost_cents= (n*b)
