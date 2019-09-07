@@ -2,5 +2,5 @@
 
 
 
-#Print the result using print.
+#Print the sum of the numbers
 print()
