@@ -1,21 +1,20 @@
-#Create two variables("num" and "total"). One variable will have any interger as its value,
-#and the other will have the sum of the digits.
+#Create one variable ("three_digit_number") and give any three digits interger as its value,
+three_digit_number = 123
 
-num = 123
-total=0
-
-while(num>0):
-    dig=num % 10
-    total=total+dig
-    num=num // 10
+#Finish the function to find the sum of the digits:
+def digits_sum(digit):
+    num = digit
+    total = 0
+    while(num>0):
+        dig = num % 10
+        total = total + dig
+        num = num // 10
+    print(total)
     
-#print the sum of the digits
 
-print(total)
-
-
+#DO NOT CHANGE!
+digits_sum(three_digit_number)
 
 
 
 
-  
