@@ -1,5 +1,6 @@
 import io
 import sys
+import os
 sys.stdout = buffer = io.StringIO()
 
 
@@ -17,7 +18,7 @@ def test_create_variables(capsys):
     assert app.h is not None
     assert type(app.h) is int
 
-@pytest.mark.it('find the area of the right triangle')
+@pytest.mark.it('Find the area of the right triangle')
 def test_find_the_area(capsys):
 
     result = 0.5 * app.b * app.h

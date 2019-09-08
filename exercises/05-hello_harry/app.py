@@ -1,8 +1,8 @@
 #Create a variable (named "name") and give it your name as its value.
 
+name = "David"
 
 
+#Using print, print "Hello" followed by a comma, the variable "name" and an exclamation mark after it.
 
-#Using print, print "Hello" followed by a comma, the variable named and an exclamation mark after it.
-
-print()
+print("Hello, " + name + "!")
