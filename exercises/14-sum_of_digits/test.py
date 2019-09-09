@@ -4,22 +4,19 @@ import os
 sys.stdout = buffer = io.StringIO()
 
 import app
-from app import digits_sum
+#from app import digits_sum
 import pytest
 
 
 
-@pytest.mark.it('Create variable "three_digit_number" with a three digit int as its value')
+@pytest.mark.it('Create function digit_sum ')
 def test_for_variable(capsys):
 
-    assert app.three_digit_number is not None
-    assert type(app.three_digit_number) is int
-    assert app.three_digit_number > 99
-    assert app.three_digit_number < 1000
+ assert app.digits_sum is not None
 
 @pytest.mark.it('Print the sum of the digits')
 def test_for_sum_of_digits(capsys):
-    digits_sum(123)
+    app.digits_sum(123)
     captured = capsys.readouterr()
 
     print(captured)
