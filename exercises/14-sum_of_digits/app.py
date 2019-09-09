@@ -1,5 +1,4 @@
-#Create one variable ("three_digit_number") and give any three digits interger as its value,
-three_digit_number = 454
+
 
 #Finish the function to find the sum of the digits:
 def digits_sum(digit):
@@ -10,10 +9,8 @@ def digits_sum(digit):
         total = total + dig
         num = num // 10
     print(total)
-    
 
-#DO NOT CHANGE!
-digits_sum(three_digit_number)
+digits_sum(1234)
 
 
 

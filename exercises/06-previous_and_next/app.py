@@ -9,6 +9,8 @@ nextn = num + 1
 
 
 
+
+
 #Using the variables above, print desired output as shown in the example.
 print("The next number for the number", num, "is", nextn)
 print("The previous number for the number",num,"is",previousn)
