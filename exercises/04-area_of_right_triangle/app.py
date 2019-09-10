@@ -1,8 +1,9 @@
-#Create a two variables (b and h) with any interger as its values.
+#Complete the function to print the area of the triangle.
+def area_of_triangle():
 
 
+    print()
 
 
-
-#Print the area of the triangle
-print()
+#Invoke the function with two numbers at its argument.
+area_of_triangle()

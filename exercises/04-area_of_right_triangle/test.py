@@ -7,24 +7,18 @@ sys.stdout = buffer = io.StringIO()
 import app
 import pytest
 
-@pytest.mark.it('Create variables b and h with any int as its value')
-def test_create_variables(capsys):
 
-    captured = buffer.getvalue()
+@pytest.mark.it('Print the area of the triangle')
+def test_area_of_triangle(capsys):
 
+    app.area_of_triangle(3,3)
+    captured = capsys.readouterr()
+    print(captured.out)
 
-    assert app.b is not None
-    assert type(app.b) is int
-    assert app.h is not None
-    assert type(app.h) is int
+    if captured.out == str(4.5) + "\n":
+        assert True
+    else:
+        assert False
 
-@pytest.mark.it('Find the area of the right triangle')
-def test_find_the_area(capsys):
-
-    result = 0.5 * app.b * app.h
-
-    captured = buffer.getvalue()
-
-    assert captured == str(result) + "\n"
 
 

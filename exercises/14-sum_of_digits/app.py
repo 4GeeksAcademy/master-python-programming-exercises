@@ -1,7 +1,8 @@
-#Create a function "digits_sum" that returns the sum of a three digit number.
+#Complete the function "digits_sum" so that it prints the sum of a three digit number.
+def digits_sum(digit):
 
 
 
-#Invoke the function to get sum of digits.
 
-
+#pass any number as the function's argument. 
+digits_sum()

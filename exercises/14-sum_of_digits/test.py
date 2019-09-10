@@ -25,9 +25,5 @@ def test_for_sum_of_digits(capsys):
     else:
         assert False
 
-    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
-    content = f.read()
-    #assert captured == str(total) + "\n"
-    assert content.find("print(total)") > 0
 
 

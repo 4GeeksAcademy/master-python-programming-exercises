@@ -1,6 +1,6 @@
-#Create three variables(a,b & c), each with numbers(int) as value.
+#Complete function sum_of_three to print the sum of three numbers.
+def sum_of_three(a,b,c):
 
 
 
-#Print the sum of the numbers
-print()
+#Invoke the function with any three numbers
