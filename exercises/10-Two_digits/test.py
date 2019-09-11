@@ -9,12 +9,13 @@ import pytest
 def test_for_function(capsys):
     assert app.two_digits is not None
 
-@pytest.mark.it("Print the left right digit of any two digits number")
+@pytest.mark.it("Print the left & right digit of any two digits number")
 def test_for_left_and_right_digit(capsys):
-    app.two_digits(23)
+    app.two_digits(80)
     captured = capsys.readouterr()
+    print(captured)
 
-    assert captured.out == "2 " + "3" + "\n"
+    assert captured.out == "8 " + "0" + "\n"
 
 @pytest.mark.it('Interger must be between 10 and 99')
 def test_for_two_digits(capsys):

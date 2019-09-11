@@ -1,26 +1,31 @@
 import io
 import sys
 sys.stdout = buffer = io.StringIO()
-
 import app
 import pytest
 
-@pytest.mark.it('Create variable "num" with any interger greater than 10 as its value')
-def test_for_variable(capsys):
-
-    assert app.num is not None
-    assert app.num >= 10
-    assert type(app.num) is int
 
 
-@pytest.mark.it('Swap digits')
+@pytest.mark.it('swap_digits function is defined')
+def test_for_swap_digits_function(capsys):
+    assert app.swap_digits is not None
+
+
+
+
+@pytest.mark.it('Check for swapped digits')
 def test_for_swapped_digits(capsys):
+    app.swap_digits(46)
+    captured = capsys.readouterr()
 
+    assert captured.out == str(64) + "\n"
+
+
+
+@pytest.mark.it('Check for a two-digit interger')
+def test_for_two_digit_interger(capsys):
     captured = buffer.getvalue()
-
-    first = app.num // 10
-    second = app.num % 10
-    swapped = (second * 10) + first
-
-    assert captured == str(swapped) + "\n"
+    print(captured)
+    aa = captured.split("\n")
+    print("test:",aa)
 
