@@ -1,6 +1,14 @@
-#Create two variables (n & k) with any interger as its value.
-#HINT: Import the math module OR use the int() function.
+#Complete the function to print:
+#1) How many apples each single student will get.
+#2) How many apples wil remain in the basket.
+#Hint: Import the math module 
+import math
 
+def apple_sharing(n,k):
 
+    print(math.floor(k / n))
+    print(k % n)
+    
 
 #Print the two answer per the example output.
+apple_sharing(6,50)

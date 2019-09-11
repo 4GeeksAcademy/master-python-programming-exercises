@@ -1,8 +1,9 @@
-#Create a variable (named "name") and give it your name as its value.
+#Complete the function below to print the output per the example.
+def hello_name(name):
 
-name = "David"
+    print()
 
 
-#Using print, print "Hello" followed by a comma, the variable "name" and an exclamation mark after it.
 
-print("Hello, " + name + "!")
+#Invoke the function with your name as the function's argument. 
+hello_name()

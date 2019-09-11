@@ -1,25 +1,21 @@
 import io
 import sys
 sys.stdout = buffer = io.StringIO()
-import math
 import app
+import math
 import pytest
 
-@pytest.mark.it('Create two variables with any interger as its value')
-def test_for_variables(capsys):
+@pytest.mark.it('Print how many apples each student will get')
+def test_for_apples_for_student(capsys):
+    app.apple_sharing(23,256)
+    captured = capsys.readouterr()
 
-    captured = buffer.getvalue()
+    test1 = captured.out.split("\n")
+    if test1[0] == "11"
 
-    assert app.n is not None
-    assert type(app.n) is int
-    assert app.k is not None
-    assert type(app.k) is int
+@pytest.mark.it('Print how many apples will remain in the basket')
+def test_for_remaining_apples(capsys):
+    app.apple_sharing(23,256)
+    captured = capsys.readouterr()
 
-
-@pytest.mark.it('Print output per example')
-def test_for_output(capsys):
-
-    captured = buffer.getvalue()
-
-    assert str(app.k % app.n) + "\n" in captured
-    assert str(math.floor(app.k / app.n)) + "\n" in captured
+    assert "3" in captured.out
