@@ -11,11 +11,20 @@ def test_for_apples_for_student(capsys):
     captured = capsys.readouterr()
 
     test1 = captured.out.split("\n")
-    if test1[0] == "11"
+
+    if test1[0] == "11":
+        assert True
+    else:
+        assert False
 
 @pytest.mark.it('Print how many apples will remain in the basket')
 def test_for_remaining_apples(capsys):
     app.apple_sharing(23,256)
     captured = capsys.readouterr()
 
-    assert "3" in captured.out
+    test1 = captured.out.split("\n")
+
+    if test1[1] == "3":
+        assert True
+    else:
+        assert False
