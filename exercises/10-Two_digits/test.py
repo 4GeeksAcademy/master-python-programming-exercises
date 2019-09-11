@@ -5,18 +5,15 @@ sys.stdout = buffer = io.StringIO()
 import app
 import pytest
 
-@pytest.mark.it('Create variable "num"')
-def test_for_variable(capsys):
+@pytest.mark.it('Function two_digits is defined')
+def test_for_function(capsys):
+    assert app.two_digits is not None
 
-    assert app.num is not None
-    assert type(app.num) is int
+@pytest.mark.it("Print the left right digit of any two digits number")
+def test_for_left_and_right_digit(capsys):
+    app.two_digits(23)
+    captured = capsys.readouterr()
 
-@pytest.mark.it("print the tens digit and the ones digit of the variable")
-def test_for_output(capsys):
-
-    captured = buffer.getvalue()
-
-
-    assert captured == str(app.num//10) + " " + str(app.num%10) + "\n"
+    assert captured.out == "2 " + "3" + "\n"
 
 

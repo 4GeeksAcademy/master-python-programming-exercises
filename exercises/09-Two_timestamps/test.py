@@ -1,40 +1,37 @@
 import io
 import sys
 sys.stdout = buffer = io.StringIO()
-
-
 import app
 import pytest
 
-@pytest.mark.it('Create 6 variables with intergers as its values')
-def test_create_6_variables(capsys):
-
-    captured = buffer.getvalue
-
-    assert app.hour_1 is not None
-    assert type(app.hour_1) is int
-    assert app.hour_2 is not None
-    assert type(app.hour_2) is int
-    assert app.min_1 is not None
-    assert type(app.min_1) is int
-    assert app.min_2 is not None
-    assert type(app.min_2) is int
-    assert app.sec_1 is not None
-    assert type(app.sec_1) is int
-    assert app.sec_2 is not None
-    assert type(app.sec_2) is int
+@pytest.mark.it('two_timestamp function is defined')
+def test_function(capsys):
+    assert app.two_timestamp is not None
 
 
-@pytest.mark.it('print desired out per example')
-def test_for_output(capsys):
 
-    captured = buffer.getvalue()
-    a = (app.hour_2 - app.hour_1) * 3600
-    b = (app.min_2 - app.min_1) * 60
-    c = app.sec_2 - app.sec_1
-    d = a + b + c
+@pytest.mark.it('Function prints how many seconds passed between each timestamp')
+def test_seconds(capsys):
+    app.two_timestamp(6,6,6,9,9,9)
+    captured = capsys.readouterr()
 
-    assert captured == str(d) + "\n"
+
+    assert captured.out == "10983" + "\n"
+
+
+
+@pytest.mark.it('Output cannot be a negative number')
+def test_negative_number(capsys):
+    captured2 = buffer.getvalue()
+
+    if "-" in captured2:
+        assert False
+    else:
+        assert True
+
+
+
+
 
 
 

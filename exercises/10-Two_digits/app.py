@@ -1,6 +1,8 @@
-#Create a variable ("num") with any interger as its value.
-num = 10
+#Complete the function to print the tens digit and the ones digit of any interger.
+def two_digits(digit):
+
+    print(digit // 10, digit%10)
 
 
-#print the tens digit and the ones digit of the variable
-print(num // 10, num%10)
+#Invoke the function with any interger as its argument.
+two_digits()
