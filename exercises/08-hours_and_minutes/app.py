@@ -1,11 +1,9 @@
-#Create three variables (a,b,c). Variable a will have the number of seconds that is passed 
-#since midnight. Variable b will compute the number of hours since midnight and variable c will 
-#compute the number of minutes since midnight. 
-
-#Hint: Import the math module OR use the int() function.
+#Complete the function to calculate how many hours and minutes are passed since midnight.
+def hours_minutes(secs):
 
 
 
 
-#Using print, print the desired output per the example. 
-print()
+
+#Invoke the funtion and pass any interger as its argument.
+hours_minutes()

@@ -5,24 +5,34 @@ sys.stdout = buffer = io.StringIO()
 import app
 import pytest
 
-@pytest.mark.it('Create three variables with the right values')
-def test_for_variables(capsys):
 
-    captured = buffer.getvalue()
-    print(captured)
-
-    assert app.a is not None
-    assert type(app.a) is int
-    assert app.b is not None
-    assert type(app.b) is int
-    assert app.c is not None
-    assert type(app.c) is int
+@pytest.mark.it('Function is defined')
+def test_for_function(capsys):
+    assert app.hours_minutes is not None
 
 
-@pytest.mark.it('Create three variables with the right values')
-def test_for_file_output(capsys):
+@pytest.mark.it('Print Full Hours')
+def test_for_hours(capsys):
+    app.hours_minutes(5500)
+    captured = capsys.readouterr()
+    test1 = captured.out.split(" ")
 
-    captured = buffer.getvalue()
+    if test1[0] == "1":
+        assert True
+    else:
+        assert False
 
-    assert captured == str(app.b) + " " + str(app.c) + "\n"
+
+@pytest.mark.it('Print Full Minutes')
+def test_for_minutes(capsys):
+
+    app.hours_minutes(5500)
+    captured = capsys.readouterr()
+    test1 = captured.out.split(" ")
+
+    if test1[1] == "91" + "\n":
+        assert True
+    else:
+        assert False
+
 
