@@ -16,4 +16,17 @@ def test_for_left_and_right_digit(capsys):
 
     assert captured.out == "2 " + "3" + "\n"
 
+@pytest.mark.it('Interger must be between 10 and 99')
+def test_for_two_digits(capsys):
+    app.two_digits(23)
+    captured = buffer.getvalue()
+    aa = captured.split(" ")
+    #print("test:",aa[0][1])
+
+    if int(aa[0]) > 9:
+        assert False
+    else:
+        assert True
+
+
 
