@@ -1,15 +1,10 @@
-#Create 6 variables (hour_1, min_1, sec_1, hour_2, min_2, sec_2)
-#each taking an interger representing each timestamp' hours, minutes and seconds.
+#Complete the funtion to compute how many seconds passed between the two timestamp.
+def two_timestap(hr1,min1,sec1,hr2,min2,sec2):
 
-hour_1 = 2
-min_1 = 3
-sec_1 = 4
-
-hour_2 = 4
-min_2 = 4
-sec_2 = 3
+    print(((hr2-hr1)*3600)+((min2-min1)*60)+(sec2-sec1))
 
 
-#Using print, print how many seconds passed between the first timestamp and the second timestamp.
-print(((hour_2-hour_1)*3600)+((min_2-min_1)*60)+(sec_2-sec_1))
+#Invoke the fuction and pass two timestamsp(intergers) as its argument.
+two_timestap(1,1,1,2,2,2)
+
 
