@@ -16,7 +16,7 @@ def test_for_output(capsys):
     app.last_two_digits(2345)
     captured = buffer.getvalue()
     captured2 = capsys.readouterr()
-    assert captured > str(9) + "\n"
-    assert captured2 == str(45) + "\n"
+    assert int(captured) > 9
+    assert captured2.out == str(45) + "\n"
 
 
