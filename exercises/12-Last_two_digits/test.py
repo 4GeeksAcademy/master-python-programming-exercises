@@ -5,18 +5,18 @@ sys.stdout = buffer = io.StringIO()
 import app
 import pytest
 
-@pytest.mark.it('Create variable "num" with an interger greater than 99 as its value')
-def test_for_variable(capsys):
+@pytest.mark.it('Function last_two_digits is defined')
+def test_for_functions(capsys):
 
-    assert app.num is not None
-    assert type(app.num) is int
-    assert app.num >= 100
+    assert app.last_two_digits is not None
 
 
-@pytest.mark.it('Print the last two digits of num')
+@pytest.mark.it('Print the last two digits of an interger greater than 9')
 def test_for_output(capsys):
-
+    app.last_two_digits(2345)
     captured = buffer.getvalue()
-    b = str(app.num)
-    assert captured == b[-2:] + "\n"
+    captured2 = capsys.readouterr()
+    assert captured > str(9) + "\n"
+    assert captured2 == str(45) + "\n"
+
 

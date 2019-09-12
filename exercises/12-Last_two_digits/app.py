@@ -3,4 +3,4 @@ def last_two_digits(num):
     print(str(num % 100))
 
 #Print variable "num" last two digits
-last_two_digits(1234)
+last_two_digits(238)
