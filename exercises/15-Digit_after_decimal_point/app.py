@@ -1,7 +1,7 @@
-#Create variable "num" and give it a float interger as its value.
-#Hint: import the math module.
+#Complete the function to print the first digit to the right of the decimal point.
+#Hint: Import the math module.
+def first_digit(num):
 
 
 
-#Print its first digit to the right of the decimal point.
-print()
+#Invoke the function with a positive real number. ex. 34.33

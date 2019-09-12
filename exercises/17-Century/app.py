@@ -1,9 +1,6 @@
-#Create variable "num" and give it an interger greater than 0 as its value
+#Complete the function to print the respective number of the century
 #HINT: You may need to import the math module.
+def century(year):
 
 
-
-
-
-#Print the respective century
-print()
+#Invoke the function with any given year. 

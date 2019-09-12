@@ -8,9 +8,8 @@ import app
 import pytest
 
 
-
-@pytest.mark.it('Create function digit_sum ')
-def test_for_variable(capsys):
+@pytest.mark.it('Function digits_sum is defined')
+def test_for_function(capsys):
 
  assert app.digits_sum is not None
 
@@ -20,10 +19,8 @@ def test_for_sum_of_digits(capsys):
     captured = capsys.readouterr()
 
     print(captured)
-    if captured.out == str(6) + "\n":
-        assert True
-    else:
-        assert False
+    assert captured.out == str(6) + "\n"
+
 
 
 

@@ -1,9 +1,8 @@
-#Create variable "num" and give it any interger as its value.
-#Import the math module OR use the int() function.
+#Complete the function to print the tens digit of a given interger
+def tens_digit(num):
 
 
 
 
 
-#Print the its tens digit
-print(b)
+#Invoke the function with any interger.

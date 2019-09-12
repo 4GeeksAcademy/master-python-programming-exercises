@@ -1,8 +1,7 @@
-#Create two variable(n and m) and give it any interger as its values
+#Complete the function to print the amount of days it will take to cover a route.
 #HINT: You may need to import the math module for this exercise.
+def car_route(n,m):
 
 
 
-
-#print how many days will it take to cover the route of length M kilometers
-print()
+#Invoke the function with two intergers.
