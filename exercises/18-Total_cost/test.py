@@ -5,27 +5,14 @@ sys.stdout = buffer = io.StringIO()
 import app
 import pytest
 
-@pytest.mark.it('Create three variables(a,b,n) and give it any interger as its value')
-def test_for_variables(capsys):
-
-    assert app.a is not None
-    assert type(app.a) is int
-    assert app.b is not None
-    assert type(app.b) is int
-    assert app.n is not None
-    assert type(app.n) is int
 
 
-@pytest.mark.it('Print total cost in dollars and cents.')
+@pytest.mark.it('Function total_cost is defined')
 def test_for_dollars_and_cents(capsys):
-    captured = buffer.getvalue()
-    a = app.a
-    b = app.b
-    n = app.n
+    assert app.total_cost is not None
 
-    Total_cost_dollar= (n*a)
-    Total_cost_cents= (n*b)
-    assert captured == str(Total_cost_dollar) + " " + str(Total_cost_cents) + "\n"
-
-
-
+@pytest.mark.it('Print total cost (in dollar and cents) of N cupcakes.')
+def test_for_variables(capsys):
+    app.total_cost(45,50,5)
+    captured = capsys.readouterr()
+    assert captured.out == str(227) + " " + str(50) + "\n"
