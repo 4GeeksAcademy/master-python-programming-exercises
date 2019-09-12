@@ -5,27 +5,15 @@ sys.stdout = buffer = io.StringIO()
 import app
 import pytest
 
-@pytest.mark.it('Create variable n and give it any interger as its value')
-def test_for_variable(capsys):
-
-    assert app.n is not None
-    assert type(app.n) is int
-    assert app.hour is not None
-    assert app.hour == app.n//60
-    assert app.minute is not None
-    assert app.minute == app.n % 60
+@pytest.mark.it('Function digital_clock is defined')
+def test_for_function(capsys):
+    assert app.digital_clock is not None
 
 
-
-@pytest.mark.it('Print hours and minutes displayed on the 24h digital clock.')
+@pytest.mark.it('Print hours and minutes displayed on the 24h digital clock')
 def test_for_hours_and_minutes(capsys):
-    captured = buffer.getvalue()
+    app.digital_clock(345)
+    captured = capsys.readouterr()
 
-
-    n = app.n
-
-    hour = n//60
-    minute = n % 60
-
-    assert captured == str(hour) + " " + str(minute) + "\n"
+    assert captured.out == str(5) + " " + str(45) + "\n"
 

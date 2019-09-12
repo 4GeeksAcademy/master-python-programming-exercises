@@ -5,20 +5,15 @@ sys.stdout = buffer = io.StringIO()
 import app
 import pytest
 
-@pytest.mark.it('Create variable k and give it an interger between 1 and 365 as its value.')
-def test_for_variable(capsys):
-
-    assert app.k is not None
-    assert type(app.k) is int
-    assert app.k <= 365 and app.k > 0
+@pytest.mark.it('Function day_of_week is defined')
+def test_for_function(capsys):
+    assert app.day_of_week is not None
 
 
 @pytest.mark.it('Print the number of day of week for K-th day of year.')
 def test_for_number_of_day_of_week(capsys):
-    captured = buffer.getvalue()
+    app.day_of_week(4)
+    captured = capsys.readouterr()
 
-    k = app.k
-    dday=((3+k)%7)
-
-    assert captured == str(dday) + "\n"
+    assert captured.out == str(0) + "\n"
 

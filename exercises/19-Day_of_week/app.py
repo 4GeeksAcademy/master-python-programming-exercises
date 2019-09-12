@@ -1,5 +1,7 @@
-#Create variable k and give it an interger between 1 and 365 as its value.
+#Complete the function to print the number of day of the week for k'th day of year. 
+def day_of_week(k):
 
 
-#Print the number of day of week for K-th day of year.
-print()
+
+
+#Invoke function day_of_week with an interger between 0 and 6 (number for days of week)
