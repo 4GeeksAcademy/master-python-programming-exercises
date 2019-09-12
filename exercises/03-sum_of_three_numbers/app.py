@@ -4,3 +4,4 @@ def sum_of_three(a,b,c):
 
 
 #Invoke the function with any three numbers
+sum
