@@ -1,7 +1,6 @@
-#Complete function sum_of_three to print the sum of three numbers.
-def sum_of_three(a,b,c):
+# Sum all three input numbers and print on the console the result
+first_number = input("First input")
+second_number = input("Second input")
+third_number = input("Third input")
 
-
-
-#Invoke the function with any three numbers
-sum
+# Invoke the function with any three numbers

@@ -1,9 +1,10 @@
 #Complete the function to print the area of the triangle.
-def area_of_triangle():
+b = input("Size of B")
+h = input("Size of H")
 
+def area_of_triangle(arg1, arg2):
+    #your code here, please remove the "pass" line after the function is fulled in
+    pass
 
-    print()
-
-
-#Invoke the function with two numbers at its argument to print the area of the triangle.
-area_of_triangle()
+# Testing your function
+print(area_of_triangle(b, h))

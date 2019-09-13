@@ -1,24 +1,15 @@
-import io
-import sys
-import os
-sys.stdout = buffer = io.StringIO()
+import io, sys, os, pytest, json
 
+@pytest.mark.it('Calculate the area of the triangle')
+def test_area_of_triangle(mocker, stdin):
 
-import app
-import pytest
+    _stdin = json.loads(stdin)
+    mocker.patch('builtins.input', lambda x: _stdin.pop(0))
 
+    import app
 
-@pytest.mark.it('Print the area of the triangle')
-def test_area_of_triangle(capsys):
-
-    app.area_of_triangle(3,3)
-    captured = capsys.readouterr()
-    print(captured.out)
-
-    if captured.out == str(4.5) + "\n":
-        assert True
-    else:
-        assert False
+    result = app.area_of_triangle(3,3)
+    assert result == 4.5
 
 
 
