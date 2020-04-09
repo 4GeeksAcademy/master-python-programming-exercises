@@ -5,8 +5,7 @@ ports:
     - port: 3000
       onOpen: open-preview
 tasks:
-    - command: >
-        bc run:exercises -e=gitpod;
+    - command: bc run -l python3
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)
