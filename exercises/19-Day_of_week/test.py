@@ -1,19 +1,13 @@
-import io
-import sys
-sys.stdout = buffer = io.StringIO()
-
-import app
-import pytest
-
-@pytest.mark.it('Function day_of_week is defined')
-def test_for_function(capsys):
-    assert app.day_of_week is not None
+import io, sys, pytest, os, re, mock, math
+path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
 
-@pytest.mark.it('Print the number of day of week for K-th day of year.')
-def test_for_number_of_day_of_week(capsys):
-    app.day_of_week(4)
-    captured = capsys.readouterr()
+@pytest.mark.it('The function day_of_week must exist')
+def test_for_functon_existence(capsys, app):
+    assert callable(app.day_of_week)
 
-    assert captured.out == str(0) + "\n"
+@pytest.mark.it('Something went wrong! We tried to pass 56 as parameter and it did not return 3!Keep trying!')
+def test_for_file_output(capsys, app):
+
+    assert app.day_of_week(56) == (3+56)%7
 
