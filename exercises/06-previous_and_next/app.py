@@ -1,12 +1,7 @@
-#Complete the function to print the next and previous number of a given numner.".
+#Complete the function to return the previous and next number of a given numner.".
 def previous_next(num):
-
-
-    print()
-    print()
-
-
+  return None
 
 
 #Invoke the function with any interger at its argument. 
-previous_next()
+print(previous_next())
