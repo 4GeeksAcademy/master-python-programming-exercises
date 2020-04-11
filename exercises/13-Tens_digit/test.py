@@ -1,18 +1,11 @@
-import io
-import sys
-sys.stdout = buffer = io.StringIO()
+import io, sys, pytest, os, re, mock
 
-import app
-import pytest
+@pytest.mark.it('The function tens_digit must exist')
+def test_for_functon_existence(capsys, app):
+    assert callable(app.tens_digit)
 
-@pytest.mark.it('Function tens_digit is defined')
-def test_for_function(capsys):
+@pytest.mark.it('We tried to pass 854345 as parameter and it did not return 4!')
+def test_for_file_output(capsys, app):
+    assert app.tens_digit(854345) == (854345 // 10)%10
 
-    assert app.tens_digit is not None
 
-@pytest.mark.it("Print the tens digit of a given number")
-def test_for_tens_digit(capsys):
-    app.tens_digit(343)
-    captured = capsys.readouterr()
-
-    assert captured.out == str(4) + "\n"
