@@ -1,20 +1,10 @@
-import io
-import sys
-sys.stdout = buffer = io.StringIO()
+import io, sys, pytest, os, re, mock
 
-import app
-import pytest
+@pytest.mark.it('The function  first_digits must exist')
+def test_for_functon_existence(capsys, app):
+    assert callable(app.first_digit)
 
-@pytest.mark.it('Function first_digit is defined')
-def test_for_function(capsys):
-    assert app.first_digit is not None
-
-
-
-@pytest.mark.it('Print the first digit to the right of the decimal point')
-def test_first_digit_to_the_right_of_decimal_point(capsys):
-    app.first_digit(4443.1)
-    captured = capsys.readouterr()
-
-    assert captured.out == "1" + "\n"
+@pytest.mark.it('We tried to pass 6.24 as parameter and it did not return 2!')
+def test_for_file_output(capsys, app):
+    assert app.first_digit(6.24) == int(6.24 *10)%10
 
