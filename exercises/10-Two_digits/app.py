@@ -1,8 +1,8 @@
-#Complete the function to print the tens digit and the ones digit of any interger.
+#Complete the function to return the tens digit and the ones digit of any interger.
 def two_digits(digit):
-
+  return None
    
 
 
 #Invoke the function with any interger as its argument.
-two_digits()
+print(two_digits())
