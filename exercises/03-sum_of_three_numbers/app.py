@@ -2,5 +2,4 @@
 first_number = input("First input")
 second_number = input("Second input")
 third_number = input("Third input")
-
-# Invoke the function with any three numbers
+# print here the sum of three inputs
