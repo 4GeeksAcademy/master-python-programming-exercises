@@ -1,19 +1,13 @@
-import io
-import sys
-sys.stdout = buffer = io.StringIO()
-
-import app
-import pytest
-
-@pytest.mark.it('Function digital_clock is defined')
-def test_for_function(capsys):
-    assert app.digital_clock is not None
+import io, sys, pytest, os, re, mock, math
+path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
 
-@pytest.mark.it('Print hours and minutes displayed on the 24h digital clock')
-def test_for_hours_and_minutes(capsys):
-    app.digital_clock(345)
-    captured = capsys.readouterr()
+@pytest.mark.it('The function digital_clock must exist')
+def test_for_functon_existence(capsys, app):
+    assert callable(app.digital_clock)
 
-    assert captured.out == str(5) + " " + str(45) + "\n"
+@pytest.mark.it('We tried to pass 194 as parameter and it did not return (3, 14)!Keep Trying!')
+def test_for_file_output(capsys, app):
+
+    assert app.digital_clock(194) == ((194 // 60), (194 % 60))
 

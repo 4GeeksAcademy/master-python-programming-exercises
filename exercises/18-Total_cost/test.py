@@ -1,18 +1,13 @@
-import io
-import sys
-sys.stdout = buffer = io.StringIO()
-
-import app
-import pytest
+import io, sys, pytest, os, re, mock, math
+path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
 
+@pytest.mark.it('The function total_cost must exist')
+def test_for_functon_existence(capsys, app):
+    assert callable(app.total_cost)
 
-@pytest.mark.it('Function total_cost is defined')
-def test_for_dollars_and_cents(capsys):
-    assert app.total_cost is not None
+@pytest.mark.it('We tried to pass 15, 22, 4 as parameters and it did not return (60, 88)!')
+def test_for_file_output(capsys, app):
 
-@pytest.mark.it('Print total cost (in dollar and cents) of N cupcakes.')
-def test_for_variables(capsys):
-    app.total_cost(45,50,5)
-    captured = capsys.readouterr()
-    assert captured.out == str(227) + " " + str(50) + "\n"
+    assert app.total_cost(15, 22, 4) == ((((15*100)+22)*4)//100, (((15*100)+22)*4)%100)
+  

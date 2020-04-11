@@ -2,7 +2,7 @@
 
 📝 Instructions:
 
-Given a positive real number, print its first digit to the right of the decimal point.
+Given a positive real number, return its first digit to the right of the decimal point.
 
 **Example input**
 1.79

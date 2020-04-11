@@ -1,30 +1,11 @@
-import io
-import sys
-sys.stdout = buffer = io.StringIO()
-import app
-import math
-import pytest
+import io, sys, pytest, os, re, mock
 
-@pytest.mark.it('Print how many apples each student will get')
-def test_for_apples_for_student(capsys):
-    app.apple_sharing(23,256)
-    captured = capsys.readouterr()
+@pytest.mark.it('The function apple_sharing must exist')
+def test_for_functon_existence(capsys, app):
+    assert callable(app.apple_sharing)
 
-    test1 = captured.out.split("\n")
+@pytest.mark.it('The function apple_sharing must return the correct output')
+def test_for_file_output(capsys, app):
+    assert app.apple_sharing(10, 54) == (54//10, 54%10)
 
-    if test1[0] == "11":
-        assert True
-    else:
-        assert False
 
-@pytest.mark.it('Print how many apples will remain in the basket')
-def test_for_remaining_apples(capsys):
-    app.apple_sharing(23,256)
-    captured = capsys.readouterr()
-
-    test1 = captured.out.split("\n")
-
-    if test1[1] == "3":
-        assert True
-    else:
-        assert False

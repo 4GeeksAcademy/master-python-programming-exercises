@@ -1,27 +1,13 @@
-import io
-import sys
-import os
-import re
-sys.stdout = buffer = io.StringIO()
+import io, sys, pytest, os, re, mock
 
-import app
-import pytest
+@pytest.mark.it('The function previous_next must exist')
+def test_for_functon_existence(capsys, app):
+    assert callable(app.previous_next)
 
-@pytest.mark.it('Print next number')
-def test_for_next_number(capsys):
-    app.previous_next(4)
-    captured = capsys.readouterr()
+@pytest.mark.it('The function previous_next must return the correct output')
+def test_for_file_output(capsys, app):
+    assert app.previous_next(6) == (5, 7)
 
-    assert "The next number for the number 4 is 5" in captured.out
-
-
-
-@pytest.mark.it('Print previous number')
-def test_for_previous_number(capsys):
-    app.previous_next(4)
-    captured = capsys.readouterr()
-
-    assert "The previous number for the number 4 is 3" in captured.out
 
 
 

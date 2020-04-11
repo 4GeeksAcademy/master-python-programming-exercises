@@ -1,23 +1,12 @@
-import io
-import sys
-sys.stdout = buffer = io.StringIO()
-import app
-import pytest
+import io, sys, pytest, os, re, mock
 
+@pytest.mark.it('The function swap_digits must exist')
+def test_for_functon_existence(capsys, app):
+    assert callable(app.swap_digits)
 
-
-@pytest.mark.it('swap_digits function is defined')
-def test_for_swap_digits_function(capsys):
-    assert app.swap_digits is not None
-
-
-
-@pytest.mark.it('Check for swapped digits')
-def test_for_swapped_digits(capsys):
-    app.swap_digits(46)
-    captured = capsys.readouterr()
-
-    assert captured.out == str(64) + "\n"
+@pytest.mark.it('The function swap_digits must swap the digits of a 2 digits integer')
+def test_for_file_output(capsys, app):
+    assert app.swap_digits(30) == str(30%10)+str(30//10)
 
 
 

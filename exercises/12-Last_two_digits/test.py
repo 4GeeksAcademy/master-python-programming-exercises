@@ -1,22 +1,15 @@
-import io
-import sys
-sys.stdout = buffer = io.StringIO()
+import io, sys, pytest, os, re, mock
 
-import app
-import pytest
+@pytest.mark.it('The function last_two_digits must exist')
+def test_for_functon_existence(capsys, app):
+    assert callable(app.last_two_digits)
 
-@pytest.mark.it('Function last_two_digits is defined')
-def test_for_functions(capsys):
+@pytest.mark.it('The function last_two_digits must return only the last 2 digits of a integer greater than 9')
+def test_for_file_output(capsys, app):
+  if app.last_two_digits(30) > 9:
+    assert app.last_two_digits(30) == int(str(30)[-2:])
+  
 
-    assert app.last_two_digits is not None
 
-
-@pytest.mark.it('Print the last two digits of an interger greater than 9')
-def test_for_output(capsys):
-    app.last_two_digits(2345)
-    captured = buffer.getvalue()
-    captured2 = capsys.readouterr()
-    assert int(captured) > 9
-    assert captured2.out == str(45) + "\n"
 
 

@@ -12,7 +12,7 @@ For example, if N = 150, then 150 minutes have passed since midnight - i.e. now 
 150
 
 **Example output**
-2 30
+(2, 30)
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:

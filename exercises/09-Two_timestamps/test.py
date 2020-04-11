@@ -1,33 +1,12 @@
-import io
-import sys
-sys.stdout = buffer = io.StringIO()
-import app
-import pytest
+import io, sys, pytest, os, re, mock
 
-@pytest.mark.it('two_timestamp function is defined')
-def test_function(capsys):
-    assert app.two_timestamp is not None
+@pytest.mark.it('The function two_timestamp must exist')
+def test_for_functon_existence(capsys, app):
+    assert callable(app.two_timestamp)
 
-
-
-@pytest.mark.it('Function prints how many seconds passed between each timestamp')
-def test_seconds(capsys):
-    app.two_timestamp(6,6,6,9,9,9)
-    captured = capsys.readouterr()
-
-
-    assert captured.out == "10983" + "\n"
-
-
-
-@pytest.mark.it('Output cannot be a negative number')
-def test_negative_number(capsys):
-    captured2 = buffer.getvalue()
-
-    if "-" in captured2:
-        assert False
-    else:
-        assert True
+@pytest.mark.it('We tried passing (1,2,30,4,3,20) as parameters and the function did not return 10850. Keep Trying!')
+def test_for_file_output(capsys, app):
+    assert app.two_timestamp(1,2,30,4,3,20) == ( (3 * 60) + (4 * 3600) + 20 )- ((2 * 60) + (1 * 3600) + 30)
 
 
 

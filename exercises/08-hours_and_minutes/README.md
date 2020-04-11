@@ -13,7 +13,7 @@ For example, if N = 3900, then 3900 seconds have passed since midnight - i.e. no
 * 3900
 
 **Example output**
-* 1 65
+* (1, 65)
 
 **Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
