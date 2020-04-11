@@ -1,3 +1,183 @@
 {
-    "compiler": "python3"
+    "port": 3000,
+    "address": "localhost",
+    "editor": "gitpod",
+    "outputPath": "./.breathecode/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": null,
+    "language": "python3",
+    "compiler": "python3",
+    "tester": "pytest",
+    "actions": [
+        "run",
+        "test",
+        "reset"
+    ],
+    "exercisesPath": "./exercises",
+    "exercises": [
+        {
+            "slug": "01-welcome",
+            "title": "01-welcome",
+            "path": "exercises/01-welcome",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "02-hello-world",
+            "title": "02-hello-world",
+            "path": "exercises/02-hello-world",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "03-sum_of_three_numbers",
+            "title": "03-sum_of_three_numbers",
+            "path": "exercises/03-sum_of_three_numbers",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "04-area_of_right_triangle",
+            "title": "04-area_of_right_triangle",
+            "path": "exercises/04-area_of_right_triangle",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "05-hello_harry",
+            "title": "05-hello_harry",
+            "path": "exercises/05-hello_harry",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "06-previous_and_next",
+            "title": "06-previous_and_next",
+            "path": "exercises/06-previous_and_next",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "07-Apple_sharing",
+            "title": "07-Apple_sharing",
+            "path": "exercises/07-Apple_sharing",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "08-hours_and_minutes",
+            "title": "08-hours_and_minutes",
+            "path": "exercises/08-hours_and_minutes",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "09-Two_timestamps",
+            "title": "09-Two_timestamps",
+            "path": "exercises/09-Two_timestamps",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "10-Two_digits",
+            "title": "10-Two_digits",
+            "path": "exercises/10-Two_digits",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "11-Swap_digits",
+            "title": "11-Swap_digits",
+            "path": "exercises/11-Swap_digits",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "12-Last_two_digits",
+            "title": "12-Last_two_digits",
+            "path": "exercises/12-Last_two_digits",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "13-Tens_digit",
+            "title": "13-Tens_digit",
+            "path": "exercises/13-Tens_digit",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "14-sum_of_digits",
+            "title": "14-sum_of_digits",
+            "path": "exercises/14-sum_of_digits",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "15-Digit_after_decimal_point",
+            "title": "15-Digit_after_decimal_point",
+            "path": "exercises/15-Digit_after_decimal_point",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "16-Car_route",
+            "title": "16-Car_route",
+            "path": "exercises/16-Car_route",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "17-Century",
+            "title": "17-Century",
+            "path": "exercises/17-Century",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "18-Total_cost",
+            "title": "18-Total_cost",
+            "path": "exercises/18-Total_cost",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "19-Day_of_week",
+            "title": "19-Day_of_week",
+            "path": "exercises/19-Day_of_week",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "20-Digital_clock",
+            "title": "20-Digital_clock",
+            "path": "exercises/20-Digital_clock",
+            "translations": [
+                "us"
+            ]
+        }
+    ]
 }
