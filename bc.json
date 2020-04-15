@@ -1,3 +1,10 @@
 {
-    "language": "python3"
+    "language": "python3",
+    "title": "Master Python by practice (interactive)",
+    "preview": "https://github.com/4GeeksAcademy/master-python-programming-exercises/blob/master/preview.gif?raw=true",
+    "description": "Practice your Python programming skills with this interactive and auto-graded set of exercises.",
+    "duration": 10,
+    "difficulty": "easy",
+    "video-solutions": false,
+    "graded": true
 }
