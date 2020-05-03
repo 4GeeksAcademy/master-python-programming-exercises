@@ -1,6 +1,6 @@
 # `13` Tens Digits
 
-📝 Instructions:
+## 📝 Instructions:
 
 Given an integer, return its tens digit.
 

@@ -1,6 +1,6 @@
 # `11` Swap Digits
 
-📝 Instructions:
+## 📝 Instructions:
 
 Given a two-digit integer, swap its digits and print the result.
 

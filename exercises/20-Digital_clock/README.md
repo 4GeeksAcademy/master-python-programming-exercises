@@ -1,6 +1,6 @@
 # `20` Digital Clock
 
-📝 Instructions:
+## 📝 Instructions:
 
 Given the integer N - the number of minutes that is passed since midnight - how many hours and minutes are displayed on the 24h digital clock?
 

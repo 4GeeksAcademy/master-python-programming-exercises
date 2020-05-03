@@ -1,6 +1,6 @@
 # `15` Digit after decimal
 
-📝 Instructions:
+## 📝 Instructions:
 
 Given a positive real number, return its first digit to the right of the decimal point.
 
