@@ -1,6 +1,6 @@
 # `08` Hours and Minutes
 
-📝 Instructions:
+## 📝 Instructions:
 
 Given the integer N - the number of seconds that is passed since midnight - how many full hours and full minutes are passed since midnight?
 

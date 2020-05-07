@@ -1,6 +1,6 @@
 # `18` Total Cost
 
-📝 Instructions:
+## 📝 Instructions:
 
 A cupcake costs D dollars and C cents. Determine, how many dollars and cents should one pay for N cupcakes. A program gets three numbers: D, C, N. It should return two numbers: total cost in dollars and cents.
 

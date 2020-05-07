@@ -1,6 +1,6 @@
 # `06` Previous and Next
 
-📝 Instructions:
+## 📝 Instructions:
 
 Write a program that reads an integer number and returns its previous and next numbers. See the example below.
 
@@ -12,9 +12,9 @@ Write a program that reads an integer number and returns its previous and next n
 * (178, 180)
 
 
-**Theory**
 Hint: You can return multiple parameters: return a, b
 
+**Theory**
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
 https://snakify.org/lessons/print_input_numbers/
 

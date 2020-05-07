@@ -1,6 +1,6 @@
 # `10` Two Digits
 
-📝 Instructions:
+## 📝 Instructions:
 
 Given a two-digit integer, return its left digit (a tens digit) and then its right digit (a ones digit). Use the operator of integer division for obtaining the tens digit and the operator of taking remainder for obtaining the ones digit.
 
