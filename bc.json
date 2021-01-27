@@ -1,5 +1,28 @@
 {
+    "port": 3000,
+    "address": "https://f12ccd6b-9b79-49f2-88ee-bfbeff35b985.ws-us03.gitpod.io",
+    "editor": "gitpod",
+    "configPath": {
+        "config": "bc.json",
+        "base": ".learn",
+        "exercises": "./exercises",
+        "output": ".learn/dist"
+    },
+    "outputPath": "./.learn/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": null,
     "language": "python3",
+    "compiler": "python3",
+    "tester": "pytest",
+    "actions": [
+        "run",
+        "test",
+        "reset"
+    ],
     "title": "Master Python by practice (interactive)",
     "repository": "https://github.com/4GeeksAcademy/master-python-programming-exercises",
     "preview": "https://github.com/4GeeksAcademy/master-python-programming-exercises/blob/master/preview.gif?raw=true",
@@ -7,5 +30,451 @@
     "duration": 10,
     "difficulty": "easy",
     "video-solutions": false,
-    "graded": true
+    "graded": true,
+    "session": 8309827614104636000,
+    "exercises": [
+        {
+            "slug": "001-welcome",
+            "title": "001-welcome",
+            "done": false,
+            "path": "exercises/001-welcome",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "002-hello-world",
+            "title": "002-hello-world",
+            "done": false,
+            "path": "exercises/002-hello-world",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "003-sum_of_three_numbers",
+            "title": "003-sum_of_three_numbers",
+            "done": false,
+            "path": "exercises/003-sum_of_three_numbers",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "004-area_of_right_triangle",
+            "title": "004-area_of_right_triangle",
+            "done": false,
+            "path": "exercises/004-area_of_right_triangle",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "005-hello_harry",
+            "title": "005-hello_harry",
+            "done": false,
+            "path": "exercises/005-hello_harry",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "006-previous_and_next",
+            "title": "006-previous_and_next",
+            "done": false,
+            "path": "exercises/006-previous_and_next",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "007-Apple_sharing",
+            "title": "007-Apple_sharing",
+            "done": false,
+            "path": "exercises/007-Apple_sharing",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "007.1-square-value",
+            "title": "007.1-square-value",
+            "done": false,
+            "path": "exercises/007.1-square-value",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "008-hours_and_minutes",
+            "title": "008-hours_and_minutes",
+            "done": false,
+            "path": "exercises/008-hours_and_minutes",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "009-Two_timestamps",
+            "title": "009-Two_timestamps",
+            "done": false,
+            "path": "exercises/009-Two_timestamps",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "010-Two_digits",
+            "title": "010-Two_digits",
+            "done": false,
+            "path": "exercises/010-Two_digits",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "011-Swap_digits",
+            "title": "011-Swap_digits",
+            "done": false,
+            "path": "exercises/011-Swap_digits",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "012-Last_two_digits",
+            "title": "012-Last_two_digits",
+            "done": false,
+            "path": "exercises/012-Last_two_digits",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "013-ten_digits",
+            "title": "013-ten_digits",
+            "done": false,
+            "path": "exercises/013-ten_digits",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "014-sum_of_digits",
+            "title": "014-sum_of_digits",
+            "done": false,
+            "path": "exercises/014-sum_of_digits",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "015-Digit_after_decimal_point",
+            "title": "015-Digit_after_decimal_point",
+            "done": false,
+            "path": "exercises/015-Digit_after_decimal_point",
+            "translations": [
+                "us",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "016-Car_route",
+            "title": "016-Car_route",
+            "done": false,
+            "path": "exercises/016-Car_route",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "017-Century",
+            "title": "017-Century",
+            "done": false,
+            "path": "exercises/017-Century",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "018-Total_cost",
+            "title": "018-Total_cost",
+            "done": false,
+            "path": "exercises/018-Total_cost",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "019-Day_of_week",
+            "title": "019-Day_of_week",
+            "done": false,
+            "path": "exercises/019-Day_of_week",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "020-Digital_clock",
+            "title": "020-Digital_clock",
+            "done": false,
+            "path": "exercises/020-Digital_clock",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "021-factorial",
+            "title": "021-factorial",
+            "done": false,
+            "path": "exercises/021-factorial",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "022-Integral",
+            "title": "022-Integral",
+            "done": false,
+            "path": "exercises/022-Integral",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "023-list-and-tuple",
+            "title": "023-list-and-tuple",
+            "done": false,
+            "path": "exercises/023-list-and-tuple",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "24-class-with-two-methods",
+            "title": "24-class-with-two-methods",
+            "done": false,
+            "path": "exercises/24-class-with-two-methods",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "25-print-formula",
+            "title": "25-print-formula",
+            "done": false,
+            "path": "exercises/25-print-formula",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "26-two-dimensional-array",
+            "title": "26-two-dimensional-array",
+            "done": false,
+            "path": "exercises/26-two-dimensional-array",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "27-sequence-of-words",
+            "title": "27-sequence-of-words",
+            "done": false,
+            "path": "exercises/27-sequence-of-words",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "28-sequence-of-lines",
+            "title": "28-sequence-of-lines",
+            "done": false,
+            "path": "exercises/28-sequence-of-lines",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "29-remove-duplicate-words",
+            "title": "29-remove-duplicate-words",
+            "done": false,
+            "path": "exercises/29-remove-duplicate-words",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "30-divisable-binary",
+            "title": "30-divisable-binary",
+            "done": false,
+            "path": "exercises/30-divisable-binary",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "31-sum-eigth-digit",
+            "title": "31-sum-eigth-digit",
+            "done": false,
+            "path": "exercises/31-sum-eigth-digit",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "32-numbers-of-letters-and-digits",
+            "title": "32-numbers-of-letters-and-digits",
+            "done": false,
+            "path": "exercises/32-numbers-of-letters-and-digits",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "33-number-of-uppercase",
+            "title": "33-number-of-uppercase",
+            "done": false,
+            "path": "exercises/33-number-of-uppercase",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "34-a_aa_aaa_aaaa",
+            "title": "34-a_aa_aaa_aaaa",
+            "done": false,
+            "path": "exercises/34-a_aa_aaa_aaaa",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "35-square-each-odd-number",
+            "title": "35-square-each-odd-number",
+            "done": false,
+            "path": "exercises/35-square-each-odd-number",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "36-net-amount",
+            "title": "36-net-amount",
+            "done": false,
+            "path": "exercises/36-net-amount",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "37-validity-of-password",
+            "title": "37-validity-of-password",
+            "done": false,
+            "path": "exercises/37-validity-of-password",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "38-sort-tuples-ascending",
+            "title": "38-sort-tuples-ascending",
+            "done": false,
+            "path": "exercises/38-sort-tuples-ascending",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "39-class-that-iterates",
+            "title": "39-class-that-iterates",
+            "done": false,
+            "path": "exercises/39-class-that-iterates",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "40-compute-robot-distance",
+            "title": "40-compute-robot-distance",
+            "done": false,
+            "path": "exercises/40-compute-robot-distance",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "41-frequency-of-words",
+            "title": "41-frequency-of-words",
+            "done": false,
+            "path": "exercises/41-frequency-of-words",
+            "translations": [
+                "us"
+            ],
+            "graded": false
+        }
+    ]
 }
