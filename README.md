@@ -48,8 +48,8 @@ $ learnpack plugins:install learnpack-python
 2. Download this particular exercise using learnpack and `cd` into the folder:
 
 ```
-$ learnpack download python-beginner-programming-exercises
-$ cd python-beginner-programming-exercises
+$ learnpack download master-python-programming-exercises
+$ cd master-python-programming-exercises
 ```
 
 Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
