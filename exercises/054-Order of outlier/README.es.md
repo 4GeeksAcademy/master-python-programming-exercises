@@ -1,21 +1,24 @@
-# `50` Four-digit palindrome
+# `54` Order of outlier
 
 ## 📝 Instructions:
 
-Let's call an integer a palindrome if it remains the same after reading its digits from right to left, for example 07470. 
-Given a four-digit integer, print "YES" if it's a palindrome and print "NO" otherwise. 
+Given three integers, in which two are equal to each other and the third one is different. Print the order number of this different one - 1, 2 or 3.
 
 **Example input #1**
-1221
+10
+5
+10
 
 **Example output #1**
-YES
+2
 
 **Example input #2**
-1234
+10
+10
+5
 
 **Example output #2**
-NO
+3
 
 Theory
 If you don't know how to start solving this assignment, please, review a theory for this lesson:

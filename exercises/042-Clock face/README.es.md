@@ -13,8 +13,8 @@ La manecilla de la hora de un reloj analógico giró x grados desde la medianoch
 (20 min)
 
 **Theory**
-Si no sabes cómo comenzar a resolver esta tarea, revisa una teoría para esta lección:
+Si no sabes cómo comenzar a resolver este ejercicio, revisa la teoría para este contenido:
 https://snakify.org/lessons/integer_float_numbers/
 
-También puede probar fragmentos teóricos paso a paso:
+También puedes intentar paso a paso con trozos de la teoría:
 https://snakify.org/lessons/integer_float_numbers/steps/1/
