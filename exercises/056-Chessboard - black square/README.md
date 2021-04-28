@@ -4,7 +4,7 @@
 
 Given a square of a chessboard. If it's a black square, print YES, otherwise print NO.
 
-The program receives two integers from 1 to 8 specifying the column and row number of the square.
+The program receives two integers from 1 to 8 first two - for the first square, and the last two - for the second square(check the image).
 
 
 

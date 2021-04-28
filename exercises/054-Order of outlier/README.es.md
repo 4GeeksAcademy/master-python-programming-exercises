@@ -1,27 +1,28 @@
-# `54` Order of outlier
+# `54` Posición del número diferente
 
-## 📝 Instructions:
+## 📝 Instrucciones:
 
-Given three integers, in which two are equal to each other and the third one is different. Print the order number of this different one - 1, 2 or 3.
+Dado tres números enteros, de los cuales dos son iguales y el tercero es diferente, imprime la posición del número que es diferente - 1, 2 o 3
 
-**Example input #1**
+**Ejemplo de entrada #1**
 10
 5
 10
 
-**Example output #1**
+**Ejemplo de salida #1**
 2
 
-**Example input #2**
+**Ejemplo de entrada #2**
 10
 10
 5
 
-**Example output #2**
+**Ejemplo de salida #2**
 3
 
-Theory
-If you don't know how to start solving this assignment, please, review a theory for this lesson:
+**Teoría**
+
+Si no sabes por donde empezar a resolver este ejercicio, por favor revisa el contenido de esta lección:
 https://snakify.org/lessons/if_then_else_conditions/ 
 
 You may also try step-by-step theory chunks:
