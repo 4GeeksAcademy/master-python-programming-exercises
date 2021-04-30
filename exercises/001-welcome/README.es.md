@@ -1,4 +1,4 @@
 # Bienvenid@ a Python!
 
 ¡¡Nos estusiasma mucho tenerte aquí!! 🎉 😂
-Presiona `Next` `Next →` de arriba a la derecha cuando quieras empezar.
+Presiona `Next` `Next →` en la esquina superior la derecha cuando quieras empezar.

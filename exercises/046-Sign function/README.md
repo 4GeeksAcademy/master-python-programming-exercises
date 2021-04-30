@@ -12,7 +12,8 @@ Try to use the cascade if-elif-else for it.
 **Example output**
 1
 
-Theory
+**Theory**
+
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
 https://snakify.org/lessons/if_then_else_conditions/
 

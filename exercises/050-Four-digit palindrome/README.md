@@ -2,7 +2,8 @@
 
 ## 📝 Instructions:
 
-Let's call an integer a palindrome if it remains the same after reading its digits from right to left. Given a four-digit integer, print "YES" if it's a palindrome and print "NO" otherwise. 
+Let's call an integer a palindrome if it remains the same after reading its digits from right to left, for example 07470. 
+Given a four-digit integer, print "YES" if it's a palindrome and print "NO" otherwise. 
 
 **Example input #1**
 1221
