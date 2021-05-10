@@ -25,8 +25,8 @@ reason
 
 **Teoría**
 
-If you don't know how to start solving this assignment, please, review a theory for this lesson:
+Si no sabes por donde empezar a resolver este ejercicio, por favor revisa el contenido de esta lección:
 https://snakify.org/lessons/strings_str/  
 
-You may also try step-by-step theory chunks:
+También puedes intentar paso a paso con trozos de la teoría:
 https://snakify.org/lessons/strings_str/steps/1/

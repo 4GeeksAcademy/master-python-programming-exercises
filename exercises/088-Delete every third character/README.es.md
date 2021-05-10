@@ -1,14 +1,14 @@
- # `86` Eliminar un caracter
+ # `88` Elimina caracteres
 
 ## 📝 Instrucciones:
 
-Dado un string, elimina todos los caracteres @ de dicho string.
+Dado un string, elimina todos los caracteres cuyos índices sean divisibles por 3.
 
 **Ejemplo de entrada**
-Bilbo.Baggins@bagend.hobbiton.shire.me
+Python
 
-**Example output**
-Bilbo.Bagginsbagend.hobbiton.shire.me
+**Ejemplo de salida**
+yton
 
 **Teoría**
 
