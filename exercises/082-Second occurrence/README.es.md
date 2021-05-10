@@ -1,26 +1,27 @@
- # `81` Primera y última ocurrencia
+ # `82` Segunda ocurrencia
 
 ## 📝 Instrucciones:
 
-Dado un string que contiene la letra f, imprime el índice de la primera y última ocurrencia de dicha letra. Si la letra f sólo aparece una vez, imprime su índice una vez. Si la letra no aparece, imprime -1.
+Dado un string que contiene la letra p, imprime el índice de la segunda ocurrencia de la p. Si la letra p ocurre solo una vez, imprime -1
+y si no el string no contiene la letra p, entonces imprime -2.
 
 **Ejemplo de entrada #1**
-comfort
+appropriate
 
 **Ejemplo de salida #1**
-3
+2
 
-**Ejemplo de entrada #2**
-office
+**Ejemplo de emtrada #2**
+spare
 
 **Ejemplo de salida #2**
-1 2
+-1
 
 **Ejemplo de entrada #3**
-hello
+reason
 
 **Ejemplo de salida #3**
--1
+-2
 
 **Teoría**
 
