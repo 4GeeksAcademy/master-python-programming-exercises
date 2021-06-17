@@ -27,5 +27,5 @@ La primera línea de la entrada contiene un número entero N, el cual es la cant
 Si no sabes por donde empezar a resolver este ejercicio, por favor revisa el contenido de esta lección:
 https://snakify.org/lessons/for_loop_range/
 
-You may also try step-by-step theory chunks:
+También puedes intentar paso a paso con trozos de la teoría:
 https://snakify.org/lessons/for_loop_range/steps/1/
