@@ -1,10 +1,10 @@
- # `96` Maximum of sequence
+ # `96` El número mayor de la secuencia:
 
-## 📝 Instructions:
+## 📝 Instrucciones:
 
-Given a sequence of non-negative integers, where each number is written in a separate line. The sequence ends with 0. Print the maximum of the sequence.  
+Dada una secuencia de números enteros positivos, en donde cada número está escrito en una linea aparte y el secuencia termina en 0. Imprime el número mayor de la secuencia.
 
-**Example input**
+**Ejemplo de entrada**
 1
 2
 3
@@ -12,10 +12,11 @@ Given a sequence of non-negative integers, where each number is written in a sep
 1
 0
 
-**Example output**
+**Ejemplo de salida**
 3
 
-Theory
+**Theory**
+
 If you don't know how to start solving this assignment, please, review a theory for this lesson:
 https://snakify.org/lessons/while_loop/   
 
