@@ -1,14 +1,16 @@
- # `111` Swap neighbors
+ # `109` Mayor que sus vecinos
 
 ## 📝 Instrucciones:
 
-Dada una lista de números, intercambia los elementos adyacentes en cada par (intercambia A[0] por A[1], A[2] por A[3], etc.). Imprime la lista resultante. Si la lista tiene un número impar de elementos, deja el último elemento intacto.
+Dada una lista de números, determina e imprime la cantidad de elementos que son mayores que sus vecinos (izquierda y derecha).
+
+El primer y último item de la lista no debieran considerarse ya que no tienen dos vecinos.
 
 **Ejemplo de entrada**
-1 2 3 4 5
+1 5 1 5 1
 
 **Ejemplo de salida**
-2 1 4 3 5
+2
 
 **Teoría**
 

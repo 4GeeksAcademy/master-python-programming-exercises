@@ -1,14 +1,15 @@
- # `111` Swap neighbors
+ # `106` Elementos pares
 
 ## 📝 Instrucciones:
 
-Dada una lista de números, intercambia los elementos adyacentes en cada par (intercambia A[0] por A[1], A[2] por A[3], etc.). Imprime la lista resultante. Si la lista tiene un número impar de elementos, deja el último elemento intacto.
+Dado una lista de números, imprime todos sus elementos pares. Usa un loop o bucle for para iterar la lista en sí y no sus índices. 
+¡No uses range()!
 
 **Ejemplo de entrada**
-1 2 3 4 5
+1 2 2 3 3 3 4
 
 **Ejemplo de salida**
-2 1 4 3 5
+2 2 4
 
 **Teoría**
 

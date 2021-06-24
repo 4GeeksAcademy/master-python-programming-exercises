@@ -1,14 +1,14 @@
- # `111` Swap neighbors
+ # `112` Mayor
 
 ## 📝 Instrucciones:
 
-Dada una lista de números, intercambia los elementos adyacentes en cada par (intercambia A[0] por A[1], A[2] por A[3], etc.). Imprime la lista resultante. Si la lista tiene un número impar de elementos, deja el último elemento intacto.
+Dada una lista de números enteros, imprime el primer elemento mayor. Imprime su valor y su índice (contando el 0).
 
 **Ejemplo de entrada**
-1 2 3 4 5
+1 2 3 2 1
 
-**Ejemplo de salida**
-2 1 4 3 5
+**jemplo de salida** 
+3 2
 
 **Teoría**
 

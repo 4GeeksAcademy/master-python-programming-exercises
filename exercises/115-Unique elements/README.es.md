@@ -1,14 +1,14 @@
- # `111` Swap neighbors
+ # `115` Elementos únicos
 
 ## 📝 Instrucciones:
 
-Dada una lista de números, intercambia los elementos adyacentes en cada par (intercambia A[0] por A[1], A[2] por A[3], etc.). Imprime la lista resultante. Si la lista tiene un número impar de elementos, deja el último elemento intacto.
+Dada una lista de números, imprime los elementos que aparezcan sólo una vez. Dichos elementos deben imprimirse en el orden de ocurrencia en la lista original.
 
 **Ejemplo de entrada**
-1 2 3 4 5
+4 3 5 2 5 1 3 5
 
 **Ejemplo de salida**
-2 1 4 3 5
+4 2 1
 
 **Teoría**
 

@@ -1,14 +1,14 @@
- # `115` Unique elements
+ # `113` Intercambia el mínimo y el máximo
 
 ## 📝 Instructions:
 
-Given a list of numbers, find and print the elements that appear in it only once. Such elements should be printed in the order in which they occur in the original list.
+Given a list of distinct numbers, swap the minimum and the maximum and print the resulting list.
 
 **Example input**
-4 3 5 2 5 1 3 5
+3 4 5 2 1
 
-**Example output**
-4 2 1
+**aExample output**
+3 4 1 2 5
 
 **Teoría**
 
