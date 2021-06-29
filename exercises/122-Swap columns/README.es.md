@@ -1,20 +1,20 @@
- # `118` Scale
+ # `122` Intercambia columnas 
 
 ## 📝 Instrucciones:
 
-Dado dos números enteros - la cantidad de filas m y columnas n y m x n segunda lista - y las filas subsguientes m de números enteros n, seguido de un número entero c. Multiplica cada elemento por c e imprime el resultado.
+Dado dos números enteros . La cantidad de filas m y columnas n de m x n la segunda lista - y las filas subsiguientes filas m de números enteros n, seguidos por dos números enteros positivos i y j menores que n, intercambia las columnas i y j de la segunds lista e imprime el resultado.
 
 **Ejemplo de entrada**
 3 4
 11 12 13 14
 21 22 23 24
 31 32 33 34
-2
+0 1
 
 **Ejemplo de salida**
-22 24 26 28
-42 44 46 48
-62 64 66 68
+12 11 13 14
+22 21 23 24
+32 31 33 34
 
 **Teoría**
 

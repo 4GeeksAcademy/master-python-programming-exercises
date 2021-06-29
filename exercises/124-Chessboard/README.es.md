@@ -1,20 +1,19 @@
- # `118` Scale
+ # `124` Tablero de ajedrez
 
 ## 📝 Instrucciones:
 
-Dado dos números enteros - la cantidad de filas m y columnas n y m x n segunda lista - y las filas subsguientes m de números enteros n, seguido de un número entero c. Multiplica cada elemento por c e imprime el resultado.
+Dado dos números enteros positivos n y m, crea un array bidimensional con un tamaño n x m, ingresa los carácteres "." y "*" con un patrón como el del juego de Damas. La esquina superior izquierda debe tener el caracter "." .
 
 **Ejemplo de entrada**
-3 4
-11 12 13 14
-21 22 23 24
-31 32 33 34
-2
+6 8
 
 **Ejemplo de salida**
-22 24 26 28
-42 44 46 48
-62 64 66 68
+. * . * . * . *
+* . * . * . * .
+. * . * . * . *
+* . * . * . * .
+. * . * . * . *
+* . * . * . * .
 
 **Teoría**
 
