@@ -1,10 +1,13 @@
- # `116` Eight queens
+# `116` Eight queens
 
 ## 📝 Instructions:
 
 It is possible to place 8 queens on an 8×8 chessboard so that no two queens threaten each other. Thus, it requires that no two queens share the same row, column, or diagonal.  
 
-Given a placement of 8 queens on the chessboard. If there is a pair of queens that violates this rule, print YES, otherwise print NO. The input consists of eight coordinate pairs, one pair per line, with each pair giving the position of a queen on a standard chessboard with rows and columns numbered from 1 to 8 (check the image).
+
+Given a placement of 8 queens on the chessboard:
+
+1. If there is a pair of queens that violates this rule, print YES, otherwise print NO. The input consists of eight coordinate pairs, one pair per line, with each pair giving the position of a queen on a standard chessboard with rows and columns numbered from 1 to 8 (check the image).
 
 
 

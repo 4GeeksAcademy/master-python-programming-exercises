@@ -1,4 +1,4 @@
- # `105` Even indices
+ # `105` Even indexes
 
 ## 📝 Instructions:
 

@@ -1,4 +1,4 @@
- # `126` Números en común
+ # `126`- Números en común
 
 ## 📝 Instrucciones:
 

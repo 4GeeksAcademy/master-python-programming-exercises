@@ -1,4 +1,4 @@
- # `116` Ocho reinas
+  # `116` Ocho reinas
 
 ## 📝 Instrucciones:
 
@@ -27,3 +27,7 @@ https://snakify.org/lessons/lists/
 
 También puedes intentar paso a paso con trozos de la teoría:
 https://snakify.org/lessons/lists/steps/1
+ 
+ 
+ 
+ 
