@@ -3,5 +3,5 @@ def fact(x):
         return 1
     return x * fact(x - 1)
 
-x=int(input())
-print fact(x)
+x=int(input("Enter a number: "))
+print (fact(x))
