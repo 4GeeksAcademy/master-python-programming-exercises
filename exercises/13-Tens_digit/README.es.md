@@ -2,23 +2,28 @@
 
 ## 📝 Instrucciones:
 
-Dado un entero, devuelve sus decenas.
+1. Dado un entero, devuelve sus decenas.
 
-**Ejemplo de entrada**
-1234
+### Ejemplo de entrada:
 
-**Ejemplo de salida**
-3
++ 1234
 
-**Ejemplo de entrada**
-179
+### Ejemplo de salida:
 
-**Ejemplo de salida**
-7
++ 3
 
-**Teoría**
-Si no sabes cómo empezar la solución a esta asignación, por favor, revisa la teoría en esta lección:
+### Ejemplo de entrada:
+
++ 179
+
+### Ejemplo de salida:
+
++ 7
+
+## 💡 Pista:
+
++ Si no sabes cómo empezar la solución a esta asignación, por favor, revisa la teoría en esta lección:
 https://snakify.org/lessons/integer_float_numbers/
 
-También puedes intentar paso a paso con trozos de la teoría:
++ También puedes intentar paso a paso con trozos de la teoría:
 https://snakify.org/lessons/integer_float_numbers/steps/1/

@@ -2,18 +2,20 @@
 
 ## 📝 Instructions:
 
-Given a two-digit integer, swap its digits and print the result.
+1. Given a two-digit integer, swap its digits and print the result.
 
+### Example input:
 
-**Example input**
-* 79
++ 79
 
-**Example output**
-* 97
+### Example output:
 
-**Theory**
-If you don't know how to start solving this assignment, please, review a theory for this lesson:
++ 97
+
+## 💡 Hint:
+
++ If you don't know how to start solving this assignment, please, review a theory for this lesson:
 https://snakify.org/lessons/integer_float_numbers/
 
-You may also try step-by-step theory chunks:
++ You may also try step-by-step theory chunks:
 https://snakify.org/lessons/integer_float_numbers/steps/1/

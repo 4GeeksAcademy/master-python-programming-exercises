@@ -2,17 +2,20 @@
 
 ## 📝 Instrucciones:
 
-Dado un número entero mayor que 9, imprime sus últimos dos dígitos.
+1. Dado un número entero mayor que `9`, imprime sus últimos dos dígitos.
 
-**Ejemplo de entrada**
-1234
+### Ejemplo de entrada:
 
-**Ejemplo de salida**
-34
++ 1234
 
-**Teoría**
-Si no sabes cómo empezar la solución a esta asignación, por favor, revisa la teoría en esta lección:
+### Ejemplo de salida:
+
++ 34
+
+## 💡 Pista:
+
++ Si no sabes cómo empezar la solución a esta asignación, por favor, revisa la teoría en esta lección:
 https://snakify.org/lessons/integer_float_numbers/
 
-También puedes intentar paso a paso con trozos de la teoría:
++ También puedes intentar paso a paso con trozos de la teoría:
 https://snakify.org/lessons/integer_float_numbers/steps/1/

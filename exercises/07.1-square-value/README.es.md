@@ -1,8 +1,9 @@
 # 07.1 El cuadrado de un número
 
-# 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe un método llamado `square` que calculará el valor cuadrado de un número
+1. Escribe un método llamado `square` que calculará el valor cuadrado de un número
 
-## 💡 Ayuda:
-Usa el operador `**`
+## 💡 Pista:
+
++ Usa el operador `**`.
