@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe un método llamado `square` que calculará el valor cuadrado de un número
+1. Escribe una función llamada `square` que calculará el valor cuadrado de un número
 
 ## 💡 Pista:
 
