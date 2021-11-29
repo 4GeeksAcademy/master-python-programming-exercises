@@ -2,7 +2,7 @@
 
 ## 📝 Instructions
 
-1. Write a method called `square` which can calculate square value of number.
+1. Write a function called `square` which can calculate square value of number.
 
 ## 💡 Hint:
 
