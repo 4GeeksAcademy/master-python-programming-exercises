@@ -1,8 +1,9 @@
 # 07.1 Square Value of Number
 
-# 📝 Instructions
+## 📝 Instructions
 
-Write a method called `square` which can calculate square value of number
+1. Write a function called `square` which can calculate square value of number.
 
-## 💡 Hints:
-Using the ** operator
+## 💡 Hint:
+
++ Using the ** operator

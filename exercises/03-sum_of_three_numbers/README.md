@@ -2,14 +2,15 @@
 
 ## 📝 Instructions:
 
-**Statement**
-Taking 3 numbers from the input, print their sum. Every number is given on a separate line.
+1. Taking 3 numbers from the input, print their sum. Every number is given on a separate line.
 
-**Example input**
+### Example input:
+
 - 2
 - 3
 - 6
 
-**Example output**
+### Example output:
+
 - 11
 
