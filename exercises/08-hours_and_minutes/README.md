@@ -22,7 +22,7 @@ So the program should print 1 65 --> 1 full hour is passed since midnight, 65 fu
 
 + (1, 65)
 
-## 💡 Pista:
+## 💡 Hint:
 
 + If you don't know how to start solving this assignment, please, review a theory for this lesson:
 https://snakify.org/lessons/print_input_numbers/
