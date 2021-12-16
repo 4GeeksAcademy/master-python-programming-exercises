@@ -6,7 +6,8 @@ def test_for_functon_existence(capsys, app):
 
 @pytest.mark.it('The function swap_digits must swap the digits of a 2 digits integer')
 def test_for_file_output(capsys, app):
-    assert app.swap_digits(30) == str(30%10)+str(30//10)
+    assert app.swap_digits(30) == int(30%10)+int(30//10)
+
 
 
 

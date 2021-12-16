@@ -5,4 +5,4 @@ def two_digits(digit):
 
 
 #Invoke the function with any interger as its argument.
-print(two_digits())
+print(two_digits(79))

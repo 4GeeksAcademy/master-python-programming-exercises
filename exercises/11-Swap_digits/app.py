@@ -7,3 +7,4 @@ def swap_digits(num):
 #Invoke the function with any two digit interger as its argument
 print(swap_digits())
 
+
