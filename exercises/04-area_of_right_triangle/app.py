@@ -1,6 +1,6 @@
 #Complete the function to return the area of the triangle.
-b = input("Size of B")
-h = input("Size of H")
+b = int(input("Size of B"))
+h = int(input("Size of H"))
 
 def area_of_triangle(arg1, arg2):
     #your code here, please remove the "None" 
