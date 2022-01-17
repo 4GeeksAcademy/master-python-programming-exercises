@@ -1,16 +1,16 @@
 # `21` Factorial
 
-## 📝 Instructions 
+## 📝 Instructions:
 
 1. Create a function named `factorial` which receives a number as parameter and returns the factorial of the given numbers.
 
-Example input:
+## Example input:
 
 ```bash
-8
+factorial(8)
 ```
 
-Then, the output should be:
+## Example output:
 
 ```bash
 40320
@@ -18,4 +18,4 @@ Then, the output should be:
 
 ## 💡 Hints:
 
-- If you don't know what a factorial is, you can check it out on this link: https://www.cuemath.com/numbers/factorial/
++ If you don't know what a factorial is, you can check it out on this link: https://www.cuemath.com/numbers/factorial/
