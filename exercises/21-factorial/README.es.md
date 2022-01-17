@@ -2,14 +2,15 @@
 
 ## 📝 Instrucciones
 
-Escribe un programa que puede calcular el factorial de un número dado.
-Los resultados deberían imprimirse en una secuencia separada por coma en una sola línea. Supongamos que se le entrega la siguiente entrada al programa:
+1. Crea una función llamada `factorial`, que reciba un número como parámatro y retorne su valor factorial.
+
+## Ejemplo de entrada:
 
 ```bash
-8
+factorial(8)
 ```
 
-Entonces el resultado debería ser:
+## Ejemplo de salida:
 
 ```bash
 40320
@@ -17,4 +18,4 @@ Entonces el resultado debería ser:
 
 ## 💡 Pistas:
 
-En el caso de una entrada de datos entregada a la cuestión, debería asumirse como una entrada de la consola.
++ Si no sabes qué es un factorial, revisa la información de este link: https://factorial.mx/numero-funcion-factorial

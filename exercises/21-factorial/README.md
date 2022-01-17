@@ -1,21 +1,21 @@
 # `21` Factorial
 
-## 📝 Instructions 
+## 📝 Instructions:
 
-Write a program which can compute the factorial of a given numbers.
-The results should be printed in a comma-separated sequence on a single line.
-Suppose the following input is supplied to the program:
+1. Create a function named `factorial` which receives a number as parameter and returns the factorial of the given numbers.
+
+## Example input:
 
 ```bash
-8
+factorial(8)
 ```
 
-Then, the output should be:
+## Example output:
 
 ```bash
 40320
 ```
 
-## 💡Hints:
+## 💡 Hints:
 
-In case of input data being supplied to the question, it should be assumed to be a console input.
++ If you don't know what a factorial is, you can check it out on this link: https://www.cuemath.com/numbers/factorial/
