@@ -4,13 +4,13 @@
 
 1. Crea una función llamada `factorial`, que reciba un número como parámatro y retorne su valor factorial.
 
-Ejemplo de input:
+## Ejemplo de entrada:
 
 ```bash
-8
+factorial(8)
 ```
 
-Entonces el resultado debería ser:
+## Ejemplo de salida:
 
 ```bash
 40320
@@ -18,4 +18,4 @@ Entonces el resultado debería ser:
 
 ## 💡 Pistas:
 
-Si no sabes qué es un factorial, revisa la información de este link: https://factorial.mx/numero-funcion-factorial
++ Si no sabes qué es un factorial, revisa la información de este link: https://factorial.mx/numero-funcion-factorial
