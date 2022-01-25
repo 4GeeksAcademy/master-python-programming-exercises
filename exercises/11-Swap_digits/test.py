@@ -1,27 +1,25 @@
-import io, sys, pytest, os, re, mock
+import io, sys, pytest, os, re, mock, app
+
+# @pytest.mark.it('The function swap_digits must exist')
+# def test_for_functon_existence():
+#     assert callable(app.swap_digits)
 
 @pytest.mark.it('The function swap_digits must exist')
-def test_for_functon_existence(capsys, app):
-    assert callable(app.swap_digits)
+def test_function_exists():
+    assert app.swap_digits
 
 @pytest.mark.it('The function swap_digits must return something')
-def test_for_functon_return_statement(capsys, app):
-    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
-    with open(path, 'r') as content_file:
-        content = content_file.read()
-        regex = re.compile(r"return(\s*)[^a-zA-Z0-9_]\w+")
-        assert bool(regex.search(content)) == True
+def test_return_exists():
+    assert app.swap_digits(12) != None
 
+@pytest.mark.it('The function swap_digits should return an integer')
+def test_return_integer():
+    assert type(app.swap_digits(23)) == type(1)
     
-@pytest.mark.it('If `swap_digits` recieve 30 should return 3 as an integer')
+@pytest.mark.it('If `swap_digits` recieve 30 should return 3')
 def test_for_file_output(capsys, app):
     assert app.swap_digits(30) == 3
 
-@pytest.mark.it('The function `swap_digits` must swap the digits of a 2 digits integer')
+@pytest.mark.it('The function `swap_digits` must swap the digits')
 def test_for_file_output(capsys, app):
-    assert app.swap_digits(79) == 97
-
-
-
-    
-
+    assert app.swap_digits(79) == 97 or app.swap_digits(79) == "97"
