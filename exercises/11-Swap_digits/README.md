@@ -4,13 +4,13 @@
 
 1. Create a function named `swap_digits()` given a two-digit integer, swap its digits and print the result.
 
-## Example input:
+## Example input:
 
 ```py
 swap_digits(79)
 ```
 
-## Example output:
+## Example output:
 
 ```
 97
