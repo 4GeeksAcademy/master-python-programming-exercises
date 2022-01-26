@@ -2,20 +2,26 @@
 
 ## 📝 Instructions:
 
-1. Given a two-digit integer, swap its digits and print the result.
+1. Create a function named `swap_digits()` given a two-digit integer, swap its digits and print the result.
 
-### Example input:
+## Example input:
 
-+ 79
+```py
+swap_digits(79)
+```
 
-### Example output:
+## Example output:
 
-+ 97
+```
+97
+```
 
 ## 💡 Hint:
 
-+ If you don't know how to start solving this assignment, please, review a theory for this lesson:
-https://snakify.org/lessons/integer_float_numbers/
++ If you don't know how to start solving this assignment, please, review a theory for this lesson: https://snakify.org/lessons/integer_float_numbers/
 
-+ You may also try step-by-step theory chunks:
-https://snakify.org/lessons/integer_float_numbers/steps/1/
++ You can also try step-by-step with theory chunks: https://snakify.org/lessons/integer_float_numbers/steps/1/
+
++ Note that you need to concatenate two numbers, so you may have to convert them into a string `str(number)`.
+
++ The function must return a number.
