@@ -9,4 +9,4 @@ def apple_sharing(n,k):
     
 
 #Print the two answer per the example output.
-print(apple_sharing())
+print(apple_sharing(6,50))

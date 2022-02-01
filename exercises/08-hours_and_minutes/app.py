@@ -7,4 +7,4 @@ def hours_minutes(secs):
 
 
 #Invoke the funtion and pass any interger as its argument.
-print(hours_minutes())
+print(hours_minutes(3900))

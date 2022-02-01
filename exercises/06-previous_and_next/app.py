@@ -4,4 +4,4 @@ def previous_next(num):
 
 
 #Invoke the function with any interger at its argument. 
-print(previous_next())
+print(previous_next(179))
