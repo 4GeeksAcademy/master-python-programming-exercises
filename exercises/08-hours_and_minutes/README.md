@@ -1,31 +1,31 @@
 # `08` Hours and Minutes
 
+The following function will tell us the time after midnight, that is, assuming that it is midnight the function will receive by parameter the number of seconds that have passed and this will result in an estimated time.
+
 ## 📝 Instructions:
 
-Given the integer N - the number of seconds that is passed since midnight - 
+1. Complete the function to return the expected result.
 
-1. How many full hours and full minutes are passed since midnight?
+2. Performs two calculations with the seconds that are passed by parameter in the function so that one calculates the time according to the seconds that have passed and the other to know the minutes `(hour , minutes)`.
 
-The program should print two numbers: the number of hours (between 0 and 23) and the number of minutes (between 0 and 1339).
+## Example input:
+```py
+3900
+```
 
-For example:
-
-* If N = 3900 --> then 3900 seconds have passed since midnight - i.e. now it's 1:05am. 
-
-So the program should print 1 65 --> 1 full hour is passed since midnight, 65 full minutes passed since midnight.
-
-### Example input:
-
-+ 3900
-
-### Example output:
-
-+ (1, 65)
-
+## Example output:
+```py
+(1, 65)
+```
 ## 💡 Hint:
+
++ Remember how many seconds there are in an hour and how many seconds in a minute.
 
 + If you don't know how to start solving this assignment, please, review a theory for this lesson:
 https://snakify.org/lessons/print_input_numbers/
 
 + You may also try step-by-step theory chunks:
 https://snakify.org/lessons/print_input_numbers/steps/1/
+
+
+[comment]: <Solution: (secs//3600, secs//60)>

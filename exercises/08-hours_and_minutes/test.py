@@ -4,9 +4,16 @@ import io, sys, pytest, os, re, mock
 def test_for_functon_existence(capsys, app):
     assert callable(app.hours_minutes)
 
-@pytest.mark.it('The function hours_minutes must return the correct output')
+@pytest.mark.it('The function hours_minutes must return the correct output for 3900 secs')
 def test_for_file_output(capsys, app):
-    assert app.hours_minutes(4004) == (4004//3600, 4004//60)
+    assert app.hours_minutes(3900) == (1, 65)
+
+
+@pytest.mark.it('The function hours_minutes must return the correct output for 4004 secs')
+def test_for_file_output(capsys, app):
+    assert app.hours_minutes(4004) == (1, 66)
+
+
 
 
 
