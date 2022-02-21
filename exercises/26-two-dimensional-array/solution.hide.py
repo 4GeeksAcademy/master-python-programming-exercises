@@ -1,4 +1,4 @@
-input_str = raw_input()
+input_str = input()
 dimensions=[int(x) for x in input_str.split(',')]
 rowNum=dimensions[0]
 colNum=dimensions[1]
@@ -8,4 +8,4 @@ for row in range(rowNum):
     for col in range(colNum):
         multilist[row][col]= row*col
 
-print multilist
+print (multilist)
