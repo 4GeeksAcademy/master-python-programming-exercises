@@ -15,11 +15,11 @@ The following function will tell us the time after midnight, that is, assuming t
 
 ## Example output:
 ```py
-(1, 65)
+(2, 5)
 ```
 ## 💡 Hint:
 
-+ Remember how many seconds there are in an hour and how many seconds in a minute.
++ Remember how many seconds there are in an hour (3600) and how many seconds in a minute (60).
 
 + If you don't know how to start solving this assignment, please, review a theory for this lesson:
 https://snakify.org/lessons/print_input_numbers/

@@ -27,11 +27,11 @@ El programa debe imprimir 1 65  1 hora completa ha pasado desde la medianoche, 6
 ```
 ## Ejemplo de salida:
 ```py
-(1, 65)
+(2, 5)
 ```
 ## 💡 Pista:
 
-+ Recuerda cuantos segundos hay en una hora y cuantos segundos en un minuto.
++ Recuerda cuantos segundos hay en una hora (3600) y cuantos segundos en un minuto (60).
 
 + Si no sabes cómo empezar la solución a esta asignación, por favor, revisa la teoría en esta lección:
 https://snakify.org/lessons/print_input_numbers/
