@@ -1,10 +1,8 @@
 # `008` two timestamps
 
-Dadas dos marcas de tiempo del mismo día: un número de horas, minutos y segundos para ambas marcas de tiempo. El momento de la primera marca de tiempo ocurrió antes del momento de la segunda. 
-
 ## 📝 Instrucciones:
 
-1. Calcula cuántos segundos pasaron entre ellas.
+1. Dadas dos marcas de tiempo del mismo día: un número de horas, minutos y segundos para ambas marcas de tiempo. El momento de la primera marca de tiempo ocurrió antes del momento de la segunda. Calcula cuántos segundos pasaron entre ellas.
 
 ## Ejemplo de entrada #1:
 

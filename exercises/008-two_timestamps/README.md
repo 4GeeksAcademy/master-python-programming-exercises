@@ -1,10 +1,8 @@
 # `008` two timestamps
 
-Given two timestamps of the same day: a number of hours, minutes and seconds for both of the timestamps.  The moment of the first timestamp happened before the moment of the second one. 
-
 ## 📝 Instructions:
 
-1. Calculate how many seconds passed between them.
+1. Given two timestamps of the same day: a number of hours, minutes and seconds for both of the timestamps.  The moment of the first timestamp happened before the moment of the second one.  Calculate how many seconds passed between them.
 
 ## Example input #1:
 

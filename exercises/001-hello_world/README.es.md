@@ -18,5 +18,4 @@ print("How are you?")
 
 ## 💡 Pista:
 
-+ Video de 5 minutos sobre la consola:
-https://www.youtube.com/watch?v=vROGBvX_MHQ
++ Video de 5 minutos sobre [la consola](https://www.youtube.com/watch?v=vROGBvX_MHQ)

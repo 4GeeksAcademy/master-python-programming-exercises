@@ -18,5 +18,4 @@ print("How are you?")
 
 ## 💡 Hint:
 
-+ 5 minutes video about the console:
-https://www.youtube.com/watch?v=1RlkftxAo-M
++ 5 minutes video about [the console](https://www.youtube.com/watch?v=1RlkftxAo-M)

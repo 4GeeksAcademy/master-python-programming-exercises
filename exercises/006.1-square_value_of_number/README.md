@@ -1,4 +1,4 @@
-# 006.1 square value of number
+# `006.1` square value of number
 
 ## 📝 Instructions
 

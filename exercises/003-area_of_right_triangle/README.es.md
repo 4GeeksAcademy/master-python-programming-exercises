@@ -17,8 +17,6 @@
 
 ## 💡 Pistas:
 
-+ Si no sabes por donde empezar este ejercicio, por favor, revisa la teoría en esta lección:
-https://snakify.org/lessons/print_input_numbers/
++ Si no sabes por donde empezar este ejercicio, por favor, revisa la teoría en esta lección: https://snakify.org/lessons/print_input_numbers/
 
-+ También puedes intentar paso a paso con trozos de la teoría:
-https://snakify.org/lessons/print_input_numbers/steps/1/
++ También puedes intentar paso a paso con trozos de la teoría: https://snakify.org/lessons/print_input_numbers/steps/1/
