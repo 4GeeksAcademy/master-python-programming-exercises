@@ -1,4 +1,4 @@
-# `027` Sequence of lines
+# `027` sequence of lines
 
 1. Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
 
@@ -17,7 +17,6 @@
 ## Example output 2:
 
 + PRACTICE MAKES PERFECT
-
 
 ## 💡 Hint:
 

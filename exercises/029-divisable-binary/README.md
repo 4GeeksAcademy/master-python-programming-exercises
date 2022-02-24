@@ -10,7 +10,8 @@
 
 + 1010
 
- Assume the data is input by console.
+## 💡 Hints:
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
++ Assume the data is input by console.
+
++ In case of input data being supplied to the question, it should be assumed to be a console input.

@@ -1,4 +1,4 @@
-# `021` Integral
+# `021` integral
 
 1. With a given integral number `n`, write a program to generate a dictionary that contains `(i, i*i)` that is an integral number between 1 and n (both included). 
 
