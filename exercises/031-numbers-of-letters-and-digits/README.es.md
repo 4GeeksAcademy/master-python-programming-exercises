@@ -1,5 +1,7 @@
 # `031` numbers of letters and digits
 
+## 📝 Instrucciones:
+
 1. Escribe un programa que acepte una oración y calcule la catidad de letras y dígitos que contiene.
 
 ## Ejemplo de entrada:

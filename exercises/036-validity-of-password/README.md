@@ -1,5 +1,7 @@
 # `036` validity of password
 
+## 📝 Instructions:
+
 1. A website requires the users to input username and password to register. Write a program to check the validity of password input by users. Following are the criteria to check the password:
 
 - At least 1 letter between [a-z]. 

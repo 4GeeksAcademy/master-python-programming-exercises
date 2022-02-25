@@ -1,5 +1,7 @@
 # `040` frequency of words 
 
+## 📝 Instructions:
+
 1. Write a program to compute the frequency of the words from the input. The output should output after sorting the key alphanumerically. 
 
 ## Example input:

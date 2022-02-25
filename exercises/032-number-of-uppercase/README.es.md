@@ -1,5 +1,7 @@
 # `032` number of uppercase
 
+## 📝 Instrucciones:
+
 1. Escribe un programa que acepte una oración y calcule el número de letras mayúsculas y minúsculas.
 
 ## Ejemplo de entrada:

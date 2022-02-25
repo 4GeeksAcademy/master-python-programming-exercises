@@ -1,5 +1,7 @@
 # `037`sort tuples ascending
 
+## 📝 Instructions:
+
 1. You are required to write a program to sort the (name, age, height) tuples by ascending order where name is string, age and height are numbers. The tuples are input by console. The sort criteria is:
 
 - Sort based on name;-

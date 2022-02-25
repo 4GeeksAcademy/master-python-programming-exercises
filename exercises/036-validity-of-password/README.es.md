@@ -1,5 +1,7 @@
 # `036` validity of password
 
+## 📝 Instrucciones:
+
 1. Un sitio web requiere que los usuarios ingresen el nombre de usuario y la contraseña para registrarse. Escribe un programa para verificar la validez de la contraseña ingresada por los usuarios. Los criterios para verificar la contraseña son los siguientes:
 
 - Al menos 1 letra entre [a-z].

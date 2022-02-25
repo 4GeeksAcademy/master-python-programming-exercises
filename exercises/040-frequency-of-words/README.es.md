@@ -1,6 +1,8 @@
 # `040` frequency of words 
 
-1. Escriba un programa para calcular la frecuencia de las palabras de la entrada. La salida debe salir después de ordenar la clave alfanuméricamente.
+## 📝 Instrucciones:
+ 
+1. Escribe un programa para calcular la frecuencia de las palabras de la entrada. La salida debe salir después de ordenar la clave alfanuméricamente.
 
 ## Ejemplo de entrada:
 

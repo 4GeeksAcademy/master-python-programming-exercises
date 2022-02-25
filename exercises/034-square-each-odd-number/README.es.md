@@ -1,5 +1,7 @@
 # `034` square each odd number
 
+## 📝 Instrucciones:
+
 1. Usa una 'list comprehension' o comprensión de lista para elevar al cuadrado cada número impar en una lista. La lista se ingresa mediante una secuencia de números separados por comas.
 
 ## Ejemplo de entrada:

@@ -1,5 +1,7 @@
 # `038` class that iterates
 
+## 📝 Instrucciones:
+
 1. Definir clase con un generador que pueda iterar los números, que son divisibles por 7, entre un rango dado: 0 y n.
 
 ## 💡 Pista:

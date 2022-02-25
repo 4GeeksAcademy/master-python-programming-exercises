@@ -1,5 +1,7 @@
 # `031` numbers of letters and digits
 
+## 📝 Instructions:
+
 1. Write a program that accepts a sentence and calculates the number of letters and digits.
 
 ## Example input:

@@ -1,5 +1,7 @@
 # `035` net amount
 
+## 📝 Instrucciones:
+
 1. Escribe un programa que calcule el monto neto de una cuenta bancaria en función de un registro de transacciones desde la entrada de la consola. El formato del registro de transacciones se muestra a continuación:
 
 D 100

@@ -1,5 +1,7 @@
 # `037`sort tuples ascending
 
+## 📝 Instrucciones:
+
 1. Debes escribir un programa para clasificar las tuplas (nombre, edad, altura) en orden ascendente, donde el nombre es una cadena, la edad y la altura son números. Las tuplas son ingresadas por consola. El criterio de clasificación es:
 
 - Ordenar según el nombre; -

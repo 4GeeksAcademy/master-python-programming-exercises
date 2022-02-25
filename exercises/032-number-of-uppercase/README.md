@@ -1,5 +1,7 @@
 # `032` number of uppercase
 
+## 📝 Instructions:
+
 1. Write a program that accepts a sentence and calculates the number of upper case letters and lower case letters.
 
 ## Example input:

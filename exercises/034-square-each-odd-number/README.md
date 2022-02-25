@@ -1,5 +1,7 @@
 # `034` square each odd number
 
+## 📝 Instructions:
+
 1. Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers.
 
 ## Example input:
