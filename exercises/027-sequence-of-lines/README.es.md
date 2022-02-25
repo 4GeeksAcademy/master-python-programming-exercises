@@ -1,5 +1,7 @@
 # `027` sequence of lines
 
+## 📝 Instrucciones:
+
 1. Escribe un programa que acepte una secuencia de líneas como entrada y que luego imprima las líneas convirtiendo todos los caracteres en mayúscula.
 
 ## Ejemplo de entrada 1:

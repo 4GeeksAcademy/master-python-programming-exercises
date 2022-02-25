@@ -1,5 +1,7 @@
 # `026` sequence of words
 
+## 📝 Instrucciones:
+
 1. Escribe un programa que reciba una secuencia separada por comas como entrada e imprima las palabras en una secuencia separada por comas después de ordenarlas alfabéticamente.
 
 ## Ejemplo de entrada:

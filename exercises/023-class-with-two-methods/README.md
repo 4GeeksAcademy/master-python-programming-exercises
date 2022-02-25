@@ -1,5 +1,7 @@
 # `24` class with two methods
 
+## 📝 Instructions:
+
 1. Define a class which has at least two methods:
 
 - `get_string`: to get a string from console input

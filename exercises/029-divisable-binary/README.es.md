@@ -1,5 +1,7 @@
 # `029` divisable binary
 
+## 📝 Instrucciones:
+
 1. Escribe un programa que acepte una secuencia de números binarios de 4 dígitos separados por comas como su entrada y que luego verifique si son divisibles por 5 o no. Los números que son divisibles por 5 se deben imprimir en una secuencia separada por comas.
 
 ## Ejemplo de entrada:

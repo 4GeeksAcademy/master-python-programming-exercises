@@ -1,5 +1,7 @@
 # `028` remove duplicate words
 
+## 📝 Instrucciones:
+
 1. Escribe un programa que reciba una secuencia de palabras separadas por espacios en blanco como entrada y que imprima luego las palabras eliminando todas las duplicadas y ordenándolas alfanuméricamente.
 
 ## Ejemplo de entrada:

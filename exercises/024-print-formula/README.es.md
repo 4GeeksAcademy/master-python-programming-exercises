@@ -1,5 +1,7 @@
 # `024` print_formula
 
+## 📝 Instrucciones:
+
 1. Escribe un programa que calcule e imprima el valor de acuerdo a la fórmula dada: `Q = Square root of [(2 * C * D)/H]`. EL valor fijo de `C` es 50 y el `H` es 30. `D` es la variable cuyos valores debiesen ser ingresados en tu programa en una secuencia separada por una coma (,).
 
 ## Ejemplo de entrada:

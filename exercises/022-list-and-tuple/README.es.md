@@ -1,5 +1,7 @@
 # `022` list and tuple
 
+## 📝 Instrucciones:
+
 1. Escribe un programa que acepte una secuencia de números separados por comas desde la consola y genere una lista y una tupla que contenga todos los números.
 
 ## Ejemplo de entrada:

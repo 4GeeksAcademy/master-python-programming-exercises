@@ -1,5 +1,7 @@
 # `023` class with two methods
 
+## 📝 Instrucciones:
+
 1. Define una clase que tenga al menos dos métodos:
 
 - `get_string`: obtener un string desde la entrada de la consola.

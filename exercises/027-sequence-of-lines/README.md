@@ -1,5 +1,7 @@
 # `027` sequence of lines
 
+## 📝 Instructions:
+
 1. Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
 
 ## Example input 1:
