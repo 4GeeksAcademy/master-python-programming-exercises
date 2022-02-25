@@ -1,5 +1,7 @@
 # `021` integral
 
+## 📝 Instructions:
+
 1. With a given integral number `n`, write a program to generate a dictionary that contains `(i, i*i)` that is an integral number between 1 and n (both included). 
 
 2. Then the program should print the dictionary.
