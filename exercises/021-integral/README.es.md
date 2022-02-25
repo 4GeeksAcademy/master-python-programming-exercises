@@ -1,5 +1,7 @@
 # `021` integral
 
+## 📝 Instrucciones:
+
 1. Dado un número integral `n`, escribe un programa para generar un diccionario que contenga `(i, i*i)` como un número entero entre 1 y n (ambos incluidos). 
 
 2. Luego el programa debe imprimir el diccionario.
