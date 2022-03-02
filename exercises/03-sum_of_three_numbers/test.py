@@ -11,11 +11,11 @@ def test_use_print():
 @pytest.mark.it('Almost there! But you need to convert the incoming input from string to integer')
 def test_convert_inputs(capsys, app):
 
-    fake_input = ["2","3","4"] #fake input
+    fake_input = ["0","3","7"] #fake input
     with mock.patch('builtins.input', lambda x: fake_input.pop()):
         app()
         captured = capsys.readouterr()
-        assert captured.out != "432\n"
+        assert captured.out == "10\n"
 
 @pytest.mark.it('Sum all three input numbers and print on the console the result')
 def test_add_variables(capsys, app):
