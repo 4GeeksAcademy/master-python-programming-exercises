@@ -1,34 +1,27 @@
-import io, os, mock, pytest, sys, unittest
+import pytest,os,re,io,sys, mock, json, unittest
 from unittest.mock import patch
 
-# class TestListSum(unittest.TestCase):
 
-#     string_of_ints = '5'
-#     @pytest.mark.it('The solution should work with other entries')
-#     @patch('builtins.input', return_value=string_of_ints)
-#     def test_sum_string_of_ints(self, mock_inputs):
-#         result = test()
-#         self.assertEqual(result, {1: 1, 2: 4, 3: 9, 4: 16, 5: 25})
+# @pytest.mark.it('The solution should work with other entries')
+# def test_expected_output_5(stdin):
 
+#     _stdin = ['5']
+#     with mock.patch('builtins.input', lambda x: _stdin.pop(0)):
+
+#         sys.stdout = buffer = io.StringIO()
+#         import app
+#         # _stdin = json.loads(stdin)
+#         result = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+#         assert buffer.getvalue() == str(result) + "\n"
 
 @pytest.mark.it('The solution should return the expected output')
-def test_convert_inputs(capsys,app):
-    try:
-        fake_input = ["8"] #fake input
-        app()
-        with mock.patch('builtins.input', lambda x: fake_input.pop()):
-            captured = capsys.readouterr()
-            assert captured.out == "{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}\n"
-    except AttributeError():
-       None
-       
-@pytest.mark.it('The solution should work with other entries')
-def test_convert_inputs_2(capsys,app):
-    try:
-        app()
-        fake_input = ["5"] #fake input
-        with mock.patch('builtins.input', lambda x: fake_input.pop()):
-            captured = capsys.readouterr()
-            assert captured.out == "{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}\n"
-    except AttributeError:
-        None
+def test_expected_output_8(stdin):
+
+    _stdin = ['8']
+    with mock.patch('builtins.input', lambda x: _stdin.pop(0)):
+
+        sys.stdout = buffer = io.StringIO()
+        import app
+        # _stdin = json.loads(stdin)
+        result = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
+        assert buffer.getvalue() == str(result) + "\n"
