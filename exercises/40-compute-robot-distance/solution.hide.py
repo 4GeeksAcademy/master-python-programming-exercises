@@ -1,7 +1,7 @@
 import math
 pos = [0,0]
 while True:
-    s = raw_input()
+    s = input()
     if not s:
         break
     movement = s.split(" ")
@@ -18,4 +18,4 @@ while True:
     else:
         pass
 
-print int(round(math.sqrt(pos[1]**2+pos[0]**2)))
+print (int(round(math.sqrt(pos[1]**2+pos[0]**2))))
