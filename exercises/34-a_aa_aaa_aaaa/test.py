@@ -7,4 +7,4 @@ def test_convert_inputs(capsys, app):
     with mock.patch('builtins.input', lambda x: fake_input.pop()):
         app()
         captured = capsys.readouterr()
-        assert captured.out != "11106\n"
+        assert captured.out == "11106\n"
