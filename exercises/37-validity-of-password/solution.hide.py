@@ -1,6 +1,6 @@
 import re
 value = []
-items=[x for x in input().split(',')]
+items=[x for x in input("").split(',')]
 for p in items:
     if len(p)<6 or len(p)>12:
         continue
