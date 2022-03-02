@@ -1,6 +1,6 @@
 netAmount = 0
 while True:
-    s = raw_input()
+    s = input("")
     if not s:
         break
     values = s.split(" ")
@@ -12,4 +12,4 @@ while True:
         netAmount-=amount
     else:
         pass
-print netAmount
+print (netAmount)
