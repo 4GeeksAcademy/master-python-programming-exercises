@@ -7,7 +7,7 @@ def test_output(capsys, app):
     with mock.patch('builtins.input', lambda x: fake_input.pop()):
         app()
         captured = capsys.readouterr()
-        assert captured.out == "bag, hello, without, world\n"
+        assert captured.out == "bag,hello,without,world\n"
 
 @pytest.mark.it('Your solution should work with other entries')
 def test_other_inputs(capsys, app):
@@ -15,4 +15,4 @@ def test_other_inputs(capsys, app):
     with mock.patch('builtins.input', lambda x: fake_input.pop()):
         app()
         captured = capsys.readouterr()
-        assert captured.out == "como, estas, hola\n"
+        assert captured.out == "como,estas,hola\n"
