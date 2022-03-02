@@ -1,7 +1,7 @@
 import math
 pos = [0,0]
 while True:
-    s = input()
+    s = input("")
     if not s:
         break
     movement = s.split(" ")
