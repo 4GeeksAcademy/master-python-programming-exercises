@@ -8,11 +8,13 @@
 
 ## Example input:
 
-+ Harry
+```py
+hello_name(Harry)
+```
 
 ## Example output:
 
-+ Hello, Harry!
+Hello, Harry!
 
 ## 💡 Hints:
 

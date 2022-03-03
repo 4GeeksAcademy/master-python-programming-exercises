@@ -4,9 +4,11 @@
 
 1. Completa la función `previous_next()` para que lea un número entero y devuelva sus números anteriores y siguientes. 
 
-## Ejemplo de entrada:
+## Ejemplo:
 
-+ 179
+```py
+previous_next(179)
+```
 
 ## Ejemplo de salida:
 

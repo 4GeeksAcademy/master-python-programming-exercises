@@ -12,7 +12,9 @@
 
 ## Example input:
 
-+ 3900
+```py
+hours_minutes(3900)
+```
 
 ## Example output:
 

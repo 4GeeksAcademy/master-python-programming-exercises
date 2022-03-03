@@ -6,8 +6,9 @@
 
 ## Example input:
 
-+ 179
-
+```py
+previous_next(179)
+```
 ## Example output:
 
 + (178, 180)

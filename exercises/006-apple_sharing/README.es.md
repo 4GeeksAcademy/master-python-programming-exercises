@@ -6,7 +6,9 @@
 
 ## Ejemplo de entrada:
 
-+ (6, 50)
+```py
+apple_sharing(6, 50)
+```
 
 ## Ejemplo de salida:
 

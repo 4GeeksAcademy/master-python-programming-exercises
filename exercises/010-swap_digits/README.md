@@ -7,7 +7,7 @@
 ## Example input:
 
 ```py
-+ swap_digits(79)
+swap_digits(79)
 ```
 
 ## Example output:

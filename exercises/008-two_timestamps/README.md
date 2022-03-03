@@ -6,12 +6,9 @@
 
 ## Example input #1:
 
-+ 1
-+ 1
-+ 1
-+ 2
-+ 2
-+ 2
+```py
+two_timestamp(1,1,1,2,2,2)
+```
 
 ## Example output #1:
 
@@ -19,12 +16,9 @@
 
 ## Example input #2:
 
-+ 1
-+ 2
-+ 30
-+ 1
-+ 3
-+ 20
+```py
+two_timestamp(1,2,30,1,3,20)
+```
 
 ## Example output #2:
 

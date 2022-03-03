@@ -6,13 +6,14 @@
 
 *La salida de tu función debe coincidir estrictamente con la deseada, caracter por caracter. No debe haber ningún espacio entre el nombre y el signo de exclamación.* 
 
-### Ejemplo de entrada:
+## Ejemplo entrada:
 
-+ Harry
+```py
+hello_name(Harry)
+```
+## Ejemplo de salida:
 
-### Ejemplo de salida:
-
-+ Hello, Harry!
+Hello, Harry!
 
 ## 💡 Pistas:
 

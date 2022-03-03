@@ -6,7 +6,9 @@
 
 ## Ejemplo de entrada:
 
-+ 79
+```py
+two_digits(79)
+```
 
 ## Ejemplo de salida:
 
