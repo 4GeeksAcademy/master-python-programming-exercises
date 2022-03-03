@@ -9,7 +9,7 @@
 ## Example input:
 
 ```py
-hello_name(Harry)
+hello_name("Harry")
 ```
 
 ## Example output:
