@@ -6,15 +6,12 @@
 
 ![Imagen descriptiva](http://i.imgur.com/6EkzVxA.jpg)
 
-## Ejemplo de entrada:
+## Ejemplo:
 
-+ 3
-+ 5
-
-## Ejemplo de salida:
-
-+ 7.5
-
+```py
+area_of_triangle(3,5)
+    print(7.5)
+```
 ## 💡 Pistas:
 
 + Si no sabes por donde empezar este ejercicio, por favor, revisa la teoría en esta lección: https://snakify.org/lessons/print_input_numbers/
