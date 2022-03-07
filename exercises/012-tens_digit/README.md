@@ -6,7 +6,9 @@
 
 ## Example input 1:
 
-+ 1234
+```py
+tens_digit(1234)
+```
 
 ## Example output 1:
 
@@ -14,7 +16,7 @@
 
 ## Example input 2:
 
-+ 179
+tens_digit(179)
 
 ## Example output 2:
 

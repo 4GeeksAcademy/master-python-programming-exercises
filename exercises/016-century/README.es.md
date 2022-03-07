@@ -2,11 +2,13 @@
 
 ## 📝 Instrucciones:
 
-1. Dado un año (como un entero positivo), encuentra su posición respectiva dentro del siglo. 
+1. Escribe una función `century()` para que dado un año (como un entero positivo), encuentre su posición respectiva dentro del siglo. 
 
 ## Ejemplo de entrada:
 
-+ 2000
+```py
+century(2000)
+```
 
 ## Ejemplo de salida:
 

@@ -2,12 +2,13 @@
 
 ## 📝 Instrucciones:
 
-1. Un vehículo puede cubrir una distancia de `N` kilómetros por día ¿Cuántos días le tomará cubrir una ruta de `M` kilómetros de longitud? 
+1. Un vehículo puede cubrir una distancia de `N` kilómetros por día ¿Cuántos días le tomará cubrir una ruta de `M` kilómetros de longitud? Escribe una función `car_route()`para calcularlo.
 
 ## Ejemplo de entrada:
 
-+ 700
-+ 750
+```py
+car_route(700,750)
+```
 
 ## Ejemplo de salida:
 

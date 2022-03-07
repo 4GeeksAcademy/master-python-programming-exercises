@@ -6,7 +6,9 @@
 
 ## Example input:
 
-+ 1.79
+```py
+first_digit(1.79)
+```
 
 ## Example output:
 

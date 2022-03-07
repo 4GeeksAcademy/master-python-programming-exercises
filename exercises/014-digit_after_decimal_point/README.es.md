@@ -6,7 +6,9 @@
 
 ## Ejemplo de entrada:
 
-+ 1.79
+```py
+first_digit(1.79)
+```
 
 ## Ejemplo de salida:
 

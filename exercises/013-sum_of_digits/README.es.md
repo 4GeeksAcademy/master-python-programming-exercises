@@ -6,7 +6,9 @@
 
 ## Ejemplo de entrada:
  
- + 123
+```py
+ digits_sum(123)
+ ```
 
 ## Ejemplo de salida:
 

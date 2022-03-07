@@ -2,11 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Given a year (as a positive integer), find the respective number of the century. 
+1. Write a function  `century()`. Given a year (as a positive integer), `century()` finds the respective number of the century. 
 
 ## Example input:
 
-+ 2000
+```py
+century(2000)
+```
 
 ## Example output:
 

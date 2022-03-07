@@ -7,7 +7,7 @@
 ## Example input:
 
 ```py
-+ factorial(8)
+factorial(8)
 ```
 
 ## Example output:

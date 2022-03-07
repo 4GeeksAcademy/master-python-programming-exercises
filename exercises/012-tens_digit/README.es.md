@@ -6,7 +6,9 @@
 
 ## Ejemplo de entrada 1:
 
-+ 1234
+```py
+tens_digit(1234)
+```
 
 ## Ejemplo de salida 1:
 

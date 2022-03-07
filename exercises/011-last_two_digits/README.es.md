@@ -6,7 +6,9 @@
 
 ## Ejemplo de entrada:
 
-+ 1234
+```py
+last_two_digits(1234)
+```
 
 ## Ejemplo de salida:
 
