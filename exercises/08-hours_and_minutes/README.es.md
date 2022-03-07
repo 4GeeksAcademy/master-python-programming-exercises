@@ -1,33 +1,24 @@
 # `08` Horas y minutos
 
-La siguiente función nos dirá la hora pasada la medianoche, es decir, suponiendo que es medianoche la función va a recibir por parámetro la cantidad de segundos que han pasado y esto resultará en una hora estimada.
+En este ejercicio vamos a suponer que es medianoche, queremos que con la función `hours_minutes` que hemos provisto para tí nos digas cuánto tiempo han pasado desde entonces con los segundos que se introduzcan como parámetro.
+
 ## 📝 Instrucciones:
 
 1. Completa la función para que retorne el resultado esperado.
 
 2. Realiza dos calculos con los segundos que se pasan por parámetro en la función para que uno calcule la hora segun segundos que han pasado y el otro para saber los minutos `(hora , minutos)`
 
-
-[comment]: <Dado el número entero `N` - el número de segundos que pasan desde la medianoche:
- 
- 1. ¿cuántas horas y minutos completos han pasado desde la medianoche?
-
-El programa debe imprimir dos números: el número de horas (entre 0 y 23) y el número de minutos (entre 0 y 1339).
-
-Por ejemplo:
-
-* Si N = 3900  han pasado 3900 segundos desde la medianoche ,es decir, ahora es la 1:05 am. 
- 
-El programa debe imprimir 1 65  1 hora completa ha pasado desde la medianoche, 65 minutos completos han pasado desde la medianoche.>
-
-
 ## Ejemplo de entrada:
 ```py
-3900
+3900 # 1
+
+60 # 2
 ```
 ## Ejemplo de salida:
 ```py
-(2, 5)
+(2, 5) # 1
+
+(0, 1) # 2
 ```
 ## 💡 Pista:
 

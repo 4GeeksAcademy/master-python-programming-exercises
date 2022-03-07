@@ -1,21 +1,25 @@
 # `08` Hours and Minutes
 
-The following function will tell us the time after midnight, that is, assuming that it is midnight the function will receive by parameter the number of seconds that have passed and this will result in an estimated time.
+In this exercise we are going to suppose that it is midnight, we want that with the function `hours_minutes` that we have provided for you tell us how much time has passed since then with the seconds that are introduced as parameter.
 
 ## 📝 Instructions:
 
 1. Complete the function to return the expected result.
 
-2. Performs two calculations with the seconds that are passed by parameter in the function so that one calculates the time according to the seconds that have passed and the other to know the minutes `(hour , minutes)`.
+2. Perform two calculations with the seconds that are passed by parameter in the function so that one calculates the time according to the seconds that have passed and the other to know the minutes `(hour , minutes)`.
 
 ## Example input:
 ```py
-3900
+3900 # 1
+
+60 # 2
 ```
 
 ## Example output:
 ```py
-(2, 5)
+(2, 5) # 1
+
+(0, 1) # 2
 ```
 ## 💡 Hint:
 
