@@ -2,11 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
+1. Write a function `sequence_of_words()` that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
 
 ## Example input:
 
-+ without,hello,bag,world
+```py
+sequence_of_words(without,hello,bag,world)
+```
 
 ## Example output:
 

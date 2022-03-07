@@ -2,11 +2,13 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe un programa que acepte una secuencia de líneas como entrada y que luego imprima las líneas convirtiendo todos los caracteres en mayúscula.
+1. Escribe una función `lines()` que acepte una secuencia de líneas como entrada y que luego imprima las líneas convirtiendo todos los caracteres en mayúscula.
 
 ## Ejemplo de entrada 1:
 
-+ Hello world
+```py
+lines(Hello world)
+```
 
 ## Ejemplo de salida 1:
 
@@ -14,8 +16,9 @@
 
 ## Ejemplo de entrada 2:
 
-+ Practice makes perfect
-
+```py
+lines(Practice makes perfect)
+```
 ## Ejemplo de salida:
 
 + PRACTICE MAKES PERFECT

@@ -2,11 +2,13 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe un programa que acepte una secuencia de números separados por comas desde la consola y genere una lista y una tupla que contenga todos los números.
+1. Escribe una función `list_tuple()` que acepte una secuencia de números separados por comas desde la consola y genere una lista y una tupla que contenga todos los números.
 
 ## Ejemplo de entrada:
 
-+ 34,67,55,33,12,98
+```py
+list_tuple(34,67,55,33,12,98)
+```
 
 ## Ejemplo de salida:
 

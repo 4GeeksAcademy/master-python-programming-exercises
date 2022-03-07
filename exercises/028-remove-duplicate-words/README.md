@@ -2,11 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.
+1. Write a function `remove_duplicate_words()` that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.
 
 ## Example input:
 
-+ hello world and practice makes perfect and hello world again
+```py
+remove_duplicate_words(hello world and practice makes perfect and hello world again)
+```
 
 ## Example output:
 

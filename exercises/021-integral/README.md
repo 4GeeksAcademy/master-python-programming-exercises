@@ -2,13 +2,15 @@
 
 ## 📝 Instructions:
 
-1. With a given integral number `n`, write a program to generate a dictionary that contains `(i, i*i)` that is an integral number between 1 and n (both included). 
+1. With a given integral number `n`, write a function `generate_dict` that generates a dictionary that contains `(i, i*i)` that is an integral number between 1 and n (both included). 
 
-2. Then the program should print the dictionary.
+2. `generate_dict`  should then print the dictionary.
 
 ## Example input:
 
-+ 8
+```py
+generate_dict(8) 
+```
 
 ## Example output:
 

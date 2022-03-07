@@ -2,11 +2,13 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe un programa que reciba dos dígitos `X,Y` como entrada y retorne un array de dos dimensiones. El valor del elemento en la fila i-th y en la columna j-th del array debe ser `i*j`.
+1. Escribe una función `two_dimensional_array()` que reciba dos dígitos `X,Y` como entrada y retorne un array de dos dimensiones. El valor del elemento en la fila i-th y en la columna j-th del array debe ser `i*j`.
 
 ## Example input:
 
-+ 3,5
+```py
+two_dimensional_array(3,5)
+```
 
 ## Example output:
 

@@ -2,11 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.
+1. Write a function `list_tuple()` which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.
 
 ## Example input:
 
-+ 34,67,55,33,12,98
+```py
+list_tuple(34,67,55,33,12,98)
+```
 
 ## Example output:
 
