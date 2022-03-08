@@ -10,17 +10,17 @@ def test_for_file_output(capsys, app):
 
 @pytest.mark.it('The function hours_minutes must return the correct output for 3900 secs')
 def test_for_file_output(capsys, app):
-    assert app.hours_minutes(3900) == (2, 5)
+    assert app.hours_minutes(3900) == (1, 5)
 
 
 @pytest.mark.it('The function hours_minutes must return the correct output for 4004 secs')
 def test_for_file_output(capsys, app):
-    assert app.hours_minutes(4004) == (2, 6)
+    assert app.hours_minutes(4500) == (1, 15)
 
 
 @pytest.mark.it('The function hours_minutes must return the correct output for 60 secs')
 def test_for_file_output(capsys, app):
-    assert app.hours_minutes(7320) == (4, 2)
+    assert app.hours_minutes(7320) == (2, 2)
 
 
 

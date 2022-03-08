@@ -3,8 +3,5 @@ def hours_minutes(secs):
   
   return None
 
-
-
-
 #Invoke the funtion and pass any interger as its argument.
 print(hours_minutes(3900))
