@@ -9,6 +9,7 @@ In this exercise we are going to suppose that it is midnight, we want that with 
 2. Perform two calculations with the seconds that are passed by parameter in the function so that one calculates the time according to the seconds that have passed and the other to know the minutes `(hour , minutes)`.
 
 ## Example input:
+
 ```py
 3900 # 1
 
@@ -16,8 +17,9 @@ In this exercise we are going to suppose that it is midnight, we want that with 
 ```
 
 ## Example output:
+
 ```py
-(2, 5) # 1
+(1, 5) # 1
 
 (0, 1) # 2
 ```
@@ -25,11 +27,9 @@ In this exercise we are going to suppose that it is midnight, we want that with 
 
 + Remember how many seconds there are in an hour (3600) and how many seconds in a minute (60).
 
-+ If you don't know how to start solving this assignment, please, review a theory for this lesson:
-https://snakify.org/lessons/print_input_numbers/
++ If you don't know how to start solving this assignment, please, review a theory for this lesson: https://snakify.org/lessons/print_input_numbers/
 
-+ You may also try step-by-step theory chunks:
-https://snakify.org/lessons/print_input_numbers/steps/1/
++ You may also try step-by-step theory chunks: https://snakify.org/lessons/print_input_numbers/steps/1/
 
 
 [comment]: <Solution: (secs//3600, secs//60)>
