@@ -10,13 +10,12 @@ def test_function_exists(capsys):
   except AttributeError:
       raise AttributeError("The function 'area_of_triangle' should exist on app.py")
 
-@pytest.mark.it('The solution should return the expected output')
+@pytest.mark.it('The solution should return the expected output. Testing with 3 and 5')
 def test_convert_inputs(capsys, app):
-  app.area_of_triangle(3,5)
-  captured = capsys.readouterr()
-  assert "7.5\n" == captured.out
-  # from app import area_of_triangle
-  # result = area_of_triangle(3,5)
-  # assert result == "7.5\n"
+  result = app.area_of_triangle(3, 5)
+  assert result == 7.5
 
-
+@pytest.mark.it('The solution should return the expected output. Testing with 4 and 6')
+def test_convert_inputs(capsys, app):
+  result = app.area_of_triangle(4, 6)
+  assert result == 12
