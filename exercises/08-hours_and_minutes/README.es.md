@@ -16,7 +16,7 @@ En este ejercicio vamos a suponer que es medianoche, queremos que con la funció
 ```
 ## Ejemplo de salida:
 ```py
-(2, 5) # 1
+(1, 5) # 1
 
 (0, 1) # 2
 ```
@@ -24,11 +24,8 @@ En este ejercicio vamos a suponer que es medianoche, queremos que con la funció
 
 + Recuerda cuantos segundos hay en una hora (3600) y cuantos segundos en un minuto (60).
 
-+ Si no sabes cómo empezar la solución a esta asignación, por favor, revisa la teoría en esta lección:
-https://snakify.org/lessons/print_input_numbers/
++ Si no sabes cómo empezar la solución a esta asignación, por favor, revisa la teoría en esta lección: https://snakify.org/lessons/print_input_numbers/
 
-+ También puedes intentar paso a paso con trozos de la teoría:
-https://snakify.org/lessons/print_input_numbers/steps/1/
-
++ También puedes intentar paso a paso con trozos de la teoría: https://snakify.org/lessons/print_input_numbers/steps/1/
 
 [comment]: <Solution: (secs//3600, secs//60)>
