@@ -4,4 +4,4 @@ def area_of_triangle(arg1, arg2):
     return None
 
 # Testing your function
-print(area_of_triangle(4, 5))
+print(area_of_triangle(3, 5))

@@ -1,20 +1,15 @@
 import pytest, io, sys, json, mock, re, os
 path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
+@pytest.mark.it('The function print_formula must exist')
+def test_function_existence(capsys, app):
+    assert app.print_formula
+
 @pytest.mark.it('The solution should work as expected')
-def test_convert_inputs(capsys, app):
+def test_expected_output(capsys, app):
+    assert app.print_formula(100,150,180) == "18,22,24"
 
-    fake_input = ["100,150,180"] #fake input
-    with mock.patch('builtins.input', lambda x: fake_input.pop()):
-        app()
-        captured = capsys.readouterr()
-        assert captured.out == "18,22,24\n"
+@pytest.mark.it('The solution should work as expected')
+def test_another_output(capsys, app):
+    assert app.print_formula(200,90,300) == "26,17,32"
 
-@pytest.mark.it('The solution should work with other parameters')
-def test_convert_inputs_2(capsys, app):
-
-    fake_input = ["200,90,300"] #fake input
-    with mock.patch('builtins.input', lambda x: fake_input.pop()):
-        app()
-        captured = capsys.readouterr()
-        assert captured.out == "26,17,32\n"
