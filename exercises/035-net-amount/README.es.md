@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe un programa que calcule el monto neto de una cuenta bancaria en función de un registro de transacciones desde la entrada de la consola. El formato del registro de transacciones se muestra a continuación:
+1. Escribe una función `net_amount()` que calcule el monto neto de una cuenta bancaria en función de un registro de transacciones desde la entrada de la consola. El formato del registro de transacciones se muestra a continuación:
 
 D 100
 W 200
@@ -11,10 +11,9 @@ W 200
 
 ## Ejemplo de entrada:
 
-+ D 300
-  D 300
-  W 200
-  D 100
+```py
+net_amount(D 300,D 300,W 200,D 100)
+```
 
 ## Ejemplo de salida:
 

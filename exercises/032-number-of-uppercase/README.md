@@ -2,11 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Write a program that accepts a sentence and calculates the number of upper case letters and lower case letters.
+1. Write a function `uppercase_number()` that accepts a sentence and calculates the number of upper case letters and lower case letters.
 
 ## Example input:
 
-+ Hello world!
+```py
+uppercase_number(Hello world!)
+```
 
 ## Example output:
 

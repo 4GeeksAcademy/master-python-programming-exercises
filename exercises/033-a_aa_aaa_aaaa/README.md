@@ -2,11 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Write a program that computes the value of `a+aa+aaa+aaaa` with a given digit as the value of `a`.
+1. Write a function `number_of_a()` that computes the value of `a+aa+aaa+aaaa` with a given digit as the value of `a`.
 
 ## Example input:
 
-+ 9
+```py
+number_of_a(9)
+```
 
 ## Example output:
 

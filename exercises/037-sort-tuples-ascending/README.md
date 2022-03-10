@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. You are required to write a program to sort the (name, age, height) tuples by ascending order where name is string, age and height are numbers. The tuples are input by console. The sort criteria is:
+1. You are required to write a function `sort_tuples_ascending()` to sort the (name, age, height) tuples by ascending order where name is string, age and height are numbers. The tuples are input by console. The sort criteria is:
 
 - Sort based on name;-
 - Then sort based on age;
@@ -14,11 +14,9 @@
 
 If the following tuples are given as input to the program:
 
-+ Tom,19,80
-  John,20,90
-  Jony,17,91
-  Jony,17,93
-  Json,21,85
+```py
+sort_tuples_ascending(Tom,19,80,Juan,20,90,Juan,17,91,Juan, 17,93,Json,21,85)
+```
 
 ## Example output:
 

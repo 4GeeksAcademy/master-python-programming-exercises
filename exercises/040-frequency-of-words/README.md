@@ -2,11 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Write a program to compute the frequency of the words from the input. The output should output after sorting the key alphanumerically. 
+1. Write a function `frequency_of_words()` to compute the frequency of the words from the input. The output should output after sorting the key alphanumerically. 
 
 ## Example input:
 
-+ New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
+```py
+frequency_of_words(New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3)
+```
 
 ## Example output:
 

@@ -12,7 +12,7 @@ DERECHA 2
 
 ## 📝 Instrucciones:
  
-1. Escribe un programa para calcular la distancia desde la posición actual después de una secuencia de movimientos y con un punto original. Si la distancia es un  número decimal, simplemente imprime el entero más cercano.
+1. Escribe una función `compute_robot_distance()` para calcular la distancia desde la posición actual después de una secuencia de movimientos y con un punto original. Si la distancia es un  número decimal, simplemente imprime el entero más cercano.
 
 ## Ejemplo de entrada:
 

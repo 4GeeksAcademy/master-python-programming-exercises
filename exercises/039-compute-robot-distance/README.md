@@ -11,11 +11,11 @@ RIGHT 2
 
 ## 📝 Instructions:
 
-1. Please write a program to compute the distance from current position after a sequence of movement and original point. If the distance is a float, then just print the nearest integer.
+1. Please write a function `compute_robot_distance()` to compute the distance from current position after a sequence of movement and original point. If the distance is a float, then just print the nearest integer.
 
 ## Example input:
 
-+ If the following tuples are given as input to the program:
++ If the following tuples are given as input to the function:
 
 UP 5
 DOWN 3

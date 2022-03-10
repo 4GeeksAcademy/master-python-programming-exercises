@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. A website requires the users to input username and password to register. Write a program to check the validity of password input by users. Following are the criteria to check the password:
+1. A website requires the users to input username and password to register. Write a function `password_validity()` to check the validity of password input by users. Following are the criteria to check the password:
 
 - At least 1 letter between [a-z]. 
 - At least 1 number between [0-9]. 
@@ -12,12 +12,13 @@
 - Maximum length of transaction password: 12. 
 
 
-*Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.* 
+*Your function `password_validity()` should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.* 
 
 ## Example input:
 
 ```py
-ABd1234@1,a F1#,2w3E*,2We3345
+password_validity(ABd1234@1,a F1#,2w3E*,2We3345)
+```#,2w3E*,2We3345
 ```
 
 ## Example output:

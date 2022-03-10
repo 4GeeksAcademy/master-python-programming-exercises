@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Un sitio web requiere que los usuarios ingresen el nombre de usuario y la contraseña para registrarse. Escribe un programa para verificar la validez de la contraseña ingresada por los usuarios. Los criterios para verificar la contraseña son los siguientes:
+1. Un sitio web requiere que los usuarios ingresen el nombre de usuario y la contraseña para registrarse. Escribe una `password_validity()` para verificar la validez de la contraseña ingresada por los usuarios. Los criterios para verificar la contraseña son los siguientes:
 
 - Al menos 1 letra entre [a-z].
 - Al menos 1 número entre [0-9].
@@ -12,19 +12,17 @@
 - Longitud máxima de la contraseña de transacción: 12.
 
 
-*Tu programa debe aceptar una secuencia de contraseñas separadas por comas y las verificará de acuerdo con los criterios anteriores. Las contraseñas que coincidan con los criterios deben imprimirse, cada una separada por una coma.*
+*Tu función `password_validity()` debe aceptar una secuencia de contraseñas separadas por comas y las verificará de acuerdo con los criterios anteriores. Las contraseñas que coincidan con los criterios deben imprimirse, cada una separada por una coma.*
 
-## Ejemplo de entradaE:
+## Ejemplo de entrada:
 
-```pía
-ABd1234@1,a F1#,2w3E*,2We3345
+```py
+password_validity(ABd1234@1,a F1#,2w3E*,2We3345)
 ```
 
 ## Ejemplo de salida:
 
-```pía
-ABd1234@1
-```
++ ABd1234@1
  
 ## 💡 Pista:
 

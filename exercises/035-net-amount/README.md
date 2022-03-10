@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:
+1. Write a function `net_amount()` that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:
 
 D 100
 W 200
@@ -11,10 +11,9 @@ W 200
 
 ## Example input:
 
-+ D 300
-  D 300
-  W 200
-  D 100
+```py
+net_amount(D 300,D 300,W 200,D 100)
+```
 
 ## Example output: 
 

@@ -2,16 +2,17 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe un programa que acepte una oración y calcule la catidad de letras y dígitos que contiene.
+1. Escribe una función `number_of_letters_and_digits()` que acepte una oración y calcule la catidad de letras y dígitos que contiene.
 
 ## Ejemplo de entrada:
 
-+ hello world! 123
+```py
+number_of_letters_and_digits(hello world! 123)
+```
 
 ## Ejemplo de salida:
 
-+ LETTERS 10
-  DIGITS 3
++ LETTERS 10, DIGITS 3
 
 ## 💡 Pista:
 

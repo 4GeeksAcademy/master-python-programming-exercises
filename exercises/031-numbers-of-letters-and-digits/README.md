@@ -2,11 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Write a program that accepts a sentence and calculates the number of letters and digits.
+1. Write a a function `number_of_letters_and_digits()` that accepts a sentence and calculates the number of letters and digits.
 
 ## Example input:
 
-+ hello world! 123
+```py
+number_of_letters_and_digits(hello world! 123)
+```
 
 ## Example output:
 

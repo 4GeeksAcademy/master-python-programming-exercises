@@ -2,11 +2,13 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe un programa que acepte una oración y calcule el número de letras mayúsculas y minúsculas.
+1. Escribe una función `uppercase_number()` que acepte una oración y calcule el número de letras mayúsculas y minúsculas.
 
 ## Ejemplo de entrada:
 
-+ Hello world!
+```py
+uppercase_number(Hello world!)
+```
 
 ## Ejemplo de salida:
 

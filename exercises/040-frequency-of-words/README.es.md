@@ -2,11 +2,13 @@
 
 ## 📝 Instrucciones:
  
-1. Escribe un programa para calcular la frecuencia de las palabras de la entrada. La salida debe salir después de ordenar la clave alfanuméricamente.
+1. Escribe una función `frequency_of_words()` para calcular la frecuencia de las palabras de la entrada. La salida debe debe ordenar la clave alfanuméricamente.
 
 ## Ejemplo de entrada:
 
-+ New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
+```py
+frequency_of_words(New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3)
+```
 
 ## Ejemplo de salida:
 
