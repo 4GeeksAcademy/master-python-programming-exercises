@@ -16,7 +16,9 @@ tens_digit(1234)
 
 ## Ejemplo de entrada 2:
 
-+ 179
+```py
+tens_digit(179)
+```
 
 ## Ejemplo de salida 2:
 
