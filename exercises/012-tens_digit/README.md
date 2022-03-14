@@ -16,7 +16,9 @@ tens_digit(1234)
 
 ## Example input 2:
 
+```py
 tens_digit(179)
+```
 
 ## Example output 2:
 
