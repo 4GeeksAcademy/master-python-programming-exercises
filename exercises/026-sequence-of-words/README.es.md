@@ -11,7 +11,7 @@ sequence_of_words("without","hello","bag","world")
 ```
 ## Ejemplo de salida:
 
-+ "bag, hello, without, world"
++ "bag,hello,without,world"
 
 ## 💡 Pistas:
 
