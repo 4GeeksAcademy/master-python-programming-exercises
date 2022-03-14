@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función `print_formula()` que calcule e imprima el valor de acuerdo a la fórmula dada: `Q = Square root of [(2 * C * D)/H]`. EL valor fijo de `C` es 50 y el `H` es 30. `D` es la variable cuyos valores debiesen ser ingresados en tu programa en una secuencia separada por una coma (,).
+1. Escribe una función `print_formula()` que calcule e imprima el valor de acuerdo a la fórmula dada: `Q = Square root of [(2 * C * D)/H]`. El valor fijo de `C` es 50 y el `H` es 30. `D` es la variable cuyos valores deben ser ingresados como parámetros en la función.
 
 ## Ejemplo de entrada:
 
@@ -10,7 +10,7 @@
 print_formula(100,150,180)
 ```
 
-## Ejemplo de salida_
+## Ejemplo de salida:
 
 + 18,22,24
 
