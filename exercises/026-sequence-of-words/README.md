@@ -7,12 +7,12 @@
 ## Example input:
 
 ```py
-sequence_of_words(without,hello,bag,world)
+sequence_of_words("without", "hello", "bag", "world")
 ```
 
 ## Example output:
 
-bag,hello,without,world
+"bag,hello,without,world"
 
 ## 💡 Hints:
 
