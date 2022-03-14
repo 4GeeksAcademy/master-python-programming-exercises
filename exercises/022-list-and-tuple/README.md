@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function `list_tuple()` which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.
+1. Write a function `list_tuple()` which accepts a sequence of comma-separated numbers in a string as parameter and generate a list or a tuple which contains every number.
 
 ## Example input:
 
@@ -12,11 +12,16 @@ list_tuple(34,67,55,33,12,98)
 
 ## Example output:
 
-+ ['34', '67', '55', '33', '12', '98']
-  ('34', '67', '55', '33', '12', '98')
+```bash
+['34', '67', '55', '33', '12', '98']
+```
+
+or
+
+```bash
+('34', '67', '55', '33', '12', '98')
+```
 
 ## 💡 Hints:
-
-+ In case of input data being supplied to the question, it should be assumed to be a console input.
 
 + `tuple()` method may be used to convert the list into a tuple
