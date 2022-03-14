@@ -1,5 +1,5 @@
 # `021` integral
-ro
+
 ## 📝 Instrucciones:
 
 1. Dado un número entero `n`, escribe una función `generate_dict()`  que genera un diccionario que contiene `(i, i*i)` como un número entero entre 1 y n (ambos incluidos). 
