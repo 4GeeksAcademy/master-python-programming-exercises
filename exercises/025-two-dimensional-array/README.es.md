@@ -4,13 +4,13 @@
 
 1. Escribe una función `two_dimensional_array()` que reciba dos dígitos `X,Y` como entrada y retorne un array de dos dimensiones. El valor del elemento en la fila i-th y en la columna j-th del array debe ser `i*j`.
 
-## Example input:
+## Ejemplo de Entrada:
 
 ```py
 two_dimensional_array(3,5)
 ```
 
-## Example output:
+## Ejemplo de Salida:
 
 + [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]] 
 
