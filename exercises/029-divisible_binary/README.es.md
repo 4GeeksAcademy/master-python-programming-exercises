@@ -1,8 +1,8 @@
-# `029` divisable binary
+# `029` divisible binary
 
 ## 📝 Instrucciones:
 
-1. Escribe una función `divisable_binary()` que acepte una secuencia de números binarios de 4 dígitos separados por comas como su entrada y que luego verifique si son divisibles por 5 o no. Los números que son divisibles por 5 se deben imprimir en una secuencia separada por comas.
+1. Escribe una función `divisible_binary()` que acepte una secuencia de números binarios de 4 dígitos separados por comas como su entrada y que luego verifique si son divisibles por 5 o no. Los números que son divisibles por 5 se deben imprimir en una secuencia separada por comas.
 
 ## Ejemplo de entrada:
 

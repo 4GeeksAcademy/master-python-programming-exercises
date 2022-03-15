@@ -1,4 +1,4 @@
-# `030` sum eight digits
+# `030` even digits
 
 ## 📝 Instructions:
 
