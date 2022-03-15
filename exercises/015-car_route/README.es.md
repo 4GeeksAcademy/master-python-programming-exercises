@@ -1,8 +1,10 @@
 # `015` car route
 
+Un vehículo puede cubrir una distancia de `N` kilómetros por día ¿Cuántos días le tomará cubrir una ruta de `M` kilómetros de longitud?
+
 ## 📝 Instrucciones:
 
-1. Un vehículo puede cubrir una distancia de `N` kilómetros por día ¿Cuántos días le tomará cubrir una ruta de `M` kilómetros de longitud? Escribe una función `car_route()`para calcularlo.
+1. Escribe una función `car_route()` que dada la distancia que puede recorrer en un dia como primer parametro, y como segundo parametro la distancia a recorrer, calcule la cantidad de dias que le tomara recorrer dicha distancia.
 
 ## Ejemplo de entrada:
 
@@ -17,6 +19,8 @@ car_route(700,750)
 ## 💡 Pistas:
 
 + El programa recibe dos números: `N` y `M`.
+
++ Debes redondear el resultado hacia arriba si obtienes un decimal, es decir si te toma 1.1 dias recorrer la distancia, debe retornar 2.
 
 + Si no sabes por donde comenzar este ejercicio, por favor, revisa la teoría en esta lección: https://snakify.org/lessons/integer_float_numbers/
 

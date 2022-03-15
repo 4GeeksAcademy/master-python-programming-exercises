@@ -1,8 +1,10 @@
 # `015` car route
 
+A car can cover distance of `N` kilometers per day. How many days will it take to cover a route of length `M` kilometers?
+
 ## 📝 Instructions:
 
-1. A car can cover distance of `N` kilometers per day. How many days will it take to cover a route of length `M` kilometers? Write a `car_route()` function to calculate it.
+1. Write a `car_route()` function that given the distance it can drive in one day as the first parameter, and the distance to drive as the second parameter, calculates the number of days it will take to drive that distance.
 
 ## Example input:
 
@@ -17,6 +19,8 @@ car_route(700
 ## 💡 Hints:
 
 + The program gets two numbers: `N` and `M`.
+
++ You must round up the outcome if you get a float, for example, if it takes you 1.1 days to travel the distance, it must return 2.
 
 + If you don't know how to start solving this assignment, please, review a theory for this lesson: https://snakify.org/lessons/integer_float_numbers/
 
