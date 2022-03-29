@@ -38,7 +38,7 @@ These exercises were built in collaboration, we need you! If you find any bugs o
 
 ## Local Installation
 
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
 ```
 $ npm i learnpack -g
@@ -76,10 +76,11 @@ Each exercise is a small react application containing the following files:
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) :bug:, contribution: (coder), (translation) :earth_americas:
-3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) :bug:, (translation) :earth_africa:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻  (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
 
-This project follows the
-[all-contributors](https://github.com/kentcdodds/all-contributors)
-specification. Contributions of any kind are welcome!
+2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) 🐛, contribution: (coder), (translation) 🌎
+
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) :🐛, (translation) 🌎
+
+
+This project follows the[all-contributors](https://github.com/kentcdodds/all-contributors) specification.Contributions of any kind are welcome!
