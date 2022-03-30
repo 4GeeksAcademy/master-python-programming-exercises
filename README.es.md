@@ -3,7 +3,7 @@
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
     <td>
       <h1> 🐍 Tutorial Master Python </h1>
-      <p>Por <a href="https://twitter.com/alesanchezr">@alesanchezr</a> y <a href="https://github.com/4GeeksAcademy//master-python-programming-exercises/graphs/contributors">otros colaboradores</a> de <a href="http://4geeksacademy.co/">4Geeks Academy</a></p>
+      <p>Por <a href="https://twitter.com/alesanchezr">@alesanchezr</a> y <a href="https://github.com/4GeeksAcademy//master-python-programming-exercises/graphs/contributors">otros colaboradores</a> de <a href="http://4geeksacademy.co/">4Geeks Academy</a><a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://raw.githubusercontent.com/ElviraQDP/master-python-programming-exercises/master/badge-master-python.png"></a></p>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/master-python-programming-exercises" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
       <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
