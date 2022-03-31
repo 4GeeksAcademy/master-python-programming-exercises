@@ -9,7 +9,7 @@ A car can cover distance of `N` kilometers per day. How many days will it take t
 ## Example input:
 
 ```py
-car_route(700
+car_route(700)
 ```
 
 ## Example output:
