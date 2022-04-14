@@ -1,21 +1,19 @@
-# `21` Factorial
+# `020` factorial
 
 ## 📝 Instructions:
 
-1. Create a function named `factorial` which receives a number as parameter and returns the factorial of the given numbers.
+1. Create a function named `factorial()` which receives a number as parameter and returns the factorial of the given number.
 
 ## Example input:
 
-```bash
+```py
 factorial(8)
 ```
 
 ## Example output:
 
-```bash
-40320
-```
++ 40320
 
-## 💡 Hints:
+## 💡 Hint:
 
 + If you don't know what a factorial is, you can check it out on this link: https://www.cuemath.com/numbers/factorial/
