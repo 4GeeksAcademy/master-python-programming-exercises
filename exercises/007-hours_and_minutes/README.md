@@ -1,6 +1,6 @@
-# `08` Hours and Minutes
+# `007` Hours and Minutes
 
-In this exercise we are going to suppose that it is midnight, we want that with the function `hours_minutes` that we have provided for you tell us how much time has passed since then with the seconds that are introduced as parameter.
+In this exercise we are going to suppose that it is midnight, we want that with the function `hours_minutes` that we have provided to you, you were able to tell us how much time has passed since then with the seconds that are introduced as parameter.
 
 ## 📝 Instructions:
 
@@ -8,22 +8,21 @@ In this exercise we are going to suppose that it is midnight, we want that with 
 
 2. Perform two calculations with the seconds that are passed by parameter in the function so that one calculates the time according to the seconds that have passed and the other to know the minutes `(hour , minutes)`.
 
-## Example input:
+## Example 1:
 
 ```py
-3900 # 1
-
-60 # 2
+output = hours_minutes(3900)
+print(output) # (1, 5)
 ```
 
-## Example output:
+## Example 2:
 
 ```py
-(1, 5) # 1
-
-(0, 1) # 2
+output = hours_minutes(60)
+print(output) # (0, 1)
 ```
-## 💡 Hint:
+
+## 💡 Hints:
 
 + Remember how many seconds there are in an hour (3600) and how many seconds in a minute (60).
 
