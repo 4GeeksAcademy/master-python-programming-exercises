@@ -8,10 +8,10 @@
 Después de terminar la serie de principiantes, funciones y bucles; Esta serie realmente lo preparará para su próximo trabajo o cualquier otro desafío de programación. Practique todo lo que necesita saber para construir algoritmos con python, desde desafíos intermedios hasta difíciles: todo el tutorial es 👆 interactivo, ✅ calificado automáticamente y con 📹 videos tutoriales.
 
 <!-- hide -->
-Estos Ejercicios son colaborativos, ¡te necesitamos! Si encuentras algún error o falta de ortografía, por favor contribuye y repórtalo.
-
+Estos Ejercicios son colaborativos, ¡te necesitamos! Si encuentras algún error o falta de ortografía, por favor contribuye y repórtalo.  
+ 
 ## Instalación en un clic:
-
+ 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/master-python-programming-exercises.git)
 
 
