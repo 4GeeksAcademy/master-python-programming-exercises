@@ -1,34 +1,11 @@
-<table>
-  <tr>
-    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
-    <td>
-      <h1> 🐍 Tutorial Master Python </h1>
-      <p>Por <a href="https://twitter.com/alesanchezr">@alesanchezr</a> y <a href="https://github.com/4GeeksAcademy//master-python-programming-exercises/graphs/contributors">otros colaboradores</a> de <a href="http://4geeksacademy.co/">4Geeks Academy</a><a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://raw.githubusercontent.com/ElviraQDP/master-python-programming-exercises/master/badge-master-python.png"></a></p>
-      <img src="https://img.shields.io/github/last-commit/4geeksacademy/master-python-programming-exercises" />
-      <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
-      <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
-      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/master-python-programming-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
-    </td>
-  </tr>
-</table>
+<!-- hide -->
+# 🐍 Tutorial Master Python
 
+<p>Por <a href="https://twitter.com/alesanchezr">@alesanchezr</a> y <a href="https://github.com/4GeeksAcademy//master-python-programming-exercises/graphs/contributors">otros colaboradores</a> de <a href="http://4geeksacademy.co/">4Geeks Academy</a><a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://raw.githubusercontent.com/ElviraQDP/master-python-programming-exercises/master/badge-master-python.png"></a>
+<!-- endhide -->
 Después de terminar la serie de principiantes, funciones y bucles; Esta serie realmente lo preparará para su próximo trabajo o cualquier otro desafío de programación. Practique todo lo que necesita saber para construir algoritmos con python, desde desafíos intermedios hasta difíciles: todo el tutorial es 👆 interactivo, ✅ calificado automáticamente y con 📹 videos tutoriales.
 
-<h3>📚 Tabla de contenidos:</h3>
-<table>
-  <tr>
-    <td>1. <a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises">Python para principiantes</a> </td>
-  </tr>
-  <tr color="white"><td>2. <a href="https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises">Practica loops en listas y tuplas</a></td></tr>
-  <tr><td>3. <a href="https://github.com/4GeeksAcademy/python-functions-programming-exercises">Practica funciones</a></td></tr>
-  <tr><td>4. <a href="https://github.com/4GeeksAcademy/master-python-programming-exercises">Master Python (intermediate)</a></td>
-<td>← 🔥 your are here now</td>
-    <td><a href="https://gitpod.io#https://github.com/4GeeksAcademy/master-python-programming-exercises.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" /></a></td>
-  </tr>
-  <tr><td>5. <a href="https://github.com/4GeeksAcademy/python-http-requests-api-tutorial-exercises">Python API Requests</a></td></tr>
-  <tr><td>6.¿Qué sigue? <a href="https://github.com/4GeeksAcademy/About-4Geeks-Academy/issues/new">Solicita un nuevo tutorial</a> o <a href="https://github.com/4GeeksAcademy/About-4Geeks-Academy/labels/help%20wanted">colabora</a>.<br /> Añadiremos tu perfil a nuestra lista de colaboradores</td></tr>
-</table>
-
+<!-- hide -->
 Estos Ejercicios son colaborativos, ¡te necesitamos! Si encuentras algún error o falta de ortografía, por favor contribuye y repórtalo.
 
 ## Instalación en un clic:
@@ -60,7 +37,7 @@ Nota: Una vez que termine de descargar, encontrarás la carpeta "exercises" que 
 $ RUN  pip3 install pytest==4.4.2 pytest-testdox mock
 $ learnpack start
 ```
-
+<!-- endhide -->
 Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 
