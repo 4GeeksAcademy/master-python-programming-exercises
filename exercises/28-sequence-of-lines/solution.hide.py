@@ -1,10 +1,4 @@
-lines = []
-while True:
-    s = raw_input()
-    if s:
-        lines.append(s.upper())
-    else:
-        break;
+def lines(text):
+    return text.upper()
 
-for sentence in lines:
-    print sentence
+print(lines('Hello world'))

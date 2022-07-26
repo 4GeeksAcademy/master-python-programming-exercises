@@ -8,23 +8,32 @@ def test_use_print():
         regex = re.compile(r"print(\s)*\(")
         assert bool(regex.search(content)) == True
 
-@pytest.mark.it('Almost there! But you need to convert the incoming input from string to integer')
-def test_convert_inputs(capsys, app):
+@pytest.mark.it('The solution should return the expected output. Tested with 2, 3, 6')
+def test_sum_expected_inputs(capsys, app):
 
-    fake_input = ["2","3","4"] #fake input
+    fake_input = ["2","3","6"] #fake input
     with mock.patch('builtins.input', lambda x: fake_input.pop()):
         app()
         captured = capsys.readouterr()
-        assert captured.out != "432\n"
+        assert captured.out == "11\n"
 
-@pytest.mark.it('Sum all three input numbers and print on the console the result')
-def test_add_variables(capsys, app):
+@pytest.mark.it('The solution must sum all entries. Tested with 0, 3, 7')
+def test_sum_another_inputs(capsys, app):
 
-    fake_input = ["2","3","4"] #fake input
+    fake_input = ["0","3","7"] #fake input
     with mock.patch('builtins.input', lambda x: fake_input.pop()):
         app()
         captured = capsys.readouterr()
-        assert captured.out == "9\n"
+        assert captured.out == "10\n"
+
+@pytest.mark.it('The solution must sum all entries. Tested with 0, 0, 0')
+def test_sum_with_zero(capsys, app):
+
+    fake_input = ["0","0","0"] #fake input
+    with mock.patch('builtins.input', lambda x: fake_input.pop()):
+        app()
+        captured = capsys.readouterr()
+        assert captured.out == "0\n"
 
 
 

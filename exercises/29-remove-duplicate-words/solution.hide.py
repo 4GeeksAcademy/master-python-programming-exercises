@@ -1,3 +1,3 @@
-s = input()
-words = [word for word in s.split(" ")]
-print (" ".join(sorted(list(set(words)))))
+def remove_duplicate_words(text):
+    words = text.split()
+    return (" ".join(sorted(list(set(words)))))

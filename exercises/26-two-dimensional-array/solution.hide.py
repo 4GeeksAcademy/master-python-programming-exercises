@@ -1,11 +1,11 @@
-input_str = raw_input()
-dimensions=[int(x) for x in input_str.split(',')]
-rowNum=dimensions[0]
-colNum=dimensions[1]
-multilist = [[0 for col in range(colNum)] for row in range(rowNum)]
+def two_dimensional_array(nList, nElements):
+    dimensions=[int(x) for x in "{},{}".format(nList,nElements).split(',')]
+    rowNum=dimensions[0]
+    colNum=dimensions[1]
+    multilist = [[0 for col in range(colNum)] for row in range(rowNum)]
 
-for row in range(rowNum):
-    for col in range(colNum):
-        multilist[row][col]= row*col
+    for row in range(rowNum):
+        for col in range(colNum):
+            multilist[row][col]= row*col
 
-print multilist
+    return (multilist)

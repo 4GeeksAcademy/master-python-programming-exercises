@@ -1,17 +1,21 @@
 import io, sys, os, pytest, json, mock
 path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
-@pytest.mark.it('Calculate the area of the triangle.')
-def test_area_of_triangle(stdin):
 
-  _stdin = json.loads(stdin)
-  with mock.patch('builtins.input', lambda x: _stdin.pop(0)):
-
-    sys.stdout = buffer = io.StringIO()
+@pytest.mark.it('The function area_of_triangle should exist')
+def test_function_exists(capsys):
+  try:
     import app
-    _stdin = json.loads(stdin)
-    result = int(_stdin[0]) * int(_stdin[1]) / 2
-    assert buffer.getvalue() == str(result) + "\n"
+    app.area_of_triangle
+  except AttributeError:
+      raise AttributeError("The function 'area_of_triangle' should exist on app.py")
 
+@pytest.mark.it('The solution should return the expected output. Testing with 3 and 5')
+def test_convert_inputs(capsys, app):
+  result = app.area_of_triangle(3, 5)
+  assert result == 7.5
 
-
+@pytest.mark.it('The solution should return the expected output. Testing with 4 and 6')
+def test_convert_inputs(capsys, app):
+  result = app.area_of_triangle(4, 6)
+  assert result == 12
