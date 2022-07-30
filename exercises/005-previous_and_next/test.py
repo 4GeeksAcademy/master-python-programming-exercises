@@ -4,6 +4,15 @@ import io, sys, pytest, os, re, mock
 def test_for_functon_existence(capsys, app):
     assert callable(app.previous_next)
 
+@pytest.mark.it('The function must return something')
+def test_for_file_output(capsys, app):
+    assert app.previous_next(6) != None
+
+@pytest.mark.it('The function return a tuple')
+def test_for_file_output(capsys, app):
+    result = app.previous_next(6)
+    assert type(resul) == type((1,2))
+
 @pytest.mark.it('The function previous_next must return the correct output')
 def test_for_file_output(capsys, app):
     assert app.previous_next(6) == (5, 7)

@@ -1,4 +1,4 @@
-# `007` apple sharing
+# `006` apple sharing
 
 ## 📝 Instrucciones:
 

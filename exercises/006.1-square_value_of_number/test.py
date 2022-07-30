@@ -4,11 +4,20 @@ import io, sys, pytest, os, re, mock
 def test_for_functon_existence(capsys, app):
     assert callable(app.square)
 
-@pytest.mark.it('The we tried 6 and it should return 36')
+@pytest.mark.it('The function must return something')
+def test_for_file_output(capsys, app):
+    assert app.square(2) != None
+
+@pytest.mark.it('The function must return a number')
+def test_for_file_output(capsys, app):
+    result = app.square(6) 
+    assert type(result) == type(1)
+
+@pytest.mark.it('The function should return the square of the given number.')
 def test_for_file_output(capsys, app):
     assert app.square(6) == 6*6
 
-@pytest.mark.it('The we tried 47 and it should return 2209')
+@pytest.mark.it('The function should return the square of the given number. Testing with 47.')
 def test_for_file_output(capsys, app):
     assert app.square(47) == 47*47
 
