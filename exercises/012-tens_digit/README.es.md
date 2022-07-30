@@ -12,7 +12,9 @@ tens_digit(1234)
 
 ## Ejemplo de salida 1:
 
-+ 3
+```py
+3
+```
 
 ## Ejemplo de entrada 2:
 
@@ -22,7 +24,9 @@ tens_digit(179)
 
 ## Ejemplo de salida 2:
 
-+ 7
+```py
+7
+```
 
 ## 💡 Pistas:
 

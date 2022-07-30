@@ -10,9 +10,11 @@
 tens_digit(1234)
 ```
 
-## Example output 1:
+## Example output 1:
 
-+ 3
+```py
+3
+```
 
 ## Example input 2:
 
@@ -22,7 +24,9 @@ tens_digit(179)
 
 ## Example output 2:
 
-+ 7
+```py
+7
+```
 
 ## 💡 Hints:
 

@@ -12,8 +12,9 @@ last_two_digits(1234)
 
 ## Ejemplo de salida:
 
-+ 34
-
+```py
+34
+```
 ## 💡 Pistas:
 
 + Si no sabes por donde comenzar este ejercicio, por favor, revisa la teoría en esta lección: https://snakify.org/lessons/integer_float_numbers/
