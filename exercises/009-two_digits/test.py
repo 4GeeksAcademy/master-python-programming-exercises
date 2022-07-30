@@ -5,11 +5,11 @@ def test_for_functon_existence(capsys, app):
     assert callable(app.two_digits)
 
 @pytest.mark.it('The function must return something')
-def test_for_file_output(capsys, app):
+def test_function_return(capsys, app):
     assert app.two_digits(30) != None
 
 @pytest.mark.it('The function must return a tuple')
-def test_for_file_output(capsys, app):
+def test_function_return_type(capsys, app):
     result = app.two_digits(30)
     assert type(result) == type((1,2))
 

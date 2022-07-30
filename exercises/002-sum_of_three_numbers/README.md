@@ -6,11 +6,15 @@
 
 ## Example input:
 
-+ 2
-+ 3
-+ 6
+```py
+2
+3
+6
+```
 
 ## Example output:
 
-+ 11
+```py
+11
+```
 

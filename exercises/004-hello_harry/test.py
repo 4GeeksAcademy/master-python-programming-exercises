@@ -5,12 +5,12 @@ def test_for_functon_existence(capsys, app):
     assert callable(app.hello_name)
 
 @pytest.mark.it('The function must return something')
-def test_convert_inputs(capsys, app):
+def test_function_return(capsys, app):
     result = app.hello_name('test')
     assert result != None
   
 @pytest.mark.it('The function must return a string')
-def test_convert_inputs(capsys, app):
+def test_function_return_type(capsys, app):
     result = app.hello_name('test')
     assert type(result) == type('')
 

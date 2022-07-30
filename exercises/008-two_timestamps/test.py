@@ -5,12 +5,12 @@ def test_for_functon_existence(capsys, app):
     assert callable(app.two_timestamp)
 
 @pytest.mark.it('The function must return something')
-def test_for_file_output(capsys, app):
+def test_function_return(capsys, app):
     result = app.two_timestamp(1,2,30,4,3,20)
     assert  result != None
 
 @pytest.mark.it('The function must return a number')
-def test_for_file_output(capsys, app):
+def test_function_return_type(capsys, app):
     result = app.two_timestamp(1,2,30,4,3,20)
     assert  type(result) == type(1)
 

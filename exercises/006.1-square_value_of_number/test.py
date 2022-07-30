@@ -5,11 +5,11 @@ def test_for_functon_existence(capsys, app):
     assert callable(app.square)
 
 @pytest.mark.it('The function must return something')
-def test_for_file_output(capsys, app):
+def test_function_return(capsys, app):
     assert app.square(2) != None
 
 @pytest.mark.it('The function must return a number')
-def test_for_file_output(capsys, app):
+def test_function_return_type(capsys, app):
     result = app.square(6) 
     assert type(result) == type(1)
 

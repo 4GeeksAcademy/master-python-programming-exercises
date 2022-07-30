@@ -6,11 +6,15 @@
 
 ## Ejemplo de entrada:
 
-+ 2
-+ 3
-+ 6
+```py
+2
+3
+6
+```
 
 ## Ejemplo de salida:
 
-+ 11
+```py
+11
+```
 
