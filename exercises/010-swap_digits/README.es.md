@@ -12,7 +12,9 @@ swap_digits(79)
 
 ## Ejemplo de salida:
 
-+ 97
+```py
+97
+```
 
 ## 💡 Pistas:
 
