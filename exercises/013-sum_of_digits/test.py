@@ -6,7 +6,7 @@ def test_for_functon_existence(capsys, app):
 
 @pytest.mark.it('The function must return something')
 def test_for_return(capsys, app):
-    assert app.digits_sum(123) == None
+    assert app.digits_sum(123) != None
 
 @pytest.mark.it('The function must return a number')
 def test_for_output_type(capsys, app):

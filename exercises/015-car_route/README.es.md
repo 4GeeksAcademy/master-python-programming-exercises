@@ -9,7 +9,7 @@ Un vehículo puede cubrir una distancia de `N` kilómetros por día ¿Cuántos d
 ## Ejemplo de entrada:
 
 ```py
-car_route(700,750)
+car_route(20,40)
 ```
 
 ## Ejemplo de salida:
