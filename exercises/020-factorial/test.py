@@ -9,6 +9,14 @@ def test_factorial_exists(app):
     except AttributeError:
         raise AttributeError("The function 'factorial' should exist on app.py")
 
+@pytest.mark.it('The function must return something')
+def test_function_return(capsys, app):
+    assert app.factorial(8) != None
+
+@pytest.mark.it('The function must return a tuple')
+def test_function_return_type(capsys, app):
+    assert type(app.factorial(8)) == type(1)
+
 @pytest.mark.it('Testing the function factorial with the number 8, it should return 40320')
 def test_factorial_8(app):
     try:

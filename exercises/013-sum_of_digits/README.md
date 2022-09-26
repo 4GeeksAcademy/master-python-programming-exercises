@@ -4,7 +4,7 @@
 
 1. Complete the `digits_sum()` function. Given a three-digit number, `digits_sum()` finds the sum of its digits.
 
-## Example input:
+## Example input:
 
 ```py
 digits_sum(123)
@@ -12,7 +12,9 @@ digits_sum(123)
 
 ## Example output:
 
-+ 6
+```py
+6
+```
 
 ## 💡 Hints:
 

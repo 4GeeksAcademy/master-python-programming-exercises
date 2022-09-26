@@ -12,9 +12,21 @@ def test_import_random():
 def test_for_functon_existence(capsys, app):
     assert callable(app.car_route)
 
-@pytest.mark.it('We tried to pass 659 and 1857 as parameter and it did not return 3!')
+@pytest.mark.it('The function mus return something')
+def test_function_return(capsys, app):
+    assert app.car_route(659, 1857) != None
+
+@pytest.mark.it('The function must return a number')
+def test_function_return_type(capsys, app):
+    assert type(app.car_route(659, 1857)) == type(1)
+
+@pytest.mark.it('We tried to pass 20 and 40 as parameter and it did not return 2!')
 def test_for_file_output(capsys, app):
-    assert app.car_route(659, 1857) == math.ceil(1857 / 659)
+    assert app.car_route(20, 40) == 2
+
+@pytest.mark.it('We tried to pass 20 and 900 as parameter and it did not return 45!')
+def test_for_file_output2(capsys, app):
+    assert app.car_route(20, 900) == 45
 
 
 

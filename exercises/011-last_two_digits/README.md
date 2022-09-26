@@ -10,9 +10,11 @@
 last_two_digits(1234)
 ```
 
-## Example output:
+## Example output:
 
-+ 34
+```py
+34
+```
 
 ## 💡 Hints:
 

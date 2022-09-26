@@ -12,7 +12,9 @@
 
 ## Ejemplo de salida:
 
-+ 6
+```py
+6
+```
 
 ## 💡 Pistas:
 
