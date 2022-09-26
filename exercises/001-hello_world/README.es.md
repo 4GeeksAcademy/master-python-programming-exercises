@@ -6,15 +6,15 @@ Cada idioma tiene funciones para integrarse con la consola, ya que al principio 
 
 Hoy en día, la impresión en la consola se utiliza sobre todo como herramienta de monitoreo, ideal para dejar un rastro del contenido de las variables durante la ejecución del programa.
 
+## 📝 Instrucciones:
+
+1. Usa la función `print()` para escribir `"Hello World"` en la consola. Siéntete libre de intentar otras cosas también.
+
 ## Ejemplo:
 
 ```py
 print("How are you?")
 ```
-
-## 📝 Instrucciones:
-
-1. Usa la función `print()` para escribir `"Hello World"` en la consola. Siéntete libre de intentar otras cosas también.
 
 ## 💡 Pista:
 

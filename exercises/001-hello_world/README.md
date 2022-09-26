@@ -6,15 +6,15 @@ Every language has a console, as it was the only way to interact with the users 
 
 Today, printing in the console is used mostly as a monitoring tool, ideal to leave a trace of the content of variables during the program execution.
 
+## 📝 Instructions:
+
+1. Use the `print()` function to print `"Hello World"` on the console. Feel free to try other things as well.
+
 ## Example:
 
 ```py
 print("How are you?")
 ```
-
-## 📝 Instructions:
-
-1. Use the `print()` function to print `"Hello World"` on the console. Feel free to try other things as well.
 
 ## 💡 Hint:
 
