@@ -10,7 +10,7 @@
 century(2000)
 ```
 
-## Example output:
+## Example output:
 
 + 20
 
