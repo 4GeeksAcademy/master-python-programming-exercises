@@ -12,7 +12,7 @@ century(2000)
 
 ## Example output:
 
-+ 20
++ 21
 
 ## 💡 Hints:
 
