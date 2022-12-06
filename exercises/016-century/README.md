@@ -7,7 +7,7 @@
 ## Example input:
 
 ```py
-century(2000)
+century(2001)
 ```
 
 ## Example output:
