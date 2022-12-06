@@ -10,9 +10,9 @@
 century(2000)
 ```
 
-## Ejemplo de salida:
+## Ejemplo de salida:
 
-+ 20
++ 21
 
 ## 💡 Pistas:
 
