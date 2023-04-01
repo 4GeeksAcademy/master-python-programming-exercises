@@ -40,7 +40,7 @@ $ RUN  pip3 install pytest==4.4.2 pytest-testdox mock
 $ learnpack start
 ```
 <!-- endhide -->
-Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+Nota: Los ejercicios tienen calificación automática pero es muy rígido y fuerte, mi recomendación es ignorar las pruebas y usarlas solo como una recomendación o podrás frustrarte.
 
 
 ## ¿Cómo están organizados los ejercicios?
