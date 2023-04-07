@@ -11,9 +11,11 @@ After you finished the begginers, functions and loops series; This series will r
 <!-- hide -->
 These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
 
-<h2>One click installation:</h2>
+## One click installation (recommended):
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/master-python-programming-exercises.git)
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
+
+> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 
 ## Local Installation
