@@ -7,13 +7,15 @@
  
 Después de terminar la serie de principiantes, funciones y bucles; Esta serie realmente lo preparará para su próximo trabajo o cualquier otro desafío de programación. Practique todo lo que necesita saber para construir algoritmos con python, desde desafíos intermedios hasta difíciles: todo el tutorial es 👆 interactivo, ✅ calificado automáticamente y con 📹 videos tutoriales.
 
-<!-- hide -->
 Estos Ejercicios son colaborativos, ¡te necesitamos! Si encuentras algún error o falta de ortografía, por favor contribuye y repórtalo.  
  
-## Instalación en un clic:
- 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/master-python-programming-exercises.git)
+<!-- hide -->
 
+## Instalación en un clic (recomendado)
+
+Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
+
+> Una vez ya tengas abierto VSCode, los ejercicios de LearnPack deberían empezar automáticamente; si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
 
 ## Instalación local:
 
@@ -31,7 +33,7 @@ $ learnpack download master-python-programming-exercises
 $ cd master-python-programming-exercises
 ```
 
-Nota: Una vez que termine de descargar, encontrarás la carpeta "exercises" que contiene todos los ejercicios.
+> Nota: Una vez que termine de descargar, encontrarás la carpeta "exercises" que contiene todos los ejercicios.
 
 3. Comienza con los ejercicios ejecutando el siguiente en el mismo nivel que tu archivo learn.json:
 
@@ -40,8 +42,6 @@ $ RUN  pip3 install pytest==4.4.2 pytest-testdox mock
 $ learnpack start
 ```
 <!-- endhide -->
-Nota: Los ejercicios tienen calificación automática pero es muy rígido y fuerte, mi recomendación es ignorar las pruebas y usarlas solo como una recomendación o podrás frustrarte.
-
 
 ## ¿Cómo están organizados los ejercicios?
 
@@ -50,6 +50,8 @@ Cada ejercicio es un pequeño proyecto en Python que contiene los siguientes arc
 1. **app.py:** representa el archivo de entrada de python que será ejecutado en el computador.
 2. **README.md:** contiene las instrucciones del ejercicio.
 3. **test.py:** no tienes que abrir este archivo. Contiene los scripts de pruebas del ejercicio.
+
+> Nota: Los ejercicios tienen calificación automática pero es muy rígido y fuerte, mi recomendación es ignorar las pruebas y usarlas solo como una recomendación o podrás frustrarte.
 
 # Colaboradores
  

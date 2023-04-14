@@ -6,6 +6,9 @@ By <a href="https://twitter.com/alesanchezr">@alesanchezr</a> and <a href="https
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://raw.githubusercontent.com/4GeeksAcademy/master-python-programming-exercises/master/badge-master-python.png" /></a>
 
 <!-- endhide -->
+
+*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/master-python-programming-exercises/blob/master/README.es.md) :es:*
+
 After you finished the begginers, functions and loops series; This series will really prepare you for your next job or any any other programming challenge. Practice everything there you need to know to build algorithms with python, from intermadiate to hard challenges: The entire tutorial is 👆 interactive, ✅ auto-graded and with. 📹 video tutorials.
 
 These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
@@ -35,7 +38,7 @@ $ learnpack download master-python-programming-exercises
 $ cd master-python-programming-exercises
 ```
 
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+> Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
 3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
 
@@ -46,9 +49,6 @@ $ learnpack start
 
 <!-- endhide -->
 
-Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
-
-
 ## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
@@ -56,6 +56,8 @@ Each exercise is a small react application containing the following files:
 1. **app.py:** represents the entry python file that will be executed by the computer.
 2. **README.md:** contains exercise instructions.
 3. **test.py:** you don't have to open this file, it contains the testing script for the exercise.
+
+> Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 ## Contributors
 
@@ -66,7 +68,6 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) 🐛, contribution: (coder), (translation) 🌎
 
 3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) :🐛, (translation) 🌎
-
 
 This project follows the[all-contributors](https://github.com/kentcdodds/all-contributors) specification.Contributions of any kind are welcome!
 
