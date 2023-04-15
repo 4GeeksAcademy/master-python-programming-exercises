@@ -3,6 +3,8 @@
 
 !.gitignore
 !.gitpod.yml
+!.devcontainer
+!.devcontainer/*
 !.gitpod.Dockerfile
 !bc.json
 !learn.json
