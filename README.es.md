@@ -13,7 +13,7 @@ Estos Ejercicios son colaborativos, ¡te necesitamos! Si encuentras algún error
 
 ## Instalación en un clic (recomendado)
 
-Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
+Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/master-python-programming-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/master-python-programming-exercises.git).
 
 > Una vez ya tengas abierto VSCode, los ejercicios de LearnPack deberían empezar automáticamente; si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
 
