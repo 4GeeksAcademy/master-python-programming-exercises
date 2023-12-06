@@ -18,4 +18,4 @@ print("How are you?")
 
 ## 💡 Hint:
 
-+ 2 minute video about [the console](https://www.youtube.com/watch?v=vROGBvX_MHQ&ab_channel=edX)
++ 2 minute video about [the console](https://www.youtube.com/watch?v=vROGBvX_MHQ).
