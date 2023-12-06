@@ -42,7 +42,7 @@ $ cd master-python-programming-exercises
 3. Comienza con los ejercicios ejecutando los siguientes comandos en el mismo nivel que tu archivo learn.json:
 
 ```bash
-$ RUN  pip3 install pytest==4.4.2 pytest-testdox mock
+$ RUN pip3 install pytest==4.4.2 pytest-testdox mock
 $ learnpack start
 ```
 <!-- endhide -->
