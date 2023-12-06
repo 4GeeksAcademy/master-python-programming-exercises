@@ -1,7 +1,7 @@
 <!-- hide -->
 # 🐍 Mastering Python Algorithms Tutorial
 
-By <a href="https://twitter.com/alesanchezr">@alesanchezr</a> and <a href="https://github.com/4GeeksAcademy//master-python-programming-exercises/graphs/contributors">other contributors</a> at <a href="http://4geeksacademy.co/">4Geeks Academy</a>
+By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy//master-python-programming-exercises/graphs/contributors) at [4Geeks Academy](http://4geeksacademy.co/)
 
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://raw.githubusercontent.com/4GeeksAcademy/master-python-programming-exercises/master/badge-master-python.png" /></a>
 
