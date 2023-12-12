@@ -4,19 +4,21 @@
 
 1. Completa la función `previous_next()` para que lea un número entero y devuelva sus números anteriores y siguientes. 
 
-## Ejemplo:
+## 📎 Ejemplo de entrada:
 
 ```py
 previous_next(179)
 ```
 
-## Ejemplo de salida:
+## 📎 Ejemplo de salida:
 
-+ (178, 180)
+```text
+178, 180
+```
 
 ## 💡 Pistas:
 
-+ Puedes devolver múltiples parámetros: return a, b
++ Puedes devolver múltiples parámetros: `return a, b`
 
 + Si no sabes por donde partir este ejercicio, por favor revisa la teoría en esta lección: https://snakify.org/lessons/print_input_numbers/
 
