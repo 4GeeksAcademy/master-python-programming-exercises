@@ -4,15 +4,17 @@
 
 1. Completa la función `first_digit()` para que dado un número real positivo, devuelve su primer decimal (a la derecha del punto).
 
-## Ejemplo de entrada:
+## 📎 Ejemplo de entrada:
 
 ```py
 first_digit(1.79)
 ```
 
-## Ejemplo de salida:
+## 📎 Ejemplo de salida:
 
-+ 7
+```
+7
+```
 
 ## 💡 Pistas:
 
