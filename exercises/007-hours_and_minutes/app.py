@@ -1,4 +1,4 @@
-def hours_minutes(secs):
+def hours_minutes(seconds):
   # Your code here
   return None
 
