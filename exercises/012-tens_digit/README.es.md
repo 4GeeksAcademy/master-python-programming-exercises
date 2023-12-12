@@ -4,7 +4,7 @@
 
 1. Completa la función `tens_digit()` para que dado un número entero, retorne sus decenas.
 
-## 📎 Ejemplo 1:
+## 📎 Ejemplo 1:
 
 ```py
 output = tens_digit(1234)
