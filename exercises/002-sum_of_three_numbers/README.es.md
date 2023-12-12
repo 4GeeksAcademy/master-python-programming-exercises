@@ -4,7 +4,7 @@
 
 1. Teniendo tres números de entrada, imprime su suma. Cada número va en una línea aparte.
 
-## Ejemplo de entrada:
+## 📎 Ejemplo de entrada:
 
 ```py
 2
@@ -12,7 +12,7 @@
 6
 ```
 
-## Ejemplo de salida:
+## 📎 Ejemplo de salida:
 
 ```py
 11
