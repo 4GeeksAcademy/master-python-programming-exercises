@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Completa la función `area_of_triangle()` para que que tome el largo de la base y la altura de un triángulo rectángulo e imprima su área. Cada número es dado en una línea por separado.
+1. Completa la función `area_of_triangle()` para que tome el largo de la base y la altura de un triángulo rectángulo e imprima su área.
 
-![Imagen descriptiva](http://i.imgur.com/6EkzVxA.jpg)
+![triángulo rectángulo fórmula del área](http://i.imgur.com/6EkzVxA.jpg)
 
 ## Ejemplo:
 
