@@ -8,7 +8,7 @@ def test_for_functon_existence(capsys, app):
 def test_function_return(capsys, app):
     assert app.previous_next(6) != None
 
-@pytest.mark.it('The function return a tuple')
+@pytest.mark.it('The function should return a tuple')
 def test_function_return_type(capsys, app):
     result = app.previous_next(6)
     assert type(result) == type((1,2))
