@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Complete the `area_of_triangle()` function so that it reads the length of the base and the height of a right-angled triangle and prints the area. Every number is given on a separate line.
+1. Complete the `area_of_triangle()` function so that it reads the length of the base and the height of a right-angled triangle and prints the area.
 
 ![right triangle area formula](http://i.imgur.com/6EkzVxA.jpg)
 
