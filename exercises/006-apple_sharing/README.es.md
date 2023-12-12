@@ -4,7 +4,7 @@
 
 1. `N` estudiantes cogen `K` manzanas y las distribuyen entre ellos de manera uniforme. La parte restante (indivisible) permanece en la cesta. ¿Cuántas manzanas recibirá cada estudiante? y ¿Cuántas manzanas quedarán en la cesta? *Esta función lee los números `N` y `K` y debería devolver la respuesta a ambas preguntas.*
 
-## 📎 Ejemplo de entrada:
+## 📎 Ejemplo de entrada:
 
 ```py
 apple_sharing(6, 50)
