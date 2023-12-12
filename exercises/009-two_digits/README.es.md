@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Crea una función llamada `two_digits()`. Dado un entero de dos dígitos, `two_digits()` devuelve su dígito izquierdo (las decenas) y luego su dígito derecho (las unidades). Utiliza el operador de división de enteros para obtener el dígito de las decenas y el operador de residuo/resto para obtener el dígito de las unidades.
+1. Crea una función llamada `two_digits()`. Dado un entero de dos dígitos, `two_digits()` devuelve su dígito izquierdo (las decenas) y luego su dígito derecho (las unidades).
 
 ## 📎 Ejemplo de entrada:
 
@@ -15,3 +15,7 @@ two_digits(79)
 ```py
 (7, 9)
 ```
+
+## 💡 Pista:
+
++ Utiliza el operador de división de enteros `//` para obtener el dígito de las decenas y el operador de resto `%` para obtener el dígito de las unidades.
