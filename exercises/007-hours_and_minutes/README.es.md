@@ -6,7 +6,7 @@ Queremos que con la función `hours_minutes` que hemos previsto para ti, nos dig
 
 1. Completa la función para que retorne el resultado esperado.
 
-2. Realiza dos cálculos con los segundos que se pasan por parámetro en la función para que uno calcule la hora según los segundos que han pasado y el otro para saber los minutos `(horas, minutos)`
+2. Realiza dos cálculos con los segundos que se pasan por parámetro en la función para que uno calcule la hora según los segundos que han pasado y el otro para saber los minutos `(horas, minutos)`.
 
 ## 📎 Ejemplo 1:
 
