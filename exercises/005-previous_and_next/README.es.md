@@ -12,7 +12,7 @@ previous_next(179)
 
 ## 📎 Ejemplo de salida:
 
-```text
+```py
 178, 180
 ```
 
