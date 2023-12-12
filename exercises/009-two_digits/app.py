@@ -1,5 +1,5 @@
 # Complete the function to return the tens digit and the units digit of any interger
-def two_digits(digit):
+def two_digits(number):
   # Your code here
   return None
    
