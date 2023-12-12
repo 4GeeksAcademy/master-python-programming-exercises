@@ -4,14 +4,17 @@
 
 1. Complete a function `previous_next()` that reads an integer number and returns its previous and next numbers. 
 
-## Example input:
+## 📎 Example input:
 
 ```py
 previous_next(179)
 ```
-## Example output:
 
-+ (178, 180)
+## 📎 Example output:
+
+```py
+178, 180
+```
 
 ## 💡 Hints:
 
