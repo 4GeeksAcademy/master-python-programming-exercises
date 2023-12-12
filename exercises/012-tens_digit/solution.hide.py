@@ -4,4 +4,4 @@ def tens_digit(num):
 
 
 # Invoke the function with any integer
-print(tens_digit())
+print(tens_digit(198))
