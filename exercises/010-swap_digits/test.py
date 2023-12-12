@@ -12,10 +12,10 @@ def test_return_exists():
 def test_return_integer():
     assert type(app.swap_digits(23)) == type(1)
     
-@pytest.mark.it('The function `swap_digits` must swap the digits. Testing with 79')
+@pytest.mark.it('The function swap_digits must swap the digits. Testing with 79')
 def test_for_file_output(capsys, app):
     assert app.swap_digits(79) == 97
 
-@pytest.mark.it('The function `swap_digits` must swap the digits. Testing with 30')
+@pytest.mark.it('The function swap_digits must swap the digits. Testing with 30')
 def test_for_file_output_2(capsys, app):
     assert app.swap_digits(30) == 3
