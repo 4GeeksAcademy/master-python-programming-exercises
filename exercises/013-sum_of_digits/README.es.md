@@ -4,13 +4,13 @@
 
 1. Completa la función `digits_sum()` para que dado un número de tres dígitos, retorne la suma de sus dígitos.
 
-## Ejemplo de entrada:
+## 📎 Ejemplo de entrada:
  
 ```py
  digits_sum(123)
  ```
 
-## Ejemplo de salida:
+## 📎 Ejemplo de salida:
 
 ```py
 6
