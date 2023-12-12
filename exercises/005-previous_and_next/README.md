@@ -13,7 +13,7 @@ previous_next(179)
 ## 📎 Example output:
 
 ```py
-178, 180
+(178, 180)
 ```
 
 ## 💡 Hints:
