@@ -4,28 +4,18 @@
 
 1. Completa la función `tens_digit()` para que dado un número entero, retorne sus decenas.
 
-## Ejemplo de entrada 1:
+## 📎 Ejemplo 1:
 
 ```py
-tens_digit(1234)
+output = tens_digit(1234)
+print(output)  # 3
 ```
 
-## Ejemplo de salida 1:
+## 📎 Ejemplo 2:
 
 ```py
-3
-```
-
-## Ejemplo de entrada 2:
-
-```py
-tens_digit(179)
-```
-
-## Ejemplo de salida 2:
-
-```py
-7
+output = tens_digit(179)
+print(output)  # 7
 ```
 
 ## 💡 Pistas:
