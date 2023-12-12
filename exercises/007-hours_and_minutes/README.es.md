@@ -1,6 +1,6 @@
 # `007` Hours and minutes
 
-Queremos que con la función `hours_minutes` que hemos previsto para ti, nos digas cuánto tiempo ha pasado desde entonces con los segundos que se introduzcan como parámetro.
+Queremos que con la función `hours_minutes` que hemos previsto para ti, nos digas cuánto tiempo ha pasado en horas y minutos desde entonces con los segundos que se introduzcan como parámetro.
 
 ## 📝 Instrucciones:
 
