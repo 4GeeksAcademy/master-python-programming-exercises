@@ -4,5 +4,5 @@ def previous_next(num):
   return None
 
 
-# Invoke the function with any integer as its argument.
+# Invoke the function with any integer as its argument
 print(previous_next(179))
