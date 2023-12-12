@@ -12,7 +12,7 @@ def test_for_return(capsys, app):
 def test_for_output_type(capsys, app):
     assert type(app.digits_sum(123)) == type(1)
 
-@pytest.mark.it('We tried to pass 854 as parameter and it did not return 17!')
+@pytest.mark.it('We tried to pass 854 as parameter and it did not return 17')
 def test_for_file_output(capsys, app):
     assert app.digits_sum(854) == (854 //100)+(854 // 10)%10+ 854%10
 
