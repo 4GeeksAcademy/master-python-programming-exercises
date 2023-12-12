@@ -1,16 +1,16 @@
 # `006.1` square value of number
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Write a function called `square()` that calculates the square value of a number.
 
-## Example input:
+## 📎 Example input:
 
 ```py
 square(6)
 ```
 
-## Example output:
+## 📎 Example output:
 
 ```py
 36
@@ -18,4 +18,4 @@ square(6)
 
 ## 💡 Hint:
 
-+ Using the `**` operator
++ Using the `**` operator.
