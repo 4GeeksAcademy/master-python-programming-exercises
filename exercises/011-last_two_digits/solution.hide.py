@@ -4,4 +4,4 @@ def last_two_digits(num):
     else: return num
 
 # Invoke the function with any integer greater than 9
-print(last_two_digits())
+print(last_two_digits(212))
