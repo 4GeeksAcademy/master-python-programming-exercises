@@ -2,19 +2,20 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `square()` que calcule el valor al cuadrado de un número
+1. Escribe una función llamada `square()` que calcule el valor al cuadrado de un número.
 
-## Ejemplo de entrada:
+## 📎 Ejemplo de entrada:
 
 ```py
 square(6)
 ```
 
-## Ejemplo de salida:
+## 📎 Ejemplo de salida:
 
 ```py
 36
 ```
+
 ## 💡 Pista:
 
 + Usa el operador `**`.
