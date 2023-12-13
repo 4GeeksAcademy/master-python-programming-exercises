@@ -24,6 +24,6 @@ car_route(20,40)
 
 + You must round up the outcome if you get a float, for example, if it takes you 1.1 days to travel the distance, it must return 2.
 
-+ If you don't know how to start solving this assignment, please, review a theory for this lesson: https://snakify.org/lessons/integer_float_numbers/
++ If you don't know how to start solving this assignment, please review the theory for this lesson: https://snakify.org/lessons/integer_float_numbers/
 
 + You may also try step-by-step theory chunks: https://snakify.org/lessons/integer_float_numbers/steps/1/
