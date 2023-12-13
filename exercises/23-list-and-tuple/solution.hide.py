@@ -1,10 +1,11 @@
 # Your code here
-def list_and_tuple(*args):
-    string_list = [str(num) for num in args]
-    string_tuple = tuple(string_list)
+def list_and_tuple(*nums):
+    new_list = [str(num) for num in nums]
+    new_tuple = tuple(new_list)
     
-    return string_list, string_tuple
+    return new_list, new_tuple
 
-result_list, result_tuple = list_and_tuple(1, 2, 3, 4, 5)
+
+result_list, result_tuple = list_and_tuple(5, 4, 13, 24, 45)
 print(result_list)
 print(result_tuple)
