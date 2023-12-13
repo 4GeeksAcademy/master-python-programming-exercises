@@ -13,7 +13,7 @@ def test_factorial_exists(app):
 def test_function_return(capsys, app):
     assert app.factorial(8) != None
 
-@pytest.mark.it('The function must return a tuple')
+@pytest.mark.it('The function must return a number')
 def test_function_return_type(capsys, app):
     assert type(app.factorial(8)) == type(1)
 
@@ -37,3 +37,4 @@ def test_factorial_1(app):
         assert app.factorial(1) == 1
     except AttributeError:
         raise AttributeError("The function 'factorial' should return the value 1")
+
