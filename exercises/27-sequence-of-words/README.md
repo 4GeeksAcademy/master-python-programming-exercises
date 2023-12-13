@@ -9,7 +9,7 @@
 ## 📎 Example input:
 
 ```py
-sequence_of_words(without,hello,bag,world)
+sequence_of_words("without,hello,bag,world")
 ```
 
 ## 📎 Example output:
@@ -17,3 +17,7 @@ sequence_of_words(without,hello,bag,world)
 ```py
 bag, hello, without, world
 ```
+
+## 💡 Hint:
+
++ Remember that each word must be separated by a comma and inside one pair of quotes.
