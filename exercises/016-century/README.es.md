@@ -12,11 +12,13 @@ century(2001)
 
 ## Ejemplo de salida:
 
-+ 21
+```py
+21
+```
 
 ## 💡 Pistas:
 
-+ Ten en cuenta que, por ejemplo, el s.XX (siglo 20) comienza en el año 1901.
++ Ten en cuenta que, por ejemplo, el s. XX (siglo 20) comienza en el año 1901.
 
 + Si no sabes por donde comenzar este ejercicio, por favor, revisa la teoría en esta lección:
 https://snakify.org/lessons/integer_float_numbers/
