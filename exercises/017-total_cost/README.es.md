@@ -2,17 +2,19 @@
 
 ## 📝 Instrucciones:
 
-1. Un cupcake (quequito) cuesta `D` dólares y `C` centavos. Escribe un función `total_cost()` para determinar cuántos dólares y centavos debería pagar una persona por `N` cupcakes. *La función recibe tres números: `D`, `C`, `N` y debería devolver dos números: costo total en dólares y los centavos*
+1. Un cupcake cuesta `D` dólares y `C` centavos. Escribe una función `total_cost()` para determinar cuántos dólares y centavos debería pagar una persona por `N` cupcakes. *La función recibe tres números: `D`, `C`, `N` y debería devolver dos números: costo total en dólares y centavos*
 
-## Ejemplo de entrada:
+## 📎 Ejemplo de entrada:
 
 ```py
 total_cost(10,15,2)
 ```
 
-## Ejemplo de salida:
+## 📎 Ejemplo de salida:
 
-+ (20, 30)
+```py
+(20, 30)
+```
 
 ## 💡 Pistas:
 
