@@ -4,7 +4,7 @@ Un vehículo puede cubrir una distancia de `N` kilómetros por día ¿Cuántos d
 
 ## 📝 Instrucciones:
 
-1. Escribe una función `car_route()` que dada la distancia que puede recorrer en un día como primer parametro, y como segundo parametro la distancia a recorrer, calcule la cantidad de dias que le tomara recorrer dicha distancia.
+1. Escribe una función `car_route()` que dada la distancia que puede recorrer en un día como primer parámetro, y como segundo parámetro la distancia a recorrer, calcule la cantidad de días que le tomara recorrer dicha distancia.
 
 ## 📎 Ejemplo de entrada:
 
