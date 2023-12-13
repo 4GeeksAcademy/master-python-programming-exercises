@@ -9,6 +9,6 @@ class InputOutString:
     def print_string(self):
         print(self.input_string.upper())
 
-string_object = MyClass()
+string_object = InputOutString()
 string_object.get_string()
 string_object.print_string()
