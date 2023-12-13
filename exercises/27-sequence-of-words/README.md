@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function `sequence_of_words`, that accepts a comma separated sequence of words as input (one string).
+1. Write a function `sequence_of_words`, that accepts a comma separated sequence of words as input (a string).
    
 2. Print the words in a comma-separated sequence after sorting them alphabetically.
 
