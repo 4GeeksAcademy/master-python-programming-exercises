@@ -4,7 +4,7 @@
 
 1. Write a function `two_dimensional_list`, which takes 2 digits (x, y) as input and generates a 2-dimensional list.
 
-2. The element value in the i-th row and j-th column of the list should be i*j (the index values).
+2. The element value in the `i` row and `j` column of the list should be `i*j` (their index values).
 
 ## 📎 Example input:
 
