@@ -20,4 +20,4 @@ bag, hello, without, world
 
 ## 💡 Hint:
 
-+ Remember that each word must be separated by a comma and inside one pair of quotes.
++ Remember that each word must be separated by a comma and inside ONLY ONE pair of quotes.
