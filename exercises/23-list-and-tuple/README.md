@@ -4,6 +4,8 @@
 
 1. Create a function called `list_and_tuple()`, that given a input of `n` numbers returns a list and a tuple of those numbers and transforms each of them into a string.
 
+2. Imprime la lista y en la siguiente linea la tupla.
+
 ## 📎 Example input:
 
 ```py
