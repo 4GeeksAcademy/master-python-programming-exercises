@@ -4,13 +4,13 @@
 
 1. Escribe una función `century()` para que dado un año (como un entero positivo), encuentre su posición respectiva dentro del siglo. 
 
-## Ejemplo de entrada:
+## 📎 Ejemplo de entrada:
 
 ```py
 century(2001)
 ```
 
-## Ejemplo de salida:
+## 📎 Ejemplo de salida:
 
 ```py
 21
