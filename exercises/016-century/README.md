@@ -10,7 +10,7 @@
 century(2001)
 ```
 
-## 📎Example output:
+## 📎 Example output:
 
 ```py
 21
