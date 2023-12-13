@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Un cupcake cuesta `D` dólares y `C` centavos. Escribe una función `total_cost()` para determinar cuántos dólares y centavos debería pagar una persona por `N` cupcakes. *La función recibe tres números: `D`, `C`, `N` y debería devolver dos números: costo total en dólares y centavos*
+1. Un cupcake cuesta `d` dólares y `c` centavos. Escribe una función `total_cost()` para determinar cuántos dólares y centavos debería pagar una persona por `n` cupcakes. *La función recibe tres números: `d`, `c`, `n` y debería devolver dos números: costo total en dólares y centavos*
 
 ## 📎 Ejemplo de entrada:
 
