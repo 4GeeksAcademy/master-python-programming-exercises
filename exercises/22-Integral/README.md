@@ -17,3 +17,7 @@ squares_dictionary(8)
 ```py
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 ```
+
+## 💡 Hint:
+
++ A `for` loop would be a good idea.
