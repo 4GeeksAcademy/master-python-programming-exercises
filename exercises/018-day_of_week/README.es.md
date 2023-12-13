@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función `day_of_week()`. Dado un entero `k` en el rango comprendido entre [1, 365], `day_of_week()` encuentra el número del día de la semana para el k-ésimo día del año si este año el 1 de enero fue jueves.
+1. Escribe una función `day_of_week()`. Dado un entero `k` en el rango comprendido entre 1 a 365, `day_of_week()` encuentra el número del día de la semana para el k-ésimo día del año si este año el 1 de enero fue jueves.
 
 *Los días de la semana se enumeran así:* 
 
