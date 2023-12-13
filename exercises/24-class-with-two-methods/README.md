@@ -8,4 +8,4 @@
 
 ## 💡 Hint:
 
-+ Use the `__init__` method to construct some parameters.
++ Use the `__init__` method to construct your parameters.
