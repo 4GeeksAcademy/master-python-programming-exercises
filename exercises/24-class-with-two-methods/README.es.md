@@ -6,6 +6,8 @@
 + `get_string` para obtener un string de entrada desde la consola.
 + `print_string` para imprimir el string obtenido en mayúsculas.
 
+2. Prueba los métodos de tu clase.
+
 ## 💡 Pista:
 
-+ Usa el método __init__ para construir tus parámetros.
++ Usa el método `__init__` para construir tus parámetros.
