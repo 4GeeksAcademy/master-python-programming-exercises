@@ -4,7 +4,7 @@
 
 1. Crea una función llamada `list_and_tuple()` que, dado un conjunto de `n` números como entrada, devuelve una lista y una tupla con esos números y los transforma a cada uno de ellos en string.
 
-2. Imprime la lista y en la siguiente linea la tupla.
+2. Imprime la lista primero, y en la siguiente línea la tupla.
 
 ## 📎 Ejemplo de entrada:
 
