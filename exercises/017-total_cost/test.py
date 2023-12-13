@@ -23,7 +23,7 @@ def test_function_return_type_parameters(capsys, app):
 def test_for_file_output(capsys, app):
     assert app.total_cost(15, 22, 4) == (60, 88)
   
-@pytest.mark.it('We tried to pass 10, 15, 4 as parameters and it did not return (20, 30)')
+@pytest.mark.it('We tried to pass 10, 15, 4 as parameters and it did not return (40, 60)')
 def test_for_file_output2(capsys, app):
     assert app.total_cost(10, 15, 4) == (40, 60)
   
