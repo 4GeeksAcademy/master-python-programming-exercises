@@ -1,3 +1,4 @@
+# Your code here
 class InputOutString:
     def __init__(self):
         self.input_string = ""
