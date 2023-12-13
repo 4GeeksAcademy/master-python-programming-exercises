@@ -1,12 +1,28 @@
-# `23` List and touple
+# `23` List and tuple
 
-Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.
-Suppose the following input is supplied to the program:
-34,67,55,33,12,98
-Then, the output should be:
+## 📝 Instructions:
+
+1. Create a function called `list_and_tuple()`, that given a input of `n` numbers returns a list and a tuple of those numbers and transforms each of them into a string.
+
+## 📎 Example input:
+
+```py
+list_and_tuple(34,67,55,33,12,98)
+```
+
+## 📎 Example output:
+
+```py
 ['34', '67', '55', '33', '12', '98']
 ('34', '67', '55', '33', '12', '98')
+```
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-tuple() method can convert list to tuple
+## 💡 Hint:
+
++ The number of parameters accepted by the function is not limited.
+
++ To make a function that accepts an unlimited number of arguments, use the `*` operator and then any name you want for it. For example:
+
+```py
+def my_function(*args)
+```
