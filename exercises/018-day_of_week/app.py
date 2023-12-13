@@ -3,5 +3,5 @@ def day_of_week(k):
   return None
 
 
-# Invoke function day_of_week with an integer between 0 and 6 (number for days of week)
+# Invoke function day_of_week with an integer between 1 and 365
 print(day_of_week())
