@@ -28,6 +28,6 @@ print_formula(150)
 
 ## 💡 Pistas:
 
-+ Si el resultado recibido es un decimal, debería rendondearse a su valor más cercano (por ejemplo, si el resultado es 26.0, debiese imprimirse como 26).
++ Si el resultado recibido es un decimal, debería redondearse a su valor más cercano (por ejemplo, si el resultado es 26.0, debiese imprimirse como 26).
 
 + Importa el módulo `math`.
