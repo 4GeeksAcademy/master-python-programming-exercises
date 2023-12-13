@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Define a class called `MyClass` which has at least two methods:
+1. Define a class called `InputOutString` which has at least two methods:
 + `get_string` to get a string from console input.
 + `print_string` to print the string in upper case.
 
