@@ -1,4 +1,4 @@
-# `27` Secuencia de palabras
+# `27` Sequence of words
 
 ## 📝 Instrucciones:
 
