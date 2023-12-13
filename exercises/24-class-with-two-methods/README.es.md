@@ -1,4 +1,4 @@
-# `24` Una clase con dos métodos
+# `24` Class with two methods
 
 ## 📝 Instrucciones:
 
