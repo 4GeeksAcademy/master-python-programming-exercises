@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. A cupcake costs `D` dollars and `C` cents. Write a function that determines how many dollars and cents should someone pay for `N` cupcakes. *The function gets three numbers: `D`, `C`, `N` and it should return two numbers: total cost in dollars and cents.*
+1. A cupcake costs `D` dollars and `C` cents. Write a function that determines how many dollars and cents someone should pay for `N` cupcakes. *The function gets three numbers: `D`, `C`, `N` and it should return two numbers: total cost in dollars and cents.*
 
 ## 📎 Example input:
 
