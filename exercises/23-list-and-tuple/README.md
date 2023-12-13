@@ -17,7 +17,7 @@ list_and_tuple(34,67,55,33,12,98)
 ('34', '67', '55', '33', '12', '98')
 ```
 
-## 💡 Hint:
+## 💡 Hints:
 
 + The number of parameters accepted by the function is not limited.
 
