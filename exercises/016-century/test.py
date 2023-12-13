@@ -21,15 +21,15 @@ def test_function_return(capsys, app):
 def test_function_return_type(capsys, app):
     assert type(app.century(19001)) == type(1)
 
-@pytest.mark.it('We tried to pass 2000 as parameter and it did not return 20!')
+@pytest.mark.it('We tried to pass 2000 as parameter and it did not return 20')
 def test_for_file_output(capsys, app):
   assert app.century(2000) == 20
 
-@pytest.mark.it('We tried to pass 2000 as parameter and it did not return 21!')
+@pytest.mark.it('We tried to pass 2001 as parameter and it did not return 21')
 def test_for_file_output2(capsys, app):
   assert app.century(2001) == 21
 
-@pytest.mark.it('We tried to pass 2000 as parameter and it did not return 21!')
+@pytest.mark.it('We tried to pass 2101 as parameter and it did not return 22')
 def test_for_file_output3(capsys, app):
   assert app.century(2101) == 22
 
