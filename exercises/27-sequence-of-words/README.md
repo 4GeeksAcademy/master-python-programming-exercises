@@ -2,14 +2,14 @@
 
 ## 📝 Instructions:
 
-1. Write a function `two_dimensional_list`, that accepts a comma separated sequence of words as input.
+1. Write a function `sequence_of_words`, that accepts a comma separated sequence of words as input.
    
 2. Print the words in a comma-separated sequence after sorting them alphabetically.
 
 ## 📎 Example input:
 
 ```py
-(without,hello,bag,world)
+sequence_of_words(without,hello,bag,world)
 ```
 
 ## 📎 Example output:
