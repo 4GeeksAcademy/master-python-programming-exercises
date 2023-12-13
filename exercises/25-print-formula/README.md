@@ -5,7 +5,7 @@
 1. Write a function `print_formula()` that calculates and prints the value according to the given formula:
 
 ```text
-Q = Square root of (2 * c * d) / h`
+Q = Square root of (2 * c * d) / h
 ```
 
 *Following are the fixed values of `c` and `h`:*
