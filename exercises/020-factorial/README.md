@@ -2,17 +2,19 @@
 
 ## 📝 Instructions:
 
-1. Create a function named `factorial()` which receives a number as parameter and returns the factorial of the given number.
+1. Create a function named `factorial()`, which receives a number as a parameter and returns the factorial of the given number.
 
-## Example input:
+## 📎 Example input:
 
 ```py
 factorial(8)
 ```
 
-## Example output:
+## 📎 Example output:
 
-+ 40320
+```py
+40320
+```
 
 ## 💡 Hint:
 
