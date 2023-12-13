@@ -2,17 +2,19 @@
 
 ## 📝 Instrucciones:
 
-1. Crea una función llamada `factorial()` que al recibir un número como parámatro retorne su valor factorial.
+1. Crea una función llamada `factorial()`, que al recibir un número como parámetro retorne su valor factorial.
 
-## Ejemplo de entrada:
+## 📎 Ejemplo de entrada:
 
 ```py
 factorial(8)
 ```
 
-## Ejemplo de salida:
+## 📎 Ejemplo de salida:
 
-+ 40320
+```py
+40320
+```
 
 ## 💡 Pista:
 
