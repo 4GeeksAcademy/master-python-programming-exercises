@@ -19,11 +19,11 @@ def test_function_return_type_parameters(capsys, app):
     result = app.total_cost(15, 22, 4)
     assert type(result[0]) == type(1) and type(result[1]) == type(1)
   
-@pytest.mark.it('We tried to pass 15, 22, 4 as parameters and it did not return (60, 88)!')
+@pytest.mark.it('We tried to pass 15, 22, 4 as parameters and it did not return (60, 88)')
 def test_for_file_output(capsys, app):
     assert app.total_cost(15, 22, 4) == (60, 88)
   
-@pytest.mark.it('We tried to pass 10, 15, 4 as parameters and it did not return (20, 30)!')
+@pytest.mark.it('We tried to pass 10, 15, 4 as parameters and it did not return (20, 30)')
 def test_for_file_output2(capsys, app):
-    assert app.total_cost(15, 22, 4) == (60, 88)
+    assert app.total_cost(10, 15, 4) == (40, 60)
   
