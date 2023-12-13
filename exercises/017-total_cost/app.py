@@ -1,10 +1,7 @@
-#Complete the function to return the total cost in dollars and cents of N cupcakes. 
-#Remember you can return multiple parameters => return a, b
-def total_cost(d,c,n):
+# Complete the function to return the total cost in dollars and cents of N cupcakes
+def total_cost(D,C,N):
     return None
-    
 
 
-
-#Invoke the function with three intergers: cost(dollars and cents) & number of cupcakes.
+# Invoke the function with three integers: total_cost(dollars, cents, number of cupcakes)
 print(total_cost())
