@@ -1,4 +1,4 @@
-# `22` squares dictionary
+# `22` Integral
 
 ## 📝 Instructions:
 
