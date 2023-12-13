@@ -16,7 +16,7 @@ digital_clock(150)
 (2, 30)
 ```
 
-For example, if n = 150, then 150 minutes have passed since midnight - i.e. now is 2:30 am. So the function should print 2, 30.
+For example, if n = 150, then 150 minutes have passed since midnight - i.e. now is 2:30 am. So the function should print (2, 30).
 
 ## 💡 Hints:
 
