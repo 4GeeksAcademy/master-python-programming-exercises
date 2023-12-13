@@ -9,7 +9,7 @@
 ## 📎 Example input:
 
 ```py
-8
+squares_dictionary(8)
 ```
 
 ## 📎 Example output:
