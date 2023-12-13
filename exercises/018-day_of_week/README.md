@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function `day_of_week()`. Given an integer `k` in the range 1 to 365, `day_of_week()` finds the number of day of week for *k-th* day of the year, provided that in this year January 1 was Thursday.
+1. Write a function `day_of_week()`. Given an integer `k` in the range [1, 365], `day_of_week()` finds the number of day of week for *k-th* day of the year, provided that in this year January 1 was Thursday.
 
 *The days of the week are numbered as:* 
 
