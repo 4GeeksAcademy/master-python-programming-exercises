@@ -1,20 +1,22 @@
 # `015` car route
 
-A car can cover distance of `N` kilometers per day. How many days will it take to cover a route of length `M` kilometers?
+A car can cover a distance of `N` kilometers per day. How many days will it take to cover a route of length `M` kilometers?
 
 ## 📝 Instructions:
 
-1. Write a `car_route()` function that given the distance it can drive in one day as the first parameter, and the distance to drive as the second parameter, calculates the number of days it will take to drive that distance.
+1. Write a `car_route()` function that, given the distance it can drive in one day as the first parameter, and the distance to drive as the second parameter, calculates the number of days it will take to drive that distance.
 
-## Example input:
+## 📎 Example input:
 
 ```py
 car_route(20,40)
 ```
 
-## Example output:
+## 📎 Example output:
 
+```py
 2
+```
 
 ## 💡 Hints:
 
