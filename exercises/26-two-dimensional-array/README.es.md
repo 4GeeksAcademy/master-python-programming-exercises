@@ -1,6 +1,6 @@
 # `26` Two dimensional list
 
-## 📝 Instructions:
+## 📝 Instrucciones:
 
 1. Escribe una función llamada `two_dimensional_list()` que tome 2 dígitos (x, y) como entrada y genere un lista bidimensional o matriz.
 
