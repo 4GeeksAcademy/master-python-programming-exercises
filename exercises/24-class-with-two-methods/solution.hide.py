@@ -1,13 +1,13 @@
-class InputOutString(object):
+class InputOutString:
     def __init__(self):
-        self.s = ""
+        self.input_string = ""
 
-    def getString(self):
-        self.s = raw_input()
+    def get_string(self):
+        self.input_string = input("Enter a string: ")
 
-    def printString(self):
-        print self.s.upper()
+    def print_string(self):
+        print(self.input_string.upper())
 
-strObj = InputOutString()
-strObj.getString()
-strObj.printString()
+string_object = MyClass()
+string_object.get_string()
+string_object.print_string()
