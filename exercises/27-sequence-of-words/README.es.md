@@ -1,10 +1,23 @@
 # `27` Secuencia de palabras
 
-Escribe un programa que acepte una secuencia separada por comas como entrada e imprima las palabras en una secuencia separada por comas después de ordenarlas alfabéticamente.
-Supongamos que se le entrega la siguiente entrada al programa:
-without,hello,bag,world
-El resultado debiese ser:
-bag,hello,without,world
+## 📝 Instrucciones:
 
-Pistas:
-En el caso de que se le entreguen datos a la pregunta, deben considerarse como entradas de la consola.
+1. Escribe una función llamada `sequence_of_words()`, que acepte una secuencia de palabras separadas por comas como entrada (un string).
+   
+2. Imprime las palabras en una secuencia separada por comas después de ordenarlas alfabéticamente.
+
+## 📎 Ejemplo de entrada:
+
+```py
+sequence_of_words("without,hello,bag,world")
+```
+
+## 📎 Ejemplo de salida:
+
+```py
+bag, hello, without, world
+```
+
+## 💡 Pista:
+
++ Recuerda que cada palabra debe estar separada por una coma y dentro de UN SOLO par de comillas.
