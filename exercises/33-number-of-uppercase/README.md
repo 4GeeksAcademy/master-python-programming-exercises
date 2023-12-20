@@ -1,4 +1,4 @@
-# `30` Number of uppercase
+# `33` Number of uppercase
 
 ## 📝 Instructions:
 
