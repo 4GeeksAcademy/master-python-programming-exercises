@@ -1,4 +1,4 @@
-# `30` Number of letters and digits
+# `32` Number of letters and digits
 
 ## 📝 Instrucciones:
 
