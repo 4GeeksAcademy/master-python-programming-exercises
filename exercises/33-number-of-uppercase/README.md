@@ -1,9 +1,22 @@
-Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
-Suppose the following input is supplied to the program:
-Hello world!
-Then, the output should be:
-UPPER CASE 1
-LOWER CASE 9
+# `30` Number of uppercase
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
+## 📝 Instructions:
+
+1. Write a program `number_of_uppercase()` that accepts a sentence and calculates the number of uppercase and lowercase letters.
+
+## 📎 Example input:
+
+```py
+number_of_uppercase("Hello world!")
+```
+
+## 📎 Example output:
+
+```text
+UPPERCASE 1
+LOWERCASE 9
+```
+
+## 💡 Hint:
+
++ Declare a dictionary for storing both counts in one variable.
