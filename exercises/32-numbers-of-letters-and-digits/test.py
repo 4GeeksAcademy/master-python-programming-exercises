@@ -5,7 +5,6 @@ import mock, pytest, io, sys
 def test_function_existence(capsys, app):
     assert app.letters_and_digits
 
-
 @pytest.mark.it('The function should return the expected output')
 def test_output(capsys, app):
     app.letters_and_digits("hello world! 123") == "LETTERS 10 DIGITS 3"
