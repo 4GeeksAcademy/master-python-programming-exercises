@@ -1,4 +1,6 @@
+# Your code here
 import math
+
 def compute_robot_distance(props):
     pos = [0,0]
     new_prop = props.split(" ")
@@ -14,4 +16,5 @@ def compute_robot_distance(props):
         else:
             None
     return (int(round(math.sqrt(pos[1]**2+pos[0]**2))))
-   
+
+print(compute_robot_distance("UP 5 DOWN 3 LEFT 3 RIGHT 2"))
