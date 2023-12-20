@@ -15,7 +15,7 @@ Tu programa debería aceptar una secuencia de contraseñas separadas por comas y
 
 ## 📎 Ejemplo de entrada:
 
-```text
+```py
 valid_password("ABd1234@1,a F1#,2w3E*,2We3345")
 ```
 
