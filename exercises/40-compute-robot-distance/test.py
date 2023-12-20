@@ -5,7 +5,6 @@ import pytest, io, sys, json, mock, re, os
 def test_function_existence(capsys, app):
     assert app.compute_robot_distance
 
-
 @pytest.mark.it('The function should return the expected output')
 def test_expected_output(capsys, app):
     assert app.compute_robot_distance("UP 5 DOWN 3 LEFT 3 RIGHT 2") ==  2
