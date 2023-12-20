@@ -11,7 +11,7 @@ A website requires the users to input a username and password to register. Write
 5. Minimum length of password: 6. 
 6. Maximum length of password: 12. 
 
-Your program should accept a sequence of comma separated passwords and check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.  
+Your program should accept a sequence of comma-separated passwords and check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.  
 
 ## 📎 Example input:
 
@@ -29,4 +29,6 @@ ABd1234@1
 
 + Read about regular expressions in Python.
 
-+ You will need the `search()` function.
++ You will need to import the 're' module (regular expressions) to be able to use the `search()` function.
+
++ To import it, copy and paste the following at the beginning of your file: `import re`.
