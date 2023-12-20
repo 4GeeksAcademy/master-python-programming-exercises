@@ -16,7 +16,7 @@ Your program should accept a sequence of comma separated passwords and check the
 ## 📎 Example input:
 
 ```text
-valid_password(ABd1234@1,a F1#,2w3E*,2We3345)
+valid_password("ABd1234@1,a F1#,2w3E*,2We3345")
 ```
 
 ## 📎 Example output:
