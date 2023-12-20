@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-Write a function `sort_tuples_ascending()` to sort the (`name`, `age`, `score`) tuples by ascending order where `name` is a string, `age` and `score` are numbers. The sort criteria is:
+Write a function `sort_tuples_ascending()` to sort the (`name`, `age`, `score`) tuples by ascending order where `name`, `age` and `score` are all strings. The sort criteria is:
 
 1. Sort based on name.
 2. Then sort based on age.
