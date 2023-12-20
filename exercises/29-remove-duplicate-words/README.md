@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `remove_duplicate_words()` that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.
+1. Write a function called `remove_duplicate_words()` that accepts a sequence of whitespace separated words as input and returns the words after removing all duplicate words and sorting them alphanumerically.
 
 ## 📎 Example input:
 
