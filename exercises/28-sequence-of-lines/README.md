@@ -1,19 +1,21 @@
 # `28` Sequence of lines
 
-Write a function `lines()`. Given a string, make the function return all the characters from the string capitalized.
+## 📝 Instructions:
 
-📎 Example input:
+1. Write a function `lines()`. Given a string, make the function return all the characters from the string capitalized.
+
+## 📎 Example input:
 
 ```py
 lines("Hello world, practice makes perfect")
 ```
 
-📎 Example output:
+## 📎 Example output:
 
 ```text
 HELLO WORLD, PRACTICE MAKES PERFECT
 ```
 
-💡 Hint:
+## 💡 Hint:
 
 + Google how to capitalize a string in Python.
