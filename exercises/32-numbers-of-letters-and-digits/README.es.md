@@ -16,3 +16,7 @@ letters_and_digits(hello world! 123)
 LETTERS 10
 DIGITS 3
 ```
+
+## 💡 Pista:
+
++ Define un diccionario para guardar ambas cuentas en una sola variable.
