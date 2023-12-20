@@ -16,4 +16,4 @@ HELLO WORLD, PRACTICE MAKES PERFECT
 
 💡 Hint:
 
-+ Google how to capitalize a string.
++ Google how to capitalize a string in Python.
