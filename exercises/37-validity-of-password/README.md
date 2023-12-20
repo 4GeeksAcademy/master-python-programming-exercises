@@ -1,28 +1,32 @@
-A website requires the users to input username and password to register. Write a program to check the validity of password input by users.
-Following are the criteria for checking the password:
+# `37` Validity of password
+
+## 📝 Instructions:
+
+A website requires the users to input username and password to register. Write a function named `valid_password()` to check the validity of password input by users. Following are the criteria for checking the password:
 
 1. At least 1 letter between [a-z]. 
 2. At least 1 number between [0-9]. 
-1. At least 1 letter between [A-Z]. 
-3. At least 1 character from [$#@]. 
-4. Minimum length of transaction password: 6. 
-5. Maximum length of transaction password: 12. 
-
+3. At least 1 letter between [A-Z]. 
+4. At least 1 character from [$#@]. 
+5. Minimum length of password: 6. 
+6. Maximum length of password: 12. 
 
 Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.  
 
-### Example
+## 📎 Example input:
 
-If the following passwords are given as input to the program:
+```text
+valid_password(ABd1234@1,a F1#,2w3E*,2We3345)
+```
 
-```
-ABd1234@1,a F1#,2w3E*,2We3345
-```
-Then, the output of the program should be:
-```
+## 📎 Example output:
+
+```text
 ABd1234@1
 ```
- 
-### Hints:
 
-In case of input data being supplied to the question, it should be assumed to be a console input.
+## 💡 Hints:
+
++ Read about regular expressions in Python.
+
++ You will need the `search()` function.
