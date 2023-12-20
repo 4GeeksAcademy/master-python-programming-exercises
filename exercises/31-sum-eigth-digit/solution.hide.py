@@ -1,5 +1,5 @@
 # Your code here
-def sum_eight_digit():
+def all_digits_even():
     values = []
     for i in range(1000, 3001):
         s = str(i)
@@ -8,4 +8,4 @@ def sum_eight_digit():
 
     return ",".join(values)
 
-print(sum_eight_digit())
+print(all_digits_even())
