@@ -7,7 +7,7 @@
 ## 📎 Example input:
 
 ```py
-compute_the_value("9")
+compute_the_value(9)
 ```
 
 ## 📎 Example output:
