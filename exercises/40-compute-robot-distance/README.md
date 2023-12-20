@@ -9,7 +9,7 @@ A robot moves in a plane starting from the original point (0,0). The robot can m
 + LEFT 3
 + RIGHT 2
 
-The numbers after the direction are steps. Please write a program named `compute_robot_distance()` to compute the distance from the current position after a sequence of movements from the original point. If the distance is a float, then just print the nearest integer.
+The numbers after the direction are steps. Please write a program named `compute_robot_distance()` to compute the final distance after a sequence of movements from the original point. If the distance is a float, then just print the nearest integer.
 
 ## 📎 Example input:
 
