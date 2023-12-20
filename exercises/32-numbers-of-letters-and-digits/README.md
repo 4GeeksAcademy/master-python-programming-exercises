@@ -19,4 +19,4 @@ DIGITS 3
 
 ## 💡 Hint:
 
-+ Define a dictionary for storing both counts in one variable.
++ Declare a dictionary for storing both counts in one variable.
