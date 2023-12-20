@@ -2,12 +2,12 @@
 
 ## 📝 Instructions:
 
-1. Write a program `computed_value` to calculate the sum of a+aa+aaa+aaaa, where 'a' is a given digit.
+1. Write a program `computed_value()` to calculate the sum of a+aa+aaa+aaaa, where 'a' is a given digit.
 
 ## 📎 Example input:
 
 ```py
-compute_the_value(9)
+computed_value(9)
 ```
 
 ## 📎 Example output:
