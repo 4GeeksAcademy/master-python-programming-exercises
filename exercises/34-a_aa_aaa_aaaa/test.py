@@ -8,10 +8,10 @@ def test_function_existence(capsys, app):
 def test_expected_output(capsys, app):
     assert app.computed_value(9) == 11106
 
-@pytest.mark.it('The function should work with other enties. Testing with 123')
+@pytest.mark.it('The function should work with other inputs. Testing with 123')
 def test_another_output(capsys, app):
     assert app.computed_value(123) == 123246369492
 
-@pytest.mark.it('The function should work with other enties. Testing with 0')
+@pytest.mark.it('The function should work with other inputs. Testing with 0')
 def test_with_zero(capsys, app):
     assert app.computed_value(0) == 0
