@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `net_amount()` que calcule el saldo neto de una cuenta bancaria basándose en un registro de transacciones ingresado desde la entrada. El formato del registro de transacciones se muestra a continuación:
+1. Escribe una función llamada `net_amount()` que calcule el saldo neto de una cuenta bancaria basándose en un registro de transacciones ingresado por parámetro. El formato del registro de transacciones se muestra a continuación:
 
 + D 100
 + W 200
