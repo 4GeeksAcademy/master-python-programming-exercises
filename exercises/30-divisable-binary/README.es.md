@@ -7,11 +7,22 @@
 ## 📎 Ejemplo de entrada:
 
 ```py
-divisible_binary(0100,0011,1010,1001)
+divisible_binary("0100,0011,1010,1001")
 ```
 
 ## 📎 Ejemplo de salida:
 
 ```py
 1010
+```
+
+## 💡 Pista:
+
++ Para convertir números binarios en nuestros números enteros cotidianos (base 10 o decimal), es necesario incluir la base del número que ingresamos en el primer argumento (en este caso, base 2 o binario), y la función `int()` se encargará del resto. Sería así:
+
+```py
+binary = 0101
+decimal = int(binary, 2)
+
+print(decimal)  # Output: 5
 ```
