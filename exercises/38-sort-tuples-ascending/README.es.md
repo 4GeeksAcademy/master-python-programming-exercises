@@ -7,6 +7,7 @@ Escribe una función llamada `sort_tuples_ascending()` para ordenar las tuplas (
 1. Ordenar según el nombre.
 2. Luego, ordenar según la edad.
 3. Después, ordenar por puntuación.
+
 La prioridad es que name > age > score.
 
 ## 📎 Ejemplo de entrada:
