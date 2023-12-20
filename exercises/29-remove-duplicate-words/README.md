@@ -18,6 +18,6 @@ again and hello makes perfect practice world
 
 ## 💡 Hints:
 
-+ You can utilize a `set` to automatically eliminate duplicates.
++ You can utilize the `set` data type to automatically eliminate duplicates.
 
 + You can use `sorted()` to sort the data from a list.
