@@ -16,3 +16,7 @@ letters_and_digits("hello world! 123")
 LETTERS 10
 DIGITS 3
 ```
+
+## 💡 Hint:
+
++ Define a dictionary for storing both counts in one variable.
