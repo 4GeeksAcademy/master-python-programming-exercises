@@ -1,15 +1,22 @@
-Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:
-D 100
-W 200
+# `36` Net amount
 
-D means deposit while W means withdrawal.
-Suppose the following input is supplied to the program:
-D 300
-D 300
-W 200
-D 100
-Then, the output should be:
+## 📝 Instructions:
+
+1. Write a function named `net_amount()` that computes the net amount of a bank account based on a transaction log from console input. The transaction log format is shown as following:
+
++ D 100
++ W 200
+
+`D` means deposit while `W` means withdrawal.
+
+## 📎 Example input:
+
+```py
+net_amount("D 300 D 300 W 200 D 100")
+```
+
+## 📎 Example output:
+
+```py
 500
-
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
+```
