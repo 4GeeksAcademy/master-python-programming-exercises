@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe la función `remove_duplicate_words()` que tome una secuencia de palabras separadas por espacios en blanco como entrada. Luego, imprime las palabras eliminando duplicados y organizándolas alfanuméricamente.
+1. Escribe la función `remove_duplicate_words()` que tome una secuencia de palabras separadas por espacios en blanco como entrada. Luego, retorna las palabras eliminando duplicados y organizándolas alfanuméricamente.
 
 ## 📎 Ejemplo de entrada:
 
