@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-A website requires the users to input username and password to register. Write a function named `valid_password()` to check the validity of password input by users. Following are the criteria for checking the password:
+A website requires the users to input a username and password to register. Write a function named `valid_password()` to check the validity of password input by users. Following are the criteria for checking the password:
 
 1. At least 1 letter between [a-z]. 
 2. At least 1 number between [0-9]. 
@@ -11,7 +11,7 @@ A website requires the users to input username and password to register. Write a
 5. Minimum length of password: 6. 
 6. Maximum length of password: 12. 
 
-Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.  
+Your program should accept a sequence of comma separated passwords and check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.  
 
 ## 📎 Example input:
 
