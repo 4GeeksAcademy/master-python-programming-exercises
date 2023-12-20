@@ -10,3 +10,5 @@ def letters_and_digits(text):
             pass
     
     return f"LETTERS {counts['LETTERS']} DIGITS {counts['DIGITS']}"
+
+print(letters_and_digits("hello world! 123"))
