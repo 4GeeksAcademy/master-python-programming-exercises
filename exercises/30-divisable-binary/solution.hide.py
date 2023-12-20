@@ -8,3 +8,5 @@ def divisible_binary(binary_sequence):
             divisible_numbers.append(binary_num)
 
     return ','.join(divisible_numbers)
+
+print(divisible_binary("1000,1100,1010,1111"))
