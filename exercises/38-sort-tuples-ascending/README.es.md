@@ -21,7 +21,7 @@ sort_tuples_ascending("Tom,19,80 John,20,90 Jony,17,91 Jony,17,93 Jason,21,85")
 [('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Jason', '21', '85'), ('Tom', '19', '80')]
 ```
 
-## 💡 Hints:
+## 💡 Pistas:
 
 + Utilizamos `itemgetter` para habilitar múltiples claves de orden.
 
