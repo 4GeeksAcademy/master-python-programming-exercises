@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function named `net_amount()` that computes the net amount of a bank account based on a transaction log from console input. The transaction log format is shown as following:
+1. Write a function named `net_amount()` that computes the net amount of a bank account based on a transaction log from input. The transaction log format is shown as following:
 
 + D 100
 + W 200
