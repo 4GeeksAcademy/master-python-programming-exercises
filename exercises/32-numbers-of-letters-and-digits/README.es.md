@@ -7,7 +7,7 @@
 ## 📎 Ejemplo de entrada:
 
 ```py
-letters_and_digits(hello world! 123)
+letters_and_digits("hello world! 123")
 ```
 
 ## 📎 Ejemplo de salida:
