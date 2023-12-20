@@ -14,4 +14,4 @@ def etest_expected_output(capsys, app):
 
 @pytest.mark.it('The solution should work with other entries')
 def test_another_entry(capsys, app):
-    app.sort_tuples_ascending("Martin,23,30 Tomas,25,27") == [('Martin', '23', '30', 'Tomas', '25', '27')]
+    app.sort_tuples_ascending("Martin,23,30 Tomas,25,27") == [('Martin', '23', '30'), ('Tomas', '25', '27')]
