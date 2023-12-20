@@ -19,4 +19,4 @@ DIGITS 3
 
 ## 💡 Pista:
 
-+ Define un diccionario para guardar ambas cuentas en una sola variable.
++ Declara un diccionario para guardar ambas cuentas en una sola variable.
