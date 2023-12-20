@@ -1,11 +1,12 @@
+# Your code here
 def letters_and_digits(text):
-    d={"DIGITS":0, "LETTERS":0}
-    for c in text:
-        if c.isdigit():
-            d["DIGITS"]+=1
-        elif c.isalpha():
-            d["LETTERS"]+=1
+    counts = {"DIGITS": 0, "LETTERS": 0}
+    for char in text:
+        if char.isdigit():
+            counts["DIGITS"] += 1
+        elif char.isalpha():
+            counts["LETTERS"] += 1
         else:
             pass
     
-    return ("LETTERS {} DIGITS {}".format(d['LETTERS'], d['DIGITS']))
+    return f"LETTERS {counts['LETTERS']} DIGITS {counts['DIGITS']}"
