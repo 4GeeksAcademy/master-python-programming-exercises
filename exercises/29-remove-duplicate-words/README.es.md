@@ -18,6 +18,6 @@ again and hello makes perfect practice world
 
 ## 💡 Pistas:
 
-+ Puedes utilizar el tipo de dato `set` para eliminar automáticamente cualquier duplicado.
++ Puedes convertir tu entrada en el tipo de dato `set` para eliminar automáticamente cualquier duplicado.
 
 + Puedes utilizar `sorted()` para ordenar los elementos de una lista.
