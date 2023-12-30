@@ -2,19 +2,21 @@
 
 ## 📝 Instrucciones:
 
-1. Dado un entero `N` que representa el número de minutos han pasado desde media noche, ¿cuántas horas y minutos se han mostrado en un reloj digital con formato 24 horas? Escribe una función `digital_clock()` para calcularlo. *La función debería imprimir dos números: el número de horas (entre 0 y 23) y el número de minutos (entre 0 y 59).*
+1. Dado un entero `n` que representa el número de minutos que han pasado desde media noche, ¿cuántas horas y minutos se mostrarían en un reloj digital con formato 24 horas? Escribe una función `digital_clock()` para calcularlo. *La función debería imprimir dos números: el número de horas (entre 0 y 23) y el número de minutos (entre 0 y 59).*
 
-## Ejemplo de entrada:
+## 📎 Ejemplo de entrada:
 
 ```py
 digital_clock(150)
 ```
 
-## Ejemplo de salida:
+## 📎 Ejemplo de salida:
 
-+ (2, 30)
+```py
+(2, 30)
+```
 
-Por ejemplo, si N = 150, entonces son 150 minutos que han pasado desde medianoche. Es decir, ahora son las 2:30 am, así que la función debería imprimir 2 30.
+Por ejemplo, si n = 150, entonces son 150 minutos que han pasado desde medianoche. Es decir, ahora son las 2:30 am, así que la función debería imprimir (2, 30).
 
 ## 💡 Pistas:
 

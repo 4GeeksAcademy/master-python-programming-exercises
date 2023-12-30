@@ -1,7 +1,8 @@
-def generate_dict(n):
-    d=dict()
-    for i in range(1,n+1):
-        d[i]=i*i
-    return d
+# Your code here
+def squares_dictionary(n):
+    new_dict = dict()
+    for i in range(1, n + 1):
+        new_dict[i] = i * i
+    return new_dict
 
-print(generate_dict(n))
+print(squares_dictionary(5))

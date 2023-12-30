@@ -14,11 +14,11 @@ def test_function_return(capsys, app):
 def test_function_return_type(capsys, app):
     assert type(app.digital_clock(194)) == type((3, 14))
 
-@pytest.mark.it('We tried to pass 194 as parameter and it did not return (3, 14)!Keep Trying!')
+@pytest.mark.it('We tried to pass 194 as parameter and it did not return (3, 14). Keep Trying!')
 def test_for_file_output(capsys, app):
     assert app.digital_clock(194) == (3, 14)
 
-@pytest.mark.it('We tried to pass 150 as parameter and it did not return (2, 50)! Keep Trying!')
+@pytest.mark.it('We tried to pass 150 as parameter and it did not return (2, 30). Keep Trying!')
 def test_for_file_output(capsys, app):
-    assert app.digital_clock(150) == (2,30)
+    assert app.digital_clock(150) == (2, 30)
 

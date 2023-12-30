@@ -1,11 +1,23 @@
 # `22` Integral
 
-Dado un número integral n, escribe un programa para generar un diccionario que contenga (i, i*i) como un número integrak entre 1 y n (ambos incluidos). Luego el programa debiese imprimir el diccionario.
-Supongamos que se le entrega la siguiente entrada al programa:
-8
-El resultado debiese ser:
-{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
+## 📝 Instrucciones:
 
-Pistas:
-En el caso de que se le entreguen datos a la pregunta, deben asumirse como entradas de la consola. 
-Considera usar dict()
+1. Crea una función llamada `squares_dictionary()`. La función recibe un número `n` y debería generar un diccionario que contenga pares de la forma `(n: n*n)` para cada número en el rango de 1 a n, inclusive.
+
+2. Imprime el diccionario resultante.
+
+## 📎 Ejemplo de entrada:
+
+```py
+squares_dictionary(8)
+```
+
+## 📎 Ejemplo de salida:
+
+```py
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
+```
+
+## 💡 Pista:
+
++ Un bucle `for` sería buena idea.
