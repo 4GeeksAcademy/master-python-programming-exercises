@@ -13,11 +13,11 @@ def test_function_return_type(capsys, app):
     result = app.square(6) 
     assert type(result) == type(1)
 
-@pytest.mark.it('The function should return the square of the given number.')
+@pytest.mark.it('The function should return the square of the given number')
 def test_for_file_output(capsys, app):
     assert app.square(6) == 6*6
 
-@pytest.mark.it('The function should return the square of the given number. Testing with 47.')
+@pytest.mark.it('The function should return the square of the given number. Testing with 47')
 def test_for_file_output(capsys, app):
     assert app.square(47) == 47*47
 

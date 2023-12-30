@@ -1,6 +1,6 @@
-#Complete the function to return the area of the triangle.
-def area_of_triangle(arg1, arg2):
-    #your code here, please remove the "None" 
+# Complete the function to return the area of a triangle
+def area_of_triangle(base, height):
+    # Your code here, please remove the "None" 
     return None
 
 # Testing your function
