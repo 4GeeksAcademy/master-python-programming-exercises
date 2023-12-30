@@ -1,9 +1,13 @@
 # `24` Class with two methods
 
-Define a class which has at least two methods:
-getString: to get a string from console input
-printString: to print the string in upper case.
-Also please include simple test function to test the class methods.
+## 📝 Instructions:
 
-Hints:
-Use __init__ method to construct some parameters
+1. Define a class called `InputOutString` which has at least two methods:
++ `get_string` to get a string from console input.
++ `print_string` to print the string in upper case.
+
+2. Test your class' methods.
+
+## 💡 Hint:
+
++ Use the `__init__` method to construct your parameters.

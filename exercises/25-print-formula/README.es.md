@@ -1,19 +1,33 @@
-# `25` Imprime la fórmula
+# `25` Print formula
 
-Escribe un programa que calcule e imprima el valor de acuerdo a la fórmula dada:
+## 📝 Instrucciones:
 
-Q = Square root of [(2 * C * D)/H]
+1. Escribe una función llamada `print_formula()`, con un parámetro que calcule e imprima el valor según la fórmula dada.
 
-A continuación encontrarás los valores fijos de C y H:
-C es 50. H es 30.
-D es la variable cuyos valores debiesen ser ingresados en tu 
-Ejemplo:
-Digamos que le sentrega la siguiente secuencia separada por coma al programa:
-100,150,180
-El resultado del programa debiese ser:
-18,22,24
+```text
+Q = Square root of (2 * c * d) / h
+```
 
-Pistas:
-Si el resultado recicido es un decimal, debería rendondearse a su valor más cercano (por ejemplo, si el resultado es 26.0, debiese imprimirse como 26)
-En el caso de que se le hayan entregado datos a la cuestión, deben asumirse como una entrada de la consola.
- 
+*A continuación encontrarás los valores fijos de `c` y `h`:*
+
++ `c` es 50.
++ `h` es 30.
++ `d` sería el parámetro de la función.
+
+## 📎 Ejemplo de entrada:
+
+```py
+print_formula(150)
+```
+
+## 📎 Ejemplo de salida:
+
+```py
+22
+```
+
+## 💡 Pistas:
+
++ Si el resultado recibido es un decimal, debería redondearse a su valor más cercano (por ejemplo, si el resultado es 26.0, debiese imprimirse como 26).
+
++ Importa el módulo `math`.

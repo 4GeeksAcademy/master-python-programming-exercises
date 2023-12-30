@@ -1,11 +1,14 @@
-def two_dimensional_array(nList, nElements):
-    dimensions=[int(x) for x in "{},{}".format(nList,nElements).split(',')]
-    rowNum=dimensions[0]
-    colNum=dimensions[1]
-    multilist = [[0 for col in range(colNum)] for row in range(rowNum)]
+# Your code here
+def two_dimensional_list(n_rows, n_columns):
+    dimensions = [int(x) for x in "{},{}".format(n_rows, n_columns).split(',')]
+    row_num = dimensions[0]
+    col_num = dimensions[1]
+    matrix = [[0 for col in range(col_num)] for row in range(row_num)]
 
-    for row in range(rowNum):
-        for col in range(colNum):
-            multilist[row][col]= row*col
+    for row in range(row_num):
+        for col in range(col_num):
+            matrix[row][col] = row * col
 
-    return (multilist)
+    return matrix
+
+print(two_dimensional_list(3,5))
