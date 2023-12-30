@@ -22,7 +22,7 @@ def test_for_file_output(capsys, app):
 def test_for_file_output(capsys, app):
     assert app.two_digits(30) == (3,0)
 
-@pytest.mark.it('The function two_digits must return the left and right digits of a 2 digits integer. Testing with 45.')
+@pytest.mark.it('The function two_digits must return the left and right digits of a 2 digits integer. Testing with 45')
 def test_for_file_output(capsys, app):
     assert app.two_digits(45) == (4,5)
 

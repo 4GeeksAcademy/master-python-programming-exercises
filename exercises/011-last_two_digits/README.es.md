@@ -2,19 +2,20 @@
 
 ## 📝 Instrucciones:
 
-1. Completa la función `last_two_digits()` para que dado un número entero mayor que `9`, imprima sus últimos dos dígitos.
+1. Completa la función `last_two_digits()` para que, dado un número entero mayor que `9`, imprima sus últimos dos dígitos.
 
-## Ejemplo de entrada:
+## 📎 Ejemplo de entrada:
 
 ```py
 last_two_digits(1234)
 ```
 
-## Ejemplo de salida:
+## 📎 Ejemplo de salida:
 
 ```py
 34
 ```
+
 ## 💡 Pistas:
 
 + Si no sabes por donde comenzar este ejercicio, por favor, revisa la teoría en esta lección: https://snakify.org/lessons/integer_float_numbers/
