@@ -21,8 +21,8 @@ valid_password("ABd1234@1")
 
 ## 📎 Example output:
 
-```text
-Valid password
+```py
+"Valid password"
 ```
 
 ## 💡 Hints:
