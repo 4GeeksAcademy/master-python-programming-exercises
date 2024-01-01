@@ -11,18 +11,18 @@ A website requires the users to input a username and password to register. Write
 5. Minimum length of password: 6. 
 6. Maximum length of password: 12. 
 
-Your program should accept a sequence of comma-separated passwords and check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.  
+Your program should accept a password and verify it according to the previous criteria. If the password is successfully validated, the function returns the following string `"Valid password"`. Otherwise, it returns `"Invalid password. Please try again."`.
 
 ## 📎 Example input:
 
 ```py
-valid_password("ABd1234@1,a F1#,2w3E*,2We3345")
+valid_password("ABd1234@1")
 ```
 
 ## 📎 Example output:
 
 ```text
-ABd1234@1
+Valid password
 ```
 
 ## 💡 Hints:
