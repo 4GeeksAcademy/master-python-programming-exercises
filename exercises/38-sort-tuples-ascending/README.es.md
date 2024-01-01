@@ -8,12 +8,12 @@ Escribe una función llamada `sort_tuples_ascending()` para ordenar las tuplas (
 2. Luego, ordenar según la edad.
 3. Después, ordenar por puntuación.
 
-La prioridad es que name > age > score.
+La prioridad es `name` > `age` > `score`.
 
 ## 📎 Ejemplo de entrada:
 
 ```py
-sort_tuples_ascending("Tom,19,80 John,20,90 Jony,17,91 Jony,17,93 Jason,21,85")
+sort_tuples_ascending(['Tom,19,80', 'John,20,90', 'Jony,17,91', 'Jony,17,93', 'Jason,21,85'])
 ```
 
 ## 📎 Ejemplo de salida:
