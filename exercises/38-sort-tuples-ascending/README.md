@@ -8,7 +8,7 @@ Write a function `sort_tuples_ascending()` to sort the (`name`, `age`, `score`) 
 2. Then sort based on age.
 3. Then sort by score.
 
-The priority is that name > age > score.
+The priority is `name` > `age` > `score`.
 
 ## 📎 Example input:
 
