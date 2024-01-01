@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Define a class with a generator function that can iterate the numbers that are divisible by 7, between a given range `0` and `n`.
+1. Define a class with a generator function that can iterate the numbers that are divisible by 7 between a given range `0` and `n`.
 
 ## 💡 Hint:
 
