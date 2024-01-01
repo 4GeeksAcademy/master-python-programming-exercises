@@ -4,7 +4,7 @@
 
 1. Define a class with a generator function that can iterate the numbers that are divisible by 7 between a given range `0` and `n`.
 
-## 💡 Hint:
+## 💡 Hints:
 
 + Read about generator functions and `yield`: https://sentry.io/answers/python-yield-keyword/
 
