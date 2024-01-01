@@ -13,13 +13,13 @@ The priority is that name > age > score.
 ## 📎 Example input:
 
 ```py
-sort_tuples_ascending("Tom,19,80 John,20,90 Jony,17,91 Jony,17,93 Jason,21,85")
+sort_tuples_ascending(['Tom,19,80', 'John,20,90', 'Jony,17,91', 'Jony,17,93', 'Jason,21,85'])
 ```
 
 ## 📎 Example output:
 
 ```py
-[('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Jason', '21', '85'), ('Tom', '19', '80')]
+[('Jason', '21', '85'), ('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Tom', '19', '80')]
 ```
 
 ## 💡 Hints:
