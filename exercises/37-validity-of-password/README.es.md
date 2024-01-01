@@ -11,7 +11,7 @@ Un sitio web requiere que los usuarios ingresen un nombre de usuario y una contr
 5. Longitud mínima de la contraseña: 6.
 6. Longitud máxima de la contraseña: 12.
 
-Tu programa debe aceptar una contraseña y verificarla según los criterios anteriores. Si la contraseña es validada correctamente, la función devuelve el siguiente string `"Valid password"`, de lo contrario devuelve `"Invalid password. Please try again"`
+Tu programa debe aceptar una contraseña y verificarla según los criterios anteriores. Si la contraseña es validada correctamente, la función devuelve el siguiente string `"Valid password"`, de lo contrario devuelve `"Invalid password. Please try again"`.
 
 ## 📎 Ejemplo de entrada:
 
