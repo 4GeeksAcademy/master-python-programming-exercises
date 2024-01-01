@@ -11,7 +11,7 @@ A website requires the users to input a username and password to register. Write
 5. Minimum length of password: 6. 
 6. Maximum length of password: 12. 
 
-Your program should accept a password and verify it according to the previous criteria. If the password is successfully validated, the function returns the following string `"Valid password"`. Otherwise, it returns `"Invalid password. Please try again."`.
+Your program should accept a password and verify it according to the previous criteria. If the password is successfully validated, the function returns the following string `"Valid password"`. Otherwise, it returns `"Invalid password. Please try again"`.
 
 ## 📎 Example input:
 
