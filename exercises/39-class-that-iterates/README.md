@@ -7,3 +7,5 @@
 ## 💡 Hint:
 
 + Read about generator functions and `yield`: https://sentry.io/answers/python-yield-keyword/
+
++ You must use `yield` on your solution.
