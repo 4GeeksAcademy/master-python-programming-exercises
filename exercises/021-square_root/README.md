@@ -18,7 +18,7 @@ square_root(50)
 7.07
 ```
 
-## 💡 Hint:
+## 💡 Hints:
 
 + Remember, the `math` module is a very useful tool.
 
