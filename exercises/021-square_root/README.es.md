@@ -18,7 +18,7 @@ square_root(50)
 7.07
 ```
 
-## 💡 Pista:
+## 💡 Pistas:
 
 + Recuerda que el módulo `math` es una herramienta muy útil.
 
