@@ -1,6 +1,6 @@
 # `044` static and class methods
 
-Un **método de clase** es un método que está vinculado a la clase y no a la instancia de la clase. Toma la clase misma como su primer parámetro, a menudo llamado cls. Los métodos de clase se definen utilizando el decorador @classmethod.
+Un **método de clase** es un método que está vinculado a la clase y no a la instancia de la clase. Toma la clase misma como su primer parámetro, a menudo llamado "cls". Los métodos de clase se definen utilizando el decorador @classmethod.
 
 La característica principal de un método de clase es que puede acceder y modificar atributos a nivel de clase, pero no puede acceder ni modificar atributos específicos de la instancia, ya que no tiene acceso a una instancia de la clase. Los métodos de clase se utilizan a menudo para tareas que involucran a la clase en sí misma en lugar de a instancias individuales.
 
