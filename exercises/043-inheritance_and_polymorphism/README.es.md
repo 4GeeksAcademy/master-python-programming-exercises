@@ -19,7 +19,7 @@ high_school_student.study(4)  # Este método ha sido ligeramente modificado y ah
 
 Suponiendo que la clase `Student` del ejercicio anterior está definida justo encima de esta clase `HighSchoolStudent`, para heredar sus métodos y atributos, simplemente incluimos el nombre de la clase que queremos heredar (la clase padre) dentro de los paréntesis de la clase hija (`HighSchoolStudent`). Como puedes ver, ahora podemos usar el método `introduce` de la clase `Student` sin tener que codificarlo nuevamente, haciendo nuestro código más eficiente. Lo mismo se aplica a los atributos; no necesitamos redefinirlos.
 
-Además, tenemos la flexibilidad de agregar nuevos métodos exclusivamente para esta clase o incluso sobreescribir un método heredado si es necesario, como se demuestra en el método `study` que está ligeramente modificado con respecto a la clase `Student`; esto se llama polimorfismo.
+Además, tenemos la flexibilidad de agregar nuevos métodos exclusivamente para esta clase o incluso sobreescribir un método heredado si es necesario, como se demuestra en el método `study` que está ligeramente modificado con respecto a la clase `Student`; esto se llama **polimorfismo**.
 
 ## 📝 Instrucciones:
 
