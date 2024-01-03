@@ -1,6 +1,6 @@
 # `044` static and class methods
 
-A **class method** is a method that is bound to the class and not the instance of the class. It takes the class itself as its first parameter, often named cls. Class methods are defined using the @classmethod decorator.
+A **class method** is a method that is bound to the class and not the instance of the class. It takes the class itself as its first parameter, often named "cls". Class methods are defined using the @classmethod decorator.
 
 The primary characteristic of a class method is that it can access and modify class-level attributes, but it cannot access or modify instance-specific attributes since it doesn't have access to an instance of the class. Class methods are often used for tasks that involve the class itself rather than individual instances.
 
@@ -86,4 +86,4 @@ sum_of_numbers = MathOperations.add_numbers(10, 15)
 
 + Remember, To create a static method, use the `@staticmethod` decorator above the method definition.
 
-+ Anything you still don't fully get, we encourage you to always use the tools the internet provides you to search for information and clear most of your doubts (all developers do this don't worry).
++ For anything you still don't fully get, we encourage you to always use the tools the internet provides you to search for information and clear most of your doubts (all developers do this, don't worry).
