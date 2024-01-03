@@ -19,7 +19,7 @@ high_school_student.study(4)  # This method has been slightly modified and now i
 
 Assuming that the `Student` class from the previous exercise is coded just above this `HighSchoolStudent` class, to inherit its methods and attributes, we simply include the name of the class we want to inherit from (the parent class) inside the parentheses of the child class (`HighSchoolStudent`). As you can see, we can now use the `introduce` method from the `Student` class without having to code it again, making our code more efficient. The same applies to attributes; we don't need to redefine them.
 
-Additionally, we have the flexibility to add new methods exclusively for this class or even override an inherited method if needed, as demonstrated in the `study` method which is slightly modified from the `Student` method; this is called **polymorphism**.
+Additionally, we have the flexibility to add new methods exclusively for this class or even override an inherited method if needed, as demonstrated in the `study` method, which is slightly modified from the `Student` method; this is called **polymorphism**.
 
 ## 📝 Instructions:
 
