@@ -32,8 +32,8 @@ def test_student_has_introduce_method():
 def test_student_introduce_method_returns_expected_string():
     student1 = Student("Alice", 22, 90)
     student2 = Student("Bob", 19, 85)
-    assert student1.introduce() == "Hello! I am Alice, I am 22 years old, and my current grade is 90"
-    assert student2.introduce() == "Hello! I am Bob, I am 19 years old, and my current grade is 85"
+    assert student1.introduce() == "Hello! I am Alice, I am 22 years old, and my current grade is 90."
+    assert student2.introduce() == "Hello! I am Bob, I am 19 years old, and my current grade is 85."
 
 @pytest.mark.it("The Student class includes the 'study' method")
 def test_student_has_study_method():
