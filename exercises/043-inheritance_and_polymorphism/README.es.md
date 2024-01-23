@@ -9,7 +9,7 @@ class HighSchoolStudent(Student):  # Agrega la clase padre dentro de los parént
         self.specialization = specialization
 
     def study(self, hours):
-        print(f"{self.name} is a high school student specializing in {self.specialization} and is studying for {hours} hours for exams.")
+        return f"{self.name} is a high school student specializing in {self.specialization} and is studying for {hours} hours for exams."
 
 # Creando una instancia de HighSchoolStudent
 high_school_student = HighSchoolStudent("John", 16, 85, "Science")
@@ -27,13 +27,13 @@ Además, tenemos la flexibilidad de agregar nuevos métodos exclusivamente para 
 
 2. Agrega un nuevo atributo llamado `major` para representar la carrera que están estudiando.
 
-3. Modifica el método heredado `introduce` para imprimir este string:
+3. Modifica el método heredado `introduce` para retornar este string:
 
 ```py
 "Hi there! I'm <name>, a college student majoring in <major>."
 ```
 
-4. Agrega un nuevo método llamado `attend_lecture` que imprima el siguiente string:
+4. Agrega un nuevo método llamado `attend_lecture` que retorne el siguiente string:
 
 ```py
 "<name> is attending a lecture for <major> students."
