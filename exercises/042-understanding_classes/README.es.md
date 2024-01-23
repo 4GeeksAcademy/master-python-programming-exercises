@@ -14,17 +14,16 @@ class Student:
         self.grade = grade
 
     def introduce(self): # Esto es un método
-        print(f"Hello! I am {self.name}, I am {self.age} years old, and my current grade is {self.grade}.")
+        return f"Hello! I am {self.name}, I am {self.age} years old, and my current grade is {self.grade}."
 
     def study(self, hours): # Esto es otro método
-        print(f"{self.name} is studying for {hours} hours.")
         self.grade += hours * 0.5
-        print(f"After studying, {self.name}'s new grade is {self.grade}.")
+        return f"After studying for {hours} hours, {self.name}'s new grade is {self.grade}."
 
 student1 = Student("Ana", 20, 80)
 
-student1.introduce()
-student1.study(3)
+print(student1.introduce())
+print(student1.study(3))
 ```
 
 En este código:
