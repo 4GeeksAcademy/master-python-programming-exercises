@@ -1,23 +1,29 @@
 # `38` Sort Tuples Ascending
 
+## 📝 Instructions:
 
-## :pencil: Instructions:
-You are required to write a program to sort the (`name`, `age`, `height`) tuples by ascending order where name is `string`, age and height are numbers. The tuples are input by console. The sort criteria is:
+Write a function `sort_tuples_ascending()` to sort the (`name`, `age`, `score`) tuples by ascending order, where `name`, `age` and `score` are all strings. The sort criteria is:
 
-1. Sort based on name;
-2. Then sort based on age;
+1. Sort based on name.
+2. Then sort based on age.
 3. Then sort by score.
-The priority is that name > age > score.
-If the following tuples are given as input to the program:
-> - `Tom,19,80`
-> - `John,20,90`
-> - `Jony,17,91`
-> - `Jony,17,93`
-> - `Jason,21,85`
 
-> - Then, the output of the program should be:
-`[('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Jason', '21', '85'), ('Tom', '19', '80')]`
+The priority is `name` > `age` > `score`.
 
-## :bulb: Hint:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-We use itemgetter to enable multiple sort keys.
+## 📎 Example input:
+
+```py
+sort_tuples_ascending(['Tom,19,80', 'John,20,90', 'Jony,17,91', 'Jony,17,93', 'Jason,21,85'])
+```
+
+## 📎 Example output:
+
+```py
+[('Jason', '21', '85'), ('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Tom', '19', '80')]
+```
+
+## 💡 Hints:
+
++ We use `itemgetter` to enable multiple sort keys.
+
++ Notice that the output is a list with tuples inside.

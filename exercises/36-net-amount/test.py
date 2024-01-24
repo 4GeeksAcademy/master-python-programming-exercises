@@ -4,10 +4,6 @@ path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 @pytest.mark.it('The function net_amount must exist')
 def test_function_existence(capsys, app):
     assert app.net_amount
-
-@pytest.mark.it('The function net_amount must exist')
-def test_function_existence(capsys, app):
-    assert app.net_amount
     
 @pytest.mark.it('The solution should return the expected output')
 def test_output(capsys, app):
