@@ -1,13 +1,21 @@
 # `28` Sequence of lines
 
-Escribe un programa que acepte una secuencia de líneas como entrada y que luego imprima las líneas convirtiendo todos los caracteres en mayúscula.
+## 📝 Instrucciones:
 
-Supongamos le entregamos la siguiente entrada al programa:
-Hello world
-Practice makes perfect
-El resultado debería ser este:
-HELLO WORLD
-PRACTICE MAKES PERFECT
+1. Escribe la función `lines()`. Dado un string, haz que la función retorne todos los caracteres del string en mayúsculas.
 
-Pistas:
-En caso de que se le pasen entradas de datos a la pregunta, deben asumirse como entradas de la consola.
+## 📎 Ejemplo de entrada:
+
+```py
+lines("Hello world, practice makes perfect")
+```
+
+## 📎 Ejemplo de salida:
+
+```text
+HELLO WORLD, PRACTICE MAKES PERFECT
+```
+
+## 💡 Pista:
+
++ Googlea cómo convertir un string a mayúsculas en Python.

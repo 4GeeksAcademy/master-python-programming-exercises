@@ -1,9 +1,28 @@
-Write a program which accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence.
-Example:
-0100,0011,1010,1001
-Then the output should be:
-1010
-Notes: Assume the data is input by console.
+# `30` Divisable binary
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
+## 📝 Instructions:
+
+1. Write a function `divisible_binary()` that takes a sequence of comma-separated 4-digit binary numbers as input and checks if they are divisible by 5. Print the numbers that are divisible by 5 in a comma-separated sequence.
+
+## 📎 Example input:
+
+```py
+divisible_binary("0100,0011,1010,1001")
+```
+
+## 📎 Example output:
+
+```py
+1010
+```
+
+## 💡 Hint:
+
++ To convert binary numbers into our everyday integer numbers (base 10 or decimal), you have to include the base of the number we input in the first argument (in this case, base 2 or binary), and the function `int()` will take care of the rest. Like this:
+
+```py
+binary = '0101'
+decimal = int(binary, 2)
+
+print(decimal)  # Output: 5
+```

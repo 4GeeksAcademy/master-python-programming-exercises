@@ -1,18 +1,23 @@
-# `29`Eliminar los duplicados
+# `29` Remove duplicate words
 
-Escribe un programa que acepte una secuencia de palabras separadas por espacios en blanco como entrada y que imprima luego las palabras eliminando todas las duplicadas y ordenándolas alfanuméricamente.
+## 📝 Instrucciones:
 
-Supongamos que se le entrega la siguiente entrada al programa:
+1. Escribe la función `remove_duplicate_words()` que tome una secuencia de palabras separadas por espacios en blanco como entrada. Luego, retorna las palabras eliminando duplicados y organizándolas alfanuméricamente.
 
-hello world and practice makes perfect and hello world again
+## 📎 Ejemplo de entrada:
 
-El resultado debería ser:
+```py
+remove_duplicate_words("hello world and practice makes perfect and hello world again")
+```
 
+## 📎 Ejemplo de salida:
+
+```text
 again and hello makes perfect practice world
+```
 
-Pistas:
-En caso de que se le entregue entradas de datos a la pregunta, debe asumirse como entrada de la consola.
+## 💡 Pistas:
 
-Usa set container para eliminar los datos duplicados automáticamente y luego usa sorted() para ordenar los datos.
++ Puedes convertir tu entrada en el tipo de dato `set` para eliminar automáticamente cualquier duplicado.
 
-
++ Puedes utilizar `sorted()` para ordenar los elementos de una lista.

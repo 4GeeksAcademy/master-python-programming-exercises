@@ -9,6 +9,6 @@ def test_function_existence(capsys, app):
 def test_expected_output(capsys, app):
     assert app.lines("hello world") == "HELLO WORLD"
 
-@pytest.mark.it('The function should return the expected output')
+@pytest.mark.it('The function should return the expected output. Testing with a different value')
 def test_another_output(capsys, app):
     assert app.lines("LeT the WOrld know YoU") == "LET THE WORLD KNOW YOU"

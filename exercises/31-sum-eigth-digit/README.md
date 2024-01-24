@@ -1,7 +1,5 @@
-Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.
-The numbers obtained should be printed in a comma-separated sequence on a single line.
+# `31` All digits even
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
+## 📝 Instructions:
 
-Solution:
+1. Define a function named `all_digits_even()` to identify and print all numbers between 1000 and 3000 (inclusive) where each digit is an even number. Display the resulting numbers in a comma-separated sequence on a single line.

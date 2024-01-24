@@ -1,8 +1,17 @@
-Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.
-Suppose the following input is supplied to the program:
-9
-Then, the output should be:
-11106
+# `34` a aa aaa aaaa
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
+## 📝 Instructions:
+
+1. Write a program `computed_value()` to calculate the sum of a+aa+aaa+aaaa, where 'a' is a given digit.
+
+## 📎 Example input:
+
+```py
+computed_value(9)
+```
+
+## 📎 Example output:
+
+```py
+11106
+```
