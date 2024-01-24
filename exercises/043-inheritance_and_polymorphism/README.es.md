@@ -1,4 +1,4 @@
-# `043` inheritance and polymorphism
+# `043` Inheritance and polymorphism
 
 Ahora que entendemos qué es una clase y algunas de sus características, hablemos sobre dos nuevos conceptos relacionados con las clases: herencia y polimorfismo. Considera el siguiente ejemplo:
 
@@ -13,8 +13,8 @@ class HighSchoolStudent(Student):  # Agrega la clase padre dentro de los parént
 
 # Creando una instancia de HighSchoolStudent
 high_school_student = HighSchoolStudent("John", 16, 85, "Science")
-high_school_student.introduce()  # Podemos llamar a este método gracias a la herencia
-high_school_student.study(4)  # Este método ha sido ligeramente modificado y ahora imprime un string diferente
+print(high_school_student.introduce())  # Podemos llamar a este método gracias a la herencia
+print(high_school_student.study(4))  # Este método ha sido ligeramente modificado y ahora retorna un string diferente
 ```
 
 Suponiendo que la clase `Student` del ejercicio anterior está definida justo encima de esta clase `HighSchoolStudent`, para heredar sus métodos y atributos, simplemente incluimos el nombre de la clase que queremos heredar (la clase padre) dentro de los paréntesis de la clase hija (`HighSchoolStudent`). Como puedes ver, ahora podemos usar el método `introduce` de la clase `Student` sin tener que codificarlo nuevamente, haciendo nuestro código más eficiente. Lo mismo se aplica a los atributos; no necesitamos redefinirlos.
