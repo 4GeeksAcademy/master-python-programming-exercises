@@ -52,7 +52,7 @@ sum_of_numbers = MathOperations.add_numbers(10, 15)
 ## 📎 Ejemplo de salida:
 
 ```py
-# sum_of_numbers --> 25
+# Sum of Numbers: 25
 ```
 
 ## 💡 Pistas:
