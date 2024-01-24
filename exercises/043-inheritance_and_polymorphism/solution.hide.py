@@ -7,10 +7,10 @@ class Student:
         self.grade = grade
 
     def introduce(self):
-        print(f"Hello! I am {self.name}, I am {self.age} years old, and my current grade is {self.grade}.")
+        return f"Hello! I am {self.name}, I am {self.age} years old, and my current grade is {self.grade}."
 
     def study(self, hours):
-        print(f"{self.name} is studying for {hours} hours.")
+        return f"{self.name} is studying for {hours} hours."
         
 ### DON'T modify the code above ###
         
@@ -22,13 +22,13 @@ class CollegeStudent(Student):
         self.major = major
 
     def introduce(self):
-        print(f"Hi there! I'm {self.name}, a college student majoring in {self.major}.")
+        return f"Hi there! I'm {self.name}, a college student majoring in {self.major}."
 
     def attend_lecture(self):
-        print(f"{self.name} is attending a lecture for {self.major} students.")
+        return f"{self.name} is attending a lecture for {self.major} students."
 
 
 college_student = CollegeStudent("Alice", 20, 90, "Computer Science")
-college_student.introduce()
-college_student.study(3)
-college_student.attend_lecture()
+print(college_student.introduce())
+print(college_student.study(3))
+print(college_student.attend_lecture())
