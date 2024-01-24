@@ -7,12 +7,11 @@ class Student:
         self.grade = grade
 
     def introduce(self):
-        print(f"Hello! I am {self.name}, I am {self.age} years old, and my current grade is {self.grade}.")
+        return f"Hello! I am {self.name}, I am {self.age} years old, and my current grade is {self.grade}."
 
     def study(self, hours):
-        print(f"{self.name} is studying for {hours} hours.")
+        return f"{self.name} is studying for {hours} hours."
         
 ### DON'T modify the code above ###
         
 ### ↓ Your code here ↓ ###
-        
