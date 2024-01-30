@@ -17,9 +17,7 @@ def test_add_numbers_static_method_returns_expected_sum():
     result = MathOperations.add_numbers(5, 7)
     assert result == 12
 
-@pytest.mark.it("There should be an instance of MathOperations")
-def test_math_operations_instance_exists():
-    try:
-        assert isinstance(MathOperations(), MathOperations)
-    except AttributeError:
-        raise AttributeError("An instance of 'MathOperations' should exist")
+@pytest.mark.it("The 'add_numbers' static method should return the expected sum. Testing with different values")
+def test_add_numbers_static_method_returns_expected_sum_for_different_values():
+    result = MathOperations.add_numbers(10, 20)
+    assert result == 30
