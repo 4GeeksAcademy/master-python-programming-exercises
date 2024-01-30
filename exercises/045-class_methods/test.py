@@ -18,3 +18,8 @@ def test_math_operations_has_calculate_circle_area_class_method():
 def test_calculate_circle_area_class_method_returns_expected_area():
     result = MathOperations.calculate_circle_area(5)
     assert result == 78.53975
+
+@pytest.mark.it("The 'calculate_circle_area' class method should return the expected circle area. Testing with another value")
+def test_calculate_circle_area_class_method_returns_expected_area_for_radius_10():
+    result = MathOperations.calculate_circle_area(10)
+    assert result == 314.159
