@@ -1,26 +1,28 @@
 {
-    "language": "python3",
-    "slug": "practice-python",
-    "title": {
-        "us": "Master Python by practice (interactive)",
-        "es": "Domina Python Practicando (interactivo)"
-    },
-    "repository": "https://github.com/4GeeksAcademy/master-python-programming-exercises",
-    "preview": "https://github.com/4GeeksAcademy/master-python-programming-exercises/blob/master/preview.gif?raw=true",
-    "description": {
-        "us": "Practice your Python programming skills with this interactive and auto-graded set of exercises.",
-        "es": "Practica tus habilidades de python con esta serie de ejercicios interactivos y auto-evaluados."
-    },
-    "duration": 10,
-    "difficulty": "easy",
-    "videoSolutions": false,
-    "projectType": "tutorial",
-    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-    "graded": true,
-   
-        "editor": {
-            "version": "3.1.23"
-        }
-    
-}
+"language": "python3",
+"slug": "practice-python",
+"title": {
+    "us": "Master Python by practice (interactive)",
+    "es": "Domina Python Practicando (interactivo)"
+},
+"repository": "https://github.com/4GeeksAcademy/master-python-programming-exercises",
+"preview": "https://github.com/4GeeksAcademy/master-python-programming-exercises/blob/master/preview.gif?raw=true",
+"description": {
+    "us": "Practice your Python programming skills with this interactive and auto-graded set of exercises.",
+    "es": "Practica tus habilidades de python con esta serie de ejercicios interactivos y auto-evaluados."
+},
+"duration": 10,
+"difficulty": "easy",
+"videoSolutions": false,
+"projectType": "tutorial",
+"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+"graded": true,
 
+    "editor": {
+        "version": "3.1.36"
+    },
+    "telemetry": {
+        "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+    }
+
+}
