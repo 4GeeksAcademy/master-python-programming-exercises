@@ -2,6 +2,7 @@
 import math
 
 def print_formula(d):
-    return round(math.sqrt(2 * 50 * d / 30))
+    result = round(math.sqrt(2 * 50 * d / 30))
+    print(result)
 
-print(print_formula(150))
+print_formula(150)
