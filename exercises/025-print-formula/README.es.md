@@ -5,7 +5,7 @@
 1. Escribe una función llamada `print_formula()`, con un parámetro que calcule e imprima el valor según la fórmula dada.
 
 ```text
-Q = Square root of (2 * c * d) / h
+Q = Square root of (2 * c * d / h)
 ```
 
 *A continuación encontrarás los valores fijos de `c` y `h`:*
