@@ -1,6 +1,6 @@
 # Complete the function "digits_sum" so that it prints the sum of a three-digit number
 def digits_sum(num):
-  return (num//100)+((num//10)%10)+(num%10)
+  return None
 
 
 # Invoke the function with any three-digit number
