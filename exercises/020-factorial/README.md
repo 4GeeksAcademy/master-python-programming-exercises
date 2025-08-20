@@ -19,3 +19,4 @@ factorial(8)
 ## 💡 Hint:
 
 + If you don't know what a factorial is, you can check it out on this link: https://www.cuemath.com/numbers/factorial/
++ Every recursive function must have a base case to prevent infinite recursion.
