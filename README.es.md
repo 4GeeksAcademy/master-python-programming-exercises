@@ -54,7 +54,7 @@ Cada ejercicio es un pequeño proyecto en Python que contiene los siguientes arc
 2. **README.md:** contiene las instrucciones del ejercicio.
 3. **test.py:** no tienes que abrir este archivo. Contiene los scripts de pruebas del ejercicio.
 
-> Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
+> Nota: Estos ejercicios tienen calificación automática. Los tests son bastante estrictos; te recomiendo usarlos como guía, no como evaluación definitiva.
 
 # Colaboradores
  
