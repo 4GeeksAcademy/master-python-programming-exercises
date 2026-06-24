@@ -8,13 +8,14 @@
 "repository": "https://github.com/4GeeksAcademy/master-python-programming-exercises",
 "preview": "https://github.com/4GeeksAcademy/master-python-programming-exercises/blob/master/preview.gif?raw=true",
 "description": {
-    "us": "Practice your Python programming skills with this interactive and auto-graded set of exercises.",
-    "es": "Practica tus habilidades de python con esta serie de ejercicios interactivos y auto-evaluados."
+    "us": "Sharpen your Python programming skills with this interactive, auto-graded set of exercises focused on mastering algorithms. Covering intermediate to advanced challenges, this series helps you prepare for job interviews and real-world projects. Practice essential concepts step by step and enhance your coding expertise!",
+    "es": "Perfecciona tus habilidades de programación en Python con este conjunto interactivo y autoevaluado de ejercicios enfocados en el dominio de algoritmos. Desde desafíos intermedios hasta avanzados, esta serie te prepara para entrevistas de trabajo y proyectos reales. ¡Practica conceptos esenciales paso a paso y mejora tu experiencia en programación!"
 },
 "duration": 10,
 "difficulty": "easy",
 "videoSolutions": false,
 "projectType": "tutorial",
+"technologies": ["strings", "python-functions", "conditionals", "variables", "conditionales", "funciones-de-python"],
 "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 "graded": true,
 
