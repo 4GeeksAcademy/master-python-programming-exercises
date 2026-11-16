@@ -13,6 +13,21 @@ Todo el tutorial es 👆 interactivo y ✅ calificado automáticamente.
 
 Estos Ejercicios son colaborativos, ¡te necesitamos! Si encuentras algún error o falta de ortografía, por favor contribuye y repórtalo.  
  
+## 🆕 Este LearnPack ahora está dividido en tres módulos
+
+Estos ejercicios se reorganizaron, se reescribieron (inglés y español) y se ampliaron con ejercicios nuevos en tres LearnPacks más enfocados. **Te recomendamos usarlos en lugar de este repositorio:**
+
+| # | LearnPack | Qué practicas |
+| - | --------- | ------------- |
+| 1 | [Python para principiantes](https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/README.es.md) | print, variables, input y operaciones básicas |
+| 2 | [Funciones en Python](https://github.com/4GeeksAcademy/python-functions-programming-exercises/blob/master/README.es.md) | definir y llamar funciones, parámetros y return |
+| 3 | [Listas y bucles en Python](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises/blob/master/README.es.md) | listas, bucles for/while y patrones de iteración |
+| 4 | [Master Python: Funciones y números](https://github.com/4GeeksAcademy/master-python-functions-exercises/blob/main/README.es.md) | funciones, operadores aritméticos, el módulo math, condicionales y bucles simples |
+| 5 | [Master Python: Strings y colecciones](https://github.com/4GeeksAcademy/master-python-collections-exercises/blob/main/README.es.md) | strings, listas, tuplas, diccionarios, sets, comprehensions y ordenamiento |
+| 6 | [Master Python: Clases y POO](https://github.com/4GeeksAcademy/master-python-classes-exercises/blob/main/README.es.md) | clases, métodos especiales, herencia, propiedades, composición, dataclasses e iteradores |
+
+Los pasos 1 a 3 son los requisitos previos; los pasos 4 a 6 reemplazan a este repositorio. Este repositorio sigue disponible para quienes ya lo empezaron.
+
 <!-- hide -->
 
 ## Instalación en un clic (recomendado)

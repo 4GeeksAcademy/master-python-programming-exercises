@@ -15,6 +15,21 @@ The entire tutorial is 👆 interactive and ✅ auto-graded.
 
 These exercises were built in collaboration, we need you! If you find any bugs or misspellings, please contribute and report them.
 
+## 🆕 This LearnPack is now split into three modules
+
+These exercises were reorganized, rewritten (English and Spanish) and extended with new exercises into three focused LearnPacks. **We recommend using them instead of this repository:**
+
+| # | LearnPack | What you practice |
+| - | --------- | ----------------- |
+| 1 | [Python for Beginners](https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/README.md) | print, variables, input and basic operations |
+| 2 | [Python Functions](https://github.com/4GeeksAcademy/python-functions-programming-exercises/blob/master/README.md) | defining and calling functions, parameters and return |
+| 3 | [Python Lists and Loops](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises/blob/master/README.md) | lists, for/while loops and iteration patterns |
+| 4 | [Master Python: Functions and Numbers](https://github.com/4GeeksAcademy/master-python-functions-exercises/blob/main/README.md) | functions, arithmetic operators, the math module, conditionals and simple loops |
+| 5 | [Master Python: Strings and Collections](https://github.com/4GeeksAcademy/master-python-collections-exercises/blob/main/README.md) | strings, lists, tuples, dictionaries, sets, comprehensions and sorting |
+| 6 | [Master Python: Classes and OOP](https://github.com/4GeeksAcademy/master-python-classes-exercises/blob/main/README.md) | classes, special methods, inheritance, properties, composition, dataclasses and iterators |
+
+Steps 1 to 3 are the prerequisites; steps 4 to 6 replace this repository. This repository remains available for students who already started it.
+
 <!-- hide -->
 
 ## One click installation (recommended):
